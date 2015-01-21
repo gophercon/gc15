@@ -12,7 +12,7 @@ GopherCon 2015 will be in Denver, on July 7th through July 10th at the Colorado 
 
 Schedule:
 
-July 7th - Optional Workshop Day (Tickets available later)
-July 8th - Full conference day 1
-July 9th - Full conference day 2
-July 10th - Optional Hack Day
+- July 7th - Optional Workshop Day (Tickets available later)
+- July 8th - Full conference day 1
+- July 9th - Full conference day 2
+- July 10th - Optional Hack Day
