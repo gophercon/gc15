@@ -9,21 +9,20 @@
     
     
     
-    <lastBuildDate>Mon, 19 Jan 2015 20:54:19 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2015 06:40:42 &#43;0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>about</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 19 Jan 2015 20:54:19 -0500</pubDate>
+      <title>Coming Soon</title>
+      <link>http://localhost:1313/comingsoon/</link>
+      <pubDate>Mon, 19 Jan 2015 06:40:42 &#43;0000</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
-      <description>
+      <guid>http://localhost:1313/comingsoon/</guid>
+      <description>&lt;p&gt;Our team of Gophers is busy creating a new website for GopherCon 2015.  While we&amp;rsquo;re doing that you can still &lt;a href=&#34;http://cfp.gophercon.com&#34;&gt;submit a proposal to speak&lt;/a&gt; or &lt;a href=&#34;https://ti.to/gophercon/gophercon-2015&#34;&gt;purchase your tickets to attend&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;a-headline:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;A Headline&lt;/h2&gt;
+&lt;p&gt;We&amp;rsquo;ll be releasing information about hotel blocks and rates soon.  Stay tuned for more details.&lt;/p&gt;
 
-&lt;p&gt;Some content
-blue&lt;/p&gt;
+&lt;p&gt;GopherCon 2015 will be in Denver, on July 7th through July 10th at the Colorado Convention Center.  We look forward to seeing you there!&lt;/p&gt;
 </description>
     </item>
     
