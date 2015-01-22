@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GopherCon 2015</title>
-    <link>http://localhost:1313/</link>
+    <link>http://gophercon.com/</link>
     <description>Recent content on GopherCon 2015</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
     
-    
-    <lastBuildDate>Mon, 19 Jan 2015 06:40:42 &#43;0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jan 2015 06:40:42 UTC</lastBuildDate>
+    <atom:link href="http://gophercon.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Coming Soon</title>
-      <link>http://localhost:1313/comingsoon/</link>
-      <pubDate>Mon, 19 Jan 2015 06:40:42 &#43;0000</pubDate>
+      <link>http://gophercon.com/comingsoon/</link>
+      <pubDate>Mon, 19 Jan 2015 06:40:42 UTC</pubDate>
       
-      <guid>http://localhost:1313/comingsoon/</guid>
+      <guid>http://gophercon.com/comingsoon/</guid>
       <description>&lt;p&gt;Our team of Gophers is busy creating a new website for GopherCon 2015.  While we&amp;rsquo;re doing that you can still &lt;a href=&#34;http://cfp.gophercon.com&#34;&gt;submit a proposal to speak&lt;/a&gt; or &lt;a href=&#34;https://ti.to/gophercon/gophercon-2015&#34;&gt;purchase your tickets to attend&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;We&amp;rsquo;ll be releasing information about hotel blocks and rates soon.  Stay tuned for more details.&lt;/p&gt;
