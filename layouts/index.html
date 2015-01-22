@@ -1,37 +1,318 @@
-{{ partial "header.html" . }}
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Gophercon 2015 | Denver, CO</title>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+<style>
+html {
+	height: 100%;
+}
+body {
+	background: #42b7ce;
+	background: -moz-linear-gradient(top,  #42b7ce 0%, #adefff 37%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#42b7ce), color-stop(37%,#adefff));
+	background: -webkit-linear-gradient(top,  #42b7ce 0%,#adefff 37%);
+	background: -o-linear-gradient(top,  #42b7ce 0%,#adefff 37%);
+	background: -ms-linear-gradient(top,  #42b7ce 0%,#adefff 37%);
+	background: linear-gradient(to bottom,  #42b7ce 0%,#adefff 37%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42b7ce', endColorstr='#adefff',GradientType=0 );
+	margin: 0;
+	padding: 0;
+	position: relative;
+	height: 100%;
+	display: block;
+	width: 100%;
+	overflow:hidden;
+	font-family: 'Ubuntu', sans-serif;
+}
+.mountains {
+	background: url(/images/mountains.png) top no-repeat;
+	height: 449px;
+    width: 3932px;
+    position: absolute;
+    bottom: 0px;
+	z-index:1;
+    -webkit-animation: mountains 90s linear infinite;
+    -moz-animation:    mountains 90s linear infinite;
+    -webkit-transform: translate3d(0,0,0); /* Performance */
+}
+.city {
+	background: url(/images/denver-skyline.png) top no-repeat;
+	height: 419px;
+    width: 3940px;
+    position: absolute;
+    bottom: 0px;
+	z-index:3;
+    -webkit-animation: city 20s linear infinite;
+    -moz-animation:    city 20s linear infinite;
+    -webkit-transform: translate3d(0,0,0); /* Performance */
+}
+.clouds {
+	background: url(/images/clouds.png) top no-repeat;
+	height: 262px;
+    width: 3856px;
+    position: absolute;
+    top: -20px;
+	z-index:2;
+    -webkit-animation: clouds 40s linear infinite;
+    -moz-animation:    clouds 40s linear infinite;
+    -webkit-transform: translate3d(0,0,0); /* Performance */
+	opacity: 0.8;
+}
+img.plane {
+	position:absolute;
+	left: 50%;
+	margin-left: -471px;
+	top: 15%;
+	z-index: 5;
+  	-webkit-animation: fly 1s ease-in-out infinite alternate;
+	-moz-animation: fly 1s ease-in-out infinite alternate;
+	-o-animation: fly 1s ease-in-out infinite alternate;
+	animation: fly 1s ease-in-out infinite alternate;
+}
+.message-container {
+	border-radius: 15px;
+    color: #ffffff;
+    left: 50%;
+    margin-left: -200px;
+    padding: 30px;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 400px;
+    z-index: 5;
+	text-shadow: 0px 0px 40px rgba(0,0,0,0.7);
+}
+.message-container h1 {
+	font-size: 35px;
+    margin: 0;
+    padding: 0;
+}
+.message-container p {
+	font-size: 30px;
+    font-weight: 300;
+    margin: 15px 0 25px;
+    padding: 0;
+}
+.btn {
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 0 7px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.42857;
+    margin-bottom: 15px;
+    padding: 10px 12px;
+    text-align: center;
+	text-shadow: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.btn-early {
+	background-color: #fab926;
+    border-color: none;
+    color: #FFFFFF;
+	margin-right: 25px;
+}
+.btn-speaker {
+	background-color: #de831b;
+    border-color: none;
+    color: #FFFFFF;
+}
 
-  <div id="article-body">
-      {{ range .Data.Pages }}
-	      <article>
-		      <p class="lead">
-            <a href="{{ .Permalink }}" class="article-title">{{ .Title }}</a>
 
-            <div id="dat">
-
-		        <p class="meta">Contributed by <mark>
-            <script type="text/javascript">
-             var arr = [];
-             {{range .Params.author }} 
-             arr.push({{ . }})
-             {{ end }}
-             document.write(arr.join(" & "));
-             </script>
-             </mark>
-             &nbsp;<i class="fa fa-calendar-o"></i> {{ .Date.Format  "2006-01-02" }}</p>
-
-            </div>
-          </p>
-		      <div class="post">
-            <div id="content-font"><p>{{ .Content }}</br></br></p></div>
-            
-          </div>
-	      </article>
-      {{ end }}
+/*------------------------ Flight Animation Styles ------------------------ */
+@-webkit-keyframes fly {
+  0% { -webkit-transform: translateY(0px) rotateX(0deg); }
+  100% { -webkit-transform: translateY(20px) rotateZ(4deg); }
+}
+@-moz-keyframes fly {
+  0% { -moz-transform: translateY(0px) rotateX(0deg); }
+  100% { -moz-transform: translateY(15px) rotateZ(3deg); }
+}
+@-o-keyframes fly {
+  0% { -0-transform: translateY(0px) rotateX(0deg); }
+  100% { -0-transform: translateY(15px) rotateZ(3deg); }
+}
+@keyframes fly {
+  0% { transform: translateY(0px) rotateX(0deg); }
+  100% { transform: translateY(15px) rotateZ(3deg); }
+}
+/*------------------------ END Flight Animation Styles ------------------------ */
 
 
-  {{ partial "pagination.html" . }}
-  {{ partial "footer.html" . }}
-  </div>
- 	
+/*------------------------ Clouds Animation Styles ------------------------ */
+@-webkit-keyframes clouds {
+	0% {  -webkit-transform: translateX(0); transform: translateX(0); } 
+	100% { -webkit-transform: translateX(-1928px); transform: translateX(-1928px); }   
+}
+@-moz-keyframes clouds {
+	0% { -moz-transform: translateX(0); transform: translateX(0); } 
+	100% { -moz-transform: translateX(-1928px); transform: translateX(-1928px); }   
+}
+@-o-keyframes clouds {
+	0% { -o-transform: translateX(0); transform: translateX(0); } 
+	100% { -o-transform: translateX(-1928px); transform: translateX(-1928px); }   
+}
+@keyframes clouds {
+	0% { -ms-transform: translateX(0); transform: translateX(0); } 
+	100% { -ms-transform: translateX(-1928px); transform: translateX(-1928px); }   
+}
+/*------------------------ END Flight Animation Styles ------------------------ */
 
- {{ partial "scroll.html" . }}
+
+/*------------------------ Mountains Animation Styles ------------------------ */
+@-webkit-keyframes mountains {
+	0% {  -webkit-transform: translateX(0); transform: translateX(0); } 
+	100% { -webkit-transform: translateX(-1966px); transform: translateX(-1966px); }   
+}
+@-moz-keyframes mountains {
+	0% { -moz-transform: translateX(0); transform: translateX(0); } 
+	100% { -moz-transform: translateX(-1966px); transform: translateX(-1966px); }   
+}
+@-o-keyframes mountains {
+	0% { -o-transform: translateX(0); transform: translateX(0); } 
+	100% { -o-transform: translateX(-1966px); transform: translateX(-1966px); }   
+}
+@keyframes mountains {
+	0% { -ms-transform: translateX(0); transform: translateX(0); } 
+	100% { -ms-transform: translateX(-1966px); transform: translateX(-1966px); }   
+}
+/*------------------------ END Flight Animation Styles ------------------------ */
+
+
+/*------------------------ Mountains Animation Styles ------------------------ */
+@-webkit-keyframes city {
+	0% {  -webkit-transform: translateX(0); transform: translateX(0); } 
+	100% { -webkit-transform: translateX(-1970px); transform: translateX(-1970px); }   
+}
+@-moz-keyframes city {
+	0% { -moz-transform: translateX(0); transform: translateX(0); } 
+	100% { -moz-transform: translateX(-1970px); transform: translateX(-1970px); }   
+}
+@-o-keyframes city {
+	0% { -o-transform: translateX(0); transform: translateX(0); } 
+	100% { -o-transform: translateX(-1970px); transform: translateX(-1970px); }   
+}
+@keyframes city {
+	0% { -ms-transform: translateX(0); transform: translateX(0); } 
+	100% { -ms-transform: translateX(-1970px); transform: translateX(-1970px); }   
+}
+/*------------------------ END Flight Animation Styles ------------------------ */
+
+
+/*---------------------------------------- Responsive Styles Start ---------------------------------------- */
+
+/*-- Smallest devices (phones, 320px to 480px) --*/
+@media (min-width: 320px) and (max-width: 480px) {
+	body {
+		background: #adefff;
+	}
+	.clouds {
+		opacity: 0.3;
+		top: -150px;
+	}
+	img.plane {
+		position:absolute;
+		left: 50%;
+		margin-left: -45%;
+		top: 3%;
+		z-index: 5;
+		height: auto;
+		width: 90%;
+		max-width: 942px;
+	}
+	.message-container {
+		left: 50%;
+		margin-left: -125px;
+		padding: 0px;
+		top: 15%;
+		width: 250px;
+	}
+	.message-container p {
+		font-size: 25px;
+	}
+	.btn {
+		display: block;
+		float: none;
+		margin: 0 auto 30px;
+		text-align:center;
+		width: 200px;
+	}
+}
+/*-- END Smallest devices --*/
+
+/*-- Small devices (tablets, 481px to 767px) --*/
+@media (min-width: 481px) and (max-width: 767px) {
+	body {
+		background: #adefff;
+	}
+	.clouds {
+		opacity: 0.3;
+		top: -150px;
+	}
+	img.plane {
+		position:absolute;
+		left: 50%;
+		margin-left: -45%;
+		top: 3%;
+		z-index: 5;
+		height: auto;
+		width: 90%;
+		max-width: 942px;
+	}
+	.message-container {
+		border-radius: 15px;
+		color: #ffffff;
+		left: 50%;
+		margin-left: -200px;
+		padding: 0px;
+		position: absolute;
+		text-align: center;
+		top: 25%;
+		width: 400px;
+		z-index: 5;
+		text-shadow: 0px 0px 40px rgba(0,0,0,0.7);
+	}
+
+}
+/*-- END Small devices --*/
+
+/*-- Medium devices (desktops, 768px to 991px) --*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+	img.plane {
+		position:absolute;
+		left: 50%;
+		margin-left: -45%;
+		top: 15%;
+		z-index: 5;
+		height: auto;
+		width: 90%;
+		max-width: 942px;
+	}
+}
+/*-- END Large devices --*/
+
+</style>
+</head>
+<body>
+<img class="plane" src="/images/gopher-plane.gif" width="942" height="375"/>
+
+<div class="message-container">
+	<h1>Sign Up now!</h1>
+	<p>We're still building our site, but you can buy tickets and submit a speaking proposal.</p>
+	<p>July 7th - 10th, 2015 in Denver Colorado</p>
+    <a class="btn btn-early" href="https://ti.to/gophercon/gophercon-2015">Purchase Tickets</a>
+    <a class="btn btn-speaker" href="http://cfp.gophercon.com">CFP</a>
+</div>
+
+<div class="clouds"></div>
+<div class="mountains"></div>
+<div class="city"></div>
+</body>
+</html>
