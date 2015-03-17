@@ -1,6 +1,22 @@
 @charset "UTF-8";
 
 /*-------------------- Global Styles --------------------*/
+html {
+    font-size: 10px;
+    min-height: 100%;
+    position: relative;
+}
+body {
+	background: none repeat scroll 0 0 #f6f2e1;
+	font-family: 'Ubuntu', sans-serif;
+	margin-bottom: 100px;
+}
+a {
+    color: #40657c;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
 .btn {
 	border-radius: 10px 10px 10px 10px;
 }
@@ -152,6 +168,53 @@ header .color-bar {
     z-index: 1;
     width: 100%;
 }
+header nav {
+	background: rgba(93,93,93,0.1);
+	border-bottom: 1px solid rgba(93,93,93,0.2);
+	border-top: 1px solid #FFFFFF;
+	box-shadow: 0px -1px 0px #FFFFFF inset, 0px 1px 0px rgba(93,93,93,0.2) inset;
+	position: relative;
+}
+header nav .logo-small {
+    cursor: pointer;
+    display: block;
+    left: 50%;
+    margin-left: -125px;
+    position: absolute;
+    top: 40px;
+    width: 250px;
+    z-index: 200;
+}
+header nav ul {
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	color: #40657c;
+	display: inline-block;
+	text-align: center;
+	padding: 10px 20px 30px;
+}
+header .header-content .interior-header {
+	text-align: center;
+}
+header .header-content .interior-header h1 {
+	color: #40657c;
+    font-weight: 400;
+    padding: 60px 0 15px;
+}
+header .header-content .interior-header hr {
+	border-color: rgba(0,0,0,0.2);
+}
+header .header-content .interior-header p {
+	color: #737373;
+    font-size: 22px;
+    padding: 0 0 20px;
+    text-shadow: 0 1px 0 #ffffff;
+}
 
 /*-------------------- Event Dates Styles --------------------*/
 .event-dates {
@@ -167,7 +230,7 @@ header .color-bar {
 	font-family: lato;
 	background: #ffffff;
 	color: #5b5b5b;
-	min-height: 250px;
+	min-height: 210px;
 }
 .event-date-orange, .event-date-blue{
 	margin-top: -80px;
@@ -178,32 +241,32 @@ header .color-bar {
 }
 .event-date-orange h3, .event-date-blue h3{
 	color: #ffffff;
-	font-weight: 100;
-	position: relative;
-	z-index: 3;
-	letter-spacing: 2px;
+    letter-spacing: 2px;
+    position: relative;
+    z-index: 3;
+    margin: 0px 0px 15px;
 }
 .event-date-orange h3 span, .event-date-blue h3 span{
 	font-size: 40px;
 	display: block; 
 }
 .event-date-orange img , .event-date-blue img{
-	width: 150px;
+	width: 130px;
 	margin-top: -115px;
 	position: relative;
 	z-index: 2;
 	margin-bottom: 15px;
 }
 .event-dates .col-md-3 .back-border p:nth-child(2) {
-	font-size:17px;
+	font-size:16px;
 	color: #4cc4ec;
 }
 .event-dates .col-md-3 .back-border p:nth-child(3) {
 	font-size:15px;
-
+	margin: 0;
 }
 
-/*-------------------- Hotel Styles --------------------*/
+/*-------------------- Main Styles --------------------*/
 
 .main-info{
     background:#b3ad9f;
@@ -232,11 +295,263 @@ header .color-bar {
 main .container .col-md-10 p {
 	color: #4c4c4c;
     font-size: 22px;
+	font-weight: 300;
 	line-height: 30px;
 	margin: 0 0 30px 0;
 }
-main .hotels {
+main .row {
+	margin: 0 auto;
+}
+
+/*---------- Sponsor styles ----------*/
+
+.sponsor-signUp {
+    background: none repeat scroll 0 0 #40657c;
+    color: #ffffff;
+    padding: 8px 0px;
+}
+.sponsor-signUp p {
+	font-size: 18px;
+	font-weight: 300;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.sponsor-signUp p .btn {
+	margin: 0px 0px 0px 10px;
+}
+main .sponsors {
+	background: none repeat scroll 0 0 #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+}
+main .sponsors .title {
+	background: none repeat scroll 0 0 #f27423;
+    color: #ffffff;
+    display: block;
+    font-size: 30px;
+    left: 50%;
+    margin: 0 0 0 -145px;
+    padding: 10px 10px;
+    position: absolute;
+    text-align: center;
+    top: -20px;
+    width: 290px;
+}
+main .sponsors img.icon {
+	height: auto;
+	left: 0;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	width: 70px;
+}
+main .sponsors h3 {
+	color: #737373;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 5px;
+    text-align: right;
+    top: 5px;
+}
+main .sponsors a img {
+	max-width: 90%; 
+	height: auto;
+	display: block;
+	text-align:center;
+}
+main .sponsors a {
+    padding: 30px 25px 10px;
+}
+main .sponsors .col-md-12 {
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+    margin-bottom: 0;
+    padding: 15px;
+}
+main .sponsors .col-md-6 {
+	margin-bottom: 0px;
+}
+
+/*-- Diamond sponsor styles --*/
+main .sponsors .diamond a {
+	float: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+main .sponsors .diamond a img {
+    height: auto;
+    margin: 0 auto;
+    max-width: 260px;
+    text-align: center;
+}
+/*-- Platinum sponsor styles --*/
+main .sponsors .platinum a {
+	float: left;
+    text-align: center;
+    width: 25%;
+}
+/*-- Gold sponsor styles --*/
+main .sponsors .gold a {
+	float: left;
+    text-align: center;
+    width: 20%;
+}
+/*-- Silver sponsor styles --*/
+main .sponsors .silver a {
+	float: left;
+	width:20%;
+	text-align:center;
+}
+/*-- Silver sponsor styles --*/
+main .sponsors .bronze a {
+	float: left;
+	width:16%;
+	text-align:center;
+}
+
+/*---------- Home Sponsor styles ----------*/
+main .home-sponsors .sponsor-title {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 10px 10px 0 0;
+    left: 50%;
+    margin: 0 auto 0 -70px;
+    padding: 5px 0;
+    position: absolute;
+    text-align: center;
+    top: -30px;
+    width: 140px;
+    color: #40657c;
+    font-weight: 500;
+}
+main .home-sponsors {
+	background: none repeat scroll 0 0 #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+}
+main .home-sponsors .title {
+	background: none repeat scroll 0 0 #f27423;
+    color: #ffffff;
+    display: block;
+    font-size: 30px;
+    left: 50%;
+    margin: 0 0 0 -145px;
+    padding: 10px 10px;
+    position: absolute;
+    text-align: center;
+    top: -20px;
+    width: 290px;
+}
+main .home-sponsors img.icon {
+	height: auto;
+	left: 0;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	width: 70px;
+}
+main .home-sponsors h3 {
+	color: #737373;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 10px;
+    text-align: right;
+    top: 10px;
+}
+main .home-sponsors a img {
+	max-width: 90%; 
+	height: auto;
+	display: block;
+	text-align:center;
+}
+main .home-sponsors a {
+    padding: 10px 40px;
+}
+main .home-sponsors .col-md-12 {
+    margin-bottom: 0;
+    padding: 0 50px;
+}
+
+/*-- diamond styles --*/
+main .home-sponsors .diamond a {
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+main .home-sponsors .diamond a img {
+    height: auto;
+    margin: -10px auto -10px;
+    max-width: 200px;
+    text-align: center;
+	position: relative;
+	bottom: -10px;
+}
+/*-- Platinum sponsor styles --*/
+main .home-sponsors .platinum a {
+	float: left;
+    text-align: center;
+    width: 33.333%;
+}
+main .home-sponsors .platinum a img {
+	margin: 0 auto;
+	width: 40%;
+}
+/*-- Gold sponsor styles --*/
+main .home-sponsors .gold a {
+	float: left;
+    text-align: center;
+    width: 20%;
+}
+/*-- Silver sponsor styles --*/
+main .home-sponsors .silver a {
+	float: left;
+	width:20%;
+	text-align:center;
+}
+/*-- Silver sponsor styles --*/
+main .home-sponsors .bronze a {
+	float: left;
+	width:16%;
+	text-align:center;
+}
+
+
+/*-------------------- Generic Styles --------------------*/
+.generic {
+	background: #FFFFFF;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 60px 30px;
+	position: relative;
+	z-index: 2;
+}
+
+/*-------------------- Sidebar Styles --------------------*/
+.sidebar {
+	background: #f6f2e1;
+}
+
+
+
+
+/*-------------------- Hotel Styles --------------------*/
+.hotels {
 	margin: 50px 0 0 0;
+}
+.hotels hr {
+	border-color: #CCCCCC;
 }
 main .hotels .col-md-2 {
     height: 400px;
@@ -288,9 +603,14 @@ main .hotels .col-md-2 section p:nth-child(n+2) {
 	color: #e1e1e1;
 }
 footer {
-	background: #5d5d5d;
-	padding: 20px;
-	color: #ffffff;
+    background: none repeat scroll 0 0 #5d5d5d;
+    bottom: 0;
+    color: #ffffff;
+	height: 100px;
+    overflow: hidden;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
 }
 footer a{
 	color: #f07332;
@@ -347,11 +667,111 @@ footer a{
 	main .hotels .hilton {
 		background-size: 120%;
 	}
+	header {
+		background-size: 430%;
+	}
+	header nav ul li {
+		float: left;
+		padding: 15px 0 30px;
+		width: 33.333%;
+	}
+	header nav .logo-small {
+		display: block;
+		left: 50%;
+		margin: 0 0 0 -100px;
+		max-width: 200px;
+		position: absolute;
+		top: 45px;
+	}
+	header .header-content .interior-header h1 {
+		color: #40657c;
+		font-size: 25px;
+		font-weight: 400;
+		padding: 35px 0 5px;
+	}
+	header .header-content .interior-header p {
+		font-size: 18px;
+		line-height: 30px;
+		padding: 0 0 10px;
+	}
+	.sponsor-signUp p {
+		font-size: 16px;
+		font-weight: 300;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	
+	/*-- Sponsors styles --*/
+	main .sponsors img.icon {
+		width: 50px;
+	}
+	
+	/*-- Diamond sponsors --*/
+	main .sponsors .diamond {
+		padding: 25px 15px 0px 15px;
+	}
+	
+	/*-- Platinum sponsors --*/
+	main .sponsors .platinum a {
+		padding: 40px 0 0;
+		width: 33.333%;
+	}
+	
+	/*-- Gold sponsors --*/
+	main .sponsors .gold { 
+		padding-top: 40px;
+	}
+	main .sponsors .gold a {
+		padding: 0px 0px 10px 0px;
+		width: 33.333%;
+	}
+	
+	/*-- Silver sponsors --*/
+	main .sponsors .silver { 
+		padding-top: 40px;
+	}
+	main .sponsors .silver a {
+		padding: 0px 0px 10px 0px;
+		width: 33.333%;
+	}
+	
+	/*-- Bronze sponsors --*/
+	main .sponsors .bronze { 
+		padding-top: 40px;
+	}
+	main .sponsors .bronze a {
+		padding: 0px 0px 10px 0px;
+		width: 33.333%;
+	}
+	
+	/*-- Home Sponsor Styles --*/
+	main .home-sponsors a {
+		padding: 10px 5px;
+	}
+	main .home-sponsors .col-md-12 {
+    	margin-bottom: 0;
+		padding: 0px 0px;
+	}
+	main .home-sponsors .diamond a img {
+		max-width: 110px;
+	}
+	
+	body {
+		margin: 0;
+	}
+	footer {
+		height: auto;
+		position: relative;
+	}
 	
 }
 
 /*-- Small devices (tablets, 481px to 767px) --*/
 @media (min-width: 481px) and (max-width: 767px) {
+	header {
+		background-size: 370%;
+	}
 	header .colors .col-md-2 {
 		float: left;
 		width: 16.6667%;
@@ -404,10 +824,74 @@ footer a{
 	.event-dates {
 		padding-bottom: 20px;
 	}
+	
+	/*-- Sponsors styles --*/
+	main .sponsors img.icon {
+		width: 50px;
+	}
+	
+	/*-- Diamond sponsors --*/
+	main .sponsors .diamond {
+		padding: 25px 15px 0px 15px;
+	}
+	
+	/*-- Platinum sponsors --*/
+	main .sponsors .platinum a {
+		padding: 40px 0 0;
+	}
+	
+	/*-- Gold sponsors --*/
+	main .sponsors .gold { 
+		padding-top: 40px;
+	}
+	main .sponsors .gold a {
+		padding: 0px 0px 10px 0px;
+		width: 25%;
+	}
+	
+	/*-- Silver sponsors --*/
+	main .sponsors .silver { 
+		padding-top: 40px;
+	}
+	main .sponsors .silver a {
+		padding: 0px 0px 10px 0px;
+		width: 25%;
+	}
+	
+	/*-- Bronze sponsors --*/
+	main .sponsors .bronze { 
+		padding-top: 40px;
+	}
+	main .sponsors .bronze a {
+		padding: 0px 0px 10px 0px;
+		width: 25%;
+	}
+	
+	main .home-sponsors a {
+		padding: 10px 5px;
+	}
+	main .home-sponsors .col-md-12 {
+    	margin-bottom: 0;
+		padding: 0px 0px;
+	}
+	main .home-sponsors .diamond a img {
+		max-width: 170px;
+	}
+	
+	body {
+		margin: 0;
+	}
+	footer {
+		height: auto;
+		position: relative;
+	}
 }
 
 /*-- Medium devices (desktops, 768px to 991px) --*/
 @media (min-width: 768px) and (max-width: 991px) {
+	header {
+		background-size: 220%;
+	}
 	header .colors .col-md-2 {
 		float: left;
 		width: 16.6667%;
@@ -455,10 +939,24 @@ footer a{
 	.event-dates {
 		padding-bottom: 20px;
 	}
+	
+	main .home-sponsors a {
+		padding: 10px 5px;
+	}
+	main .home-sponsors .col-md-12 {
+    	margin-bottom: 0;
+		padding: 0px 0px;
+	}
+	main .home-sponsors .diamond a img {
+		max-width: 160px;
+	}
 }
 
 /*-- Largest devices (larger desktops, 992px to 1200px) --*/
 @media (min-width: 992px) and (max-width: 1200px) {
+	header {
+		background-size: 160%;
+	}
 	.event-dates .col-md-3 .back-border {
 		background: none repeat scroll 0 0 #ffffff;
 		border-bottom: 5px solid #918977;
@@ -466,7 +964,7 @@ footer a{
 		color: #5b5b5b;
 		font-family: lato;
 		margin: 80px 0px;
-		min-height: 250px;
+		min-height: 230px;
 		padding: 25px 20px;
 		text-align: center;
 	}
