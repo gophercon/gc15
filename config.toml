@@ -1,3 +1,9 @@
 baseurl = "http://gophercon.com"
 languageCode = "en-us"
 title = "GopherCon 2015"
+
+[taxonomies]
+  sponsor = "sponsors"
+  speaker = "speakers"
+  event = "events"
+  day = "days"
