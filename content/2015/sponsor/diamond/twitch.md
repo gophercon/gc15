@@ -5,6 +5,8 @@ linktitle = "Diamond Sponsor - Twitch"
 title = "twitch"
 type = "sponsor"
 sponsorlevel = "Diamond"
+sponsorclass = "diamond"
+logo = "/images/temp-logos/twitch.png"
 +++
 
 Twitch is a Diamond Sponsor!
