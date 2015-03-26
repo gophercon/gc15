@@ -1,37 +1,14 @@
 <div class="sidebar col-md-2">
-    <h3>Sidebar Content</h3>
+    <h3>Our Sponsors</h3>
     <br />
-    <p>Some sample text here for stuff</p>
+    <p>Thank you to these companies that support Go and GopherCon 2015</p>
     <br />
-    <ul>
-        <li>Lorem ipsum</li>
-        <li>Dolor sit</li>
-        <li>Amet lariet</li>
-        <li>Lorem ipsum</li>
-        <li>Dolor sit</li>
-        <li>Amet lariet</li>
-    </ul>
+            <div class="col-md-12 platinum">
+	  		<ul>	{{ range .Site.Taxonomies.sponsors.platinum}}
+			<li>	<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a> </li>
+				{{ end }}
+                <div class="clearfix"></div>
+				</ul>
+            </div><!-- Platinum Sponsors End -->
     <br />
-    <p>Some sample text here for stuff</p>
-    <br />
-    <ul>
-        <li>Lorem ipsum</li>
-        <li>Dolor sit</li>
-        <li>Amet lariet</li>
-        <li>Lorem ipsum</li>
-        <li>Dolor sit</li>
-        <li>Amet lariet</li>
-    </ul>
-    <br />
-    <p>Some sample text here for stuff</p>
-    <br />
-    <ul>
-        <li>Lorem ipsum</li>
-        <li>Dolor sit</li>
-        <li>Amet lariet</li>
-        <li>Lorem ipsum</li>
-        <li>Dolor sit</li>
-        <li>Amet lariet</li>
-    </ul>
-    <br />
-</div><!-- sidebar --> 
+</div><!-- sidebar -->
