@@ -21,6 +21,8 @@ Founded in 2012 by long time Gophers [Brian Ketelsen](https://twitter.com/bketel
 assisting with GopherCon and our other community efforts truly make our events a success.
 
 ### Contact Us
+Gopher Academy, LLC
+
 18865 State Road 54, Suite 179 Lutz, FL 33558
 
 [gophercon@gopheracademy.com](mailto:gophercon@gopheracademy.com)
