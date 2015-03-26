@@ -6,7 +6,7 @@ logo = "/images/temp-logos/bugsnag.png"
 sponsorclass = "gold"
 sponsorlevel = "Gold"
 sponsors = ["gold"]
-title = "bugsnag"
+title = "Bugsnag"
 type = "sponsor"
 
 +++

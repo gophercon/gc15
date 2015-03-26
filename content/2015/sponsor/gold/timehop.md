@@ -6,7 +6,7 @@ logo = "/images/temp-logos/timehop.png"
 sponsorclass = "gold"
 sponsorlevel = "Gold"
 sponsors = ["Gold"]
-title = "timehop"
+title = "Timehop"
 type = "sponsor"
 
 +++

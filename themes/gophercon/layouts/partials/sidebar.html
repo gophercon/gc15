@@ -1,37 +1,55 @@
 <div class="sidebar col-md-2">
-    <h3>Sidebar Content</h3>
+    <h3>Our Sponsors</h3>
     <br />
-    <p>Some sample text here for stuff</p>
+    <p>Thank you to these companies that support Go and GopherCon 2015</p>
     <br />
-    <ul>
-        <li>Lorem ipsum</li>
-        <li>Dolor sit</li>
-        <li>Amet lariet</li>
-        <li>Lorem ipsum</li>
-        <li>Dolor sit</li>
-        <li>Amet lariet</li>
-    </ul>
+		<h4>Diamond Sponsors</h4>
+	  		<ul>	
+			{{ range .Site.Taxonomies.sponsors.diamond}}
+			<li>	
+				<a href="{{.Page.Permalink}}">{{ .Page.Title}}</a> 
+			</li>
+		    {{ end }}
+			</ul>
+		<h4>Platinum Sponsors</h4>
+	  		<ul>	
+			{{ range .Site.Taxonomies.sponsors.Platinum}}
+			<li>	
+				<a href="{{.Page.Permalink}}">{{ .Page.Title}}</a> 
+			</li>
+		    {{ end }}
+			</ul>
+		<h4>Gold Sponsors</h4>
+	  		<ul>	
+			{{ range .Site.Taxonomies.sponsors.gold}}
+			<li>	
+				<a href="{{.Page.Permalink}}">{{ .Page.Title}}</a> 
+			</li>
+		    {{ end }}
+			</ul>
+		<h4>Silver Sponsors</h4>
+	  		<ul>	
+			{{ range .Site.Taxonomies.sponsors.silver}}
+			<li>	
+				<a href="{{.Page.Permalink}}">{{ .Page.Title}}</a> 
+			</li>
+		    {{ end }}
+			</ul>	
+		<h4>Silver Sponsors</h4>
+	  		<ul>	
+			{{ range .Site.Taxonomies.sponsors.silver}}
+			<li>	
+				<a href="{{.Page.Permalink}}">{{ .Page.Title}}</a> 
+			</li>
+		    {{ end }}
+			</ul>
+		<h4>Bronze Sponsors</h4>
+	  		<ul>	
+			{{ range .Site.Taxonomies.sponsors.bronze}}
+			<li>	
+				<a href="{{.Page.Permalink}}">{{ .Page.Title}}</a> 
+			</li>
+		    {{ end }}
+			</ul>
     <br />
-    <p>Some sample text here for stuff</p>
-    <br />
-    <ul>
-        <li>Lorem ipsum</li>
-        <li>Dolor sit</li>
-        <li>Amet lariet</li>
-        <li>Lorem ipsum</li>
-        <li>Dolor sit</li>
-        <li>Amet lariet</li>
-    </ul>
-    <br />
-    <p>Some sample text here for stuff</p>
-    <br />
-    <ul>
-        <li>Lorem ipsum</li>
-        <li>Dolor sit</li>
-        <li>Amet lariet</li>
-        <li>Lorem ipsum</li>
-        <li>Dolor sit</li>
-        <li>Amet lariet</li>
-    </ul>
-    <br />
-</div><!-- sidebar --> 
+</div><!-- sidebar -->

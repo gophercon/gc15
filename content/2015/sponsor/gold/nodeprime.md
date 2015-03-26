@@ -6,7 +6,7 @@ logo = "/images/temp-logos/nodeprime.png"
 sponsorclass = "gold"
 sponsorlevel = "Gold"
 sponsors = ["gold"]
-title = "nodeprime"
+title = "NodePrime"
 type = "sponsor"
 
 +++

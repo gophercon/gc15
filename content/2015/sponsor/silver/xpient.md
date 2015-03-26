@@ -6,7 +6,7 @@ logo = "/images/temp-logos/xpient.png"
 sponsorclass = "silver"
 sponsorlevel = "Silver"
 sponsors = ["silver"]
-title = "xpient"
+title = "XPIENT"
 type = "sponsor"
 
 +++
