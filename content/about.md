@@ -17,7 +17,7 @@ This year we will expand our wildly successful post-conference “Hack Day” wh
 ## Gopher Academy
 Gopher Academy's mission is to foster a community of Go developers by providing education, training, and events.
 
-Founded in 2012 by long time Gophers [Brian Ketelsen](https://twitter.com/bketelsen) and [Erik St. Martin](https://twitter.com/erikstmartin), Gopher Academy exists because we believe in the Go programming language. More importantly, we see the opportunity to help shape a community that is inclusive, welcoming, helpful, and vibrant. Since inception, Gopher Academy has seen contributions in many forms by a numnber of members of the Go community. All the community members that volunteer their time
+Founded in 2012 by long time Gophers [Brian Ketelsen](https://twitter.com/bketelsen) and [Erik St. Martin](https://twitter.com/erikstmartin), Gopher Academy exists because we believe in the Go programming language. More importantly, we see the opportunity to help shape a community that is inclusive, welcoming, helpful, and vibrant. Since inception, Gopher Academy has seen contributions in many forms by a number of members of the Go community. All the community members that volunteer their time
 assisting with GopherCon and our other community efforts truly make our events a success.
 
 ### Contact Us
