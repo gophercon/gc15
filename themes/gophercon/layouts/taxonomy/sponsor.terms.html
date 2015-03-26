@@ -12,6 +12,40 @@
 				{{ end }}
                 <div class="clearfix"></div>
 			</div>
+			<div class="col-md-12 platinum">
+                <h3>PLATINUM SPONSORS</h3>
+				<img class="icon" src="/images/platinum.png" />
+	  			{{ range .Site.Taxonomies.sponsors.platinum}}
+				<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
+				{{ end }}
+&nbsp;<br/><br/>
+                <div class="clearfix"></div>
+			</div>
+			<div class="col-md-12 gold">
+                <h3>GOLD SPONSORS</h3>
+				<img class="icon" src="/images/gold.png" />
+	  			{{ range .Site.Taxonomies.sponsors.gold}}
+				<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
+				{{ end }}
+                <div class="clearfix"></div>
+			</div>
+			<div class="col-md-12 silver">
+                <h3>SILVER SPONSORS</h3>
+				<img class="icon" src="/images/silver.png" />
+	  			{{ range .Site.Taxonomies.sponsors.silver}}
+				<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
+				{{ end }}
+                <div class="clearfix"></div>
+			</div>
+			<div class="col-md-12 bronze">
+				<img class="icon" src="/images/bronze.png" />
+                <h3>BRONZE SPONSORS</h3>
+	  			{{ range .Site.Taxonomies.sponsors.bronze}}
+				<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
+				{{ end }}
+                <div class="clearfix"></div>
+			</div>
+
         </div><!-- sponsors col-md-10 -->
         
         {{ partial "sidebar.html" . }}
