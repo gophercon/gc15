@@ -380,16 +380,9 @@ main .sponsors .col-md-6 {
 
 /*-- Diamond sponsor styles --*/
 main .sponsors .diamond a {
-	float: none;
-    margin: 0 auto;
-    padding: 0;
+	float: left;
     text-align: center;
-}
-main .sponsors .diamond a img {
-    height: auto;
-    margin: 0 auto;
-    max-width: 260px;
-    text-align: center;
+    width: 25%;
 }
 /*-- Platinum sponsor styles --*/
 main .sponsors .platinum a {
@@ -401,18 +394,18 @@ main .sponsors .platinum a {
 main .sponsors .gold a {
 	float: left;
     text-align: center;
-    width: 20%;
+    width: 19%;
 }
 /*-- Silver sponsor styles --*/
 main .sponsors .silver a {
 	float: left;
-	width:20%;
+	width:17%;
 	text-align:center;
 }
 /*-- Silver sponsor styles --*/
 main .sponsors .bronze a {
 	float: left;
-	width:16%;
+	width:19%;
 	text-align:center;
 }
 
@@ -472,6 +465,7 @@ main .home-sponsors h3 {
 }
 main .home-sponsors a img {
 	max-width: 90%; 
+	min-width: 90%; 
 	height: auto;
 	display: block;
 	text-align:center;
@@ -485,46 +479,49 @@ main .home-sponsors .col-md-12 {
 }
 
 /*-- diamond styles --*/
-main .home-sponsors .diamond a {
-    float: none;
-    margin: 0 auto;
-    padding: 0;
-    text-align: center;
+main .home-sponsors .diamond {
+  text-align: center;
 }
-main .home-sponsors .diamond a img {
-    height: auto;
-    margin: -10px auto -10px;
-    max-width: 50%; 
+main .home-sponsors .diamond a {
+  display: inline-block;
+  margin-top: 20px;
     text-align: center;
-	position: relative;
-	bottom: -10px;
+    width: 25%;
 }
 /*-- Platinum sponsor styles --*/
-main .home-sponsors .platinum a {
-	float: left;
-    text-align: center;
-    width: 33.333%;
+main .home-sponsors .platinum {
+  text-align: center;
 }
-main .home-sponsors .platinum a img {
-	margin: 0 auto;
-	width: 40%;
+main .home-sponsors .platinum a {
+  display: inline-block;
+    text-align: center;
+    width: 19%;
 }
 /*-- Gold sponsor styles --*/
+main .home-sponsors .gold {
+  text-align: center;
+}
 main .home-sponsors .gold a {
-	float: left;
+  display: inline-block;
     text-align: center;
     width: 20%;
 }
 /*-- Silver sponsor styles --*/
+main .home-sponsors .silver {
+  text-align: center;
+}
 main .home-sponsors .silver a {
-	float: left;
-	width:20%;
+  display: inline-block;
+	width: 17%;
 	text-align:center;
 }
-/*-- Silver sponsor styles --*/
+/*-- Bronze sponsor styles --*/
+main .home-sponsors .bronze {
+  text-align: center;
+}
 main .home-sponsors .bronze a {
-	float: left;
-	width:16%;
+  display: inline-block;
+	width: 19%;
 	text-align:center;
 }
 
