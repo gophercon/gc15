@@ -1,120 +1,20 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
-<meta content="GopherCon is organized by GopherAcademy, LLC, a community-driven group of developers focused on the education of developers and the promotion of the Go programming language." name="description">
-<meta content="go, golang, gophercon, convention" name="keywords">
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<meta content="gophercon.com" name="author">
-<meta content="GopherCon 2015" name="copyright">
-<title>Gophercon 2015</title>
-<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="/css/main.css" rel="stylesheet">
-<link href="/css/animate.css" rel="stylesheet">
-</head>
-<body>
+{{ partial "interior-header.html" . }}
+{{ $baseurl := .Site.BaseUrl }}
 
-<header>
-	<div class="row colors">
-    	<div class="col-md-2 animated slideInDown"></div>
-        <div class="col-md-2 animated slideInDown"></div>
-        <div class="col-md-2 animated slideInDown"></div>
-        <div class="col-md-2 animated slideInDown"></div>
-        <div class="col-md-2 animated slideInDown"></div>
-        <div class="col-md-2 animated slideInDown"></div>
-    </div>
-    <nav>
-    	<ul>
-        	<li><a href="#">About</a></li>
-        	<li><a href="#">Sponsors</a></li>
-            <li><a href="#">Schedule</a></li>
-        </ul>
-        <a class="logo-small animated slideInDown" href="index.html">
-    		<img src="/images/gophercon-small.svg" alt="GopherCon 2015" title="GopherCon 2015" />
-        </a>
-    </nav>
-	<div class="header-content">
-    	<div class="container">
-            <div class="row">
-            	<div class="col-md-8 col-md-offset-2 interior-header">
-                	<h1>SPONSOR LIST</h1>
-                    <p>Without their support amet, consectetur adipiscing elit ut et ac enim nec dignissim vivamus dapibus velit et.</p>
-                </div><!-- col-md-8 -->
-            </div><!-- row -->
-        </div><!-- container -->
-    </div><!-- header-content -->
-</header>
 
-<div class="sponsor-signUp">
-	<div class="container">
-    	<div class="col-md-12">
-        	<p>Become a sponsor lorem ipsum dolor sit amet lariet conseti lom <a href="https://ti.to/gophercon/gophercon-2015" class="btn btn-orange" target="_blank" class="btn btn-orange">Sign Up</a></p>
-        </div><!-- col-md-12 -->
-    </div><!-- container -->
-</div><!-- sponsor-signUp -->
+{{ $data := .Data }}
 
 <main>
     <section class="row"> 
     	<div class="sponsors col-md-10">
-        	{{ range .Data.Pages }}
-				{{ if eq "diamond"  .Params.sponsorclass}} 	
-        	<!---------- Diamond Sponsors ---------->
-            <div class="col-md-12 diamond">
-            	<img class="icon" src="/images/diamond.png" />
-				<h3>Diamond Sponsors</h3>
-				<a href="{{ .Permalink }}"><img src="{{ .Params.logo }}" /></a>
+{{ range $key, $value := .Data.Terms }}
+			<div class="col-md-12 {{ $key }}">
+				<img class="icon" src="/images/{{ $key }}.png" />
+				<h1>	<a href="{{ $key | urlize }}">{{ $key | upper }} SPONSORS</a> </h1>
                 <div class="clearfix"></div>
-            </div><!-- Diamond Sponsors End -->
-              {{end}}
-		   {{ end }}
+            </div>
 
-			{{ range .Data.Pages }}
-				{{ if eq "platinum"  .Params.sponsorclass}} 	
-            <!---------- Platinum Sponsors ---------->
-            <div class="col-md-12 platinum">
-            	<img class="icon" src="/images/platinum.png" />
-                <h3>Platinum Sponsors</h3>
-				<a href="{{.Permalink}}"><img src="{{ .Params.logo }}" /></a>
-                <div class="clearfix"></div>
-            </div><!-- Platinum Sponsors End -->
-            	{{end}}
-			{{ end }}
-		{{ range .Data.Pages }}
-			{{ if eq "gold"  .Params.sponsorclass}} 	
-            <!---------- Gold Sponsors ---------->
-            <div class="col-md-12 gold">
-                <img class="icon" src="/images/gold.png" />
-                <h3>Gold Sponsors</h3>
-				<a href="{{.Permalink}}"><img src="{{ .Params.logo }}" /></a>
-                <div class="clearfix"></div>
-            </div><!-- Gold Sponsors End -->
-            	{{end}}
-			{{ end }}
-				{{ range .Data.Pages }}
-				{{ if eq "silver"  .Params.sponsorclass}} 	
-            <!---------- Silver Sponsors ---------->
-            <div class="col-md-12 silver">
-                <img class="icon" src="/images/silver.png" />
-                <h3>Silver Sponsors</h3>
-				<a href="{{.Permalink}}"><img src="{{ .Params.logo }}" /></a>
-                <div class="clearfix"></div>
-            </div><!-- Silver Sponsors End -->
-        	   {{end}}
-		    {{ end }}
-			{{ range .Data.Pages }}
-			{{ if eq "bronze"  .Params.sponsorclass}} 	
-            <!---------- Bronze Sponsors ---------->
-            <div class="col-md-12 bronze">
-                <img class="icon" src="/images/bronze.png" />
-                <h3>Bronze Sponsors</h3>
-				<a href="{{.Permalink}}"><img src="{{ .Params.logo }}" /></a>
-                <div class="clearfix"></div>
-            </div><!-- Bronze Sponsors End -->
-            {{end}}
-		{{ end }}
+{{ end }}
         </div><!-- sponsors col-md-10 -->
         
         <div class="sidebar col-md-2">
