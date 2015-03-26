@@ -10,4 +10,4 @@ sponsorclass = "silver"
 logo = "/images/temp-logos/silver.png"
 +++
 
-
+Fastly - We're the smartest CDN on the planet. That means microsecond response. Unheard of extensibility.

@@ -11,4 +11,4 @@ logo = "/images/temp-logos/crowdstrike.png"
 sponsors_weight = 255
 +++
 
-
+At CrowdStrike, we are fanatical about protecting our customers by providing endpoint security solutions that just work.

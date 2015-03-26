@@ -10,4 +10,9 @@ title = "shopkeep"
 type = "sponsor"
 sponsors_weight = 255
 +++
-
+ShopKeep POS, a rapidly expanding company based in New York City,
+provides cloud based point of sale software for managing retail
+shops and restaurants. Founded and designed by a merchant, we
+uniquely understand the challenges of growing a retail business.
+ShopKeep POS helps small business owners in every state across the
+country run a better business.

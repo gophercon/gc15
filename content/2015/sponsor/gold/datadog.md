@@ -10,4 +10,4 @@ title = "datadog"
 type = "sponsor"
 
 +++
-
+Datadog is Monitoring-as-a-Service for Dev & Ops teams who want to turn the massive amounts of data produced by their apps, tools and services into actionable insight.

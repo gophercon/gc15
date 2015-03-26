@@ -9,6 +9,4 @@ sponsorlevel = "Gold"
 sponsorclass = "gold"
 logo = "/images/temp-logos/apcera.png"
 +++
-
-Apcera is a sponsor!
-
+Apcera is the creator of the modern enterprise IT platform. Driven by policy, the platform solves systemic challenges and blends new and existing technologies to unify IT. Enterprise grade, the platform grows with needs and empowers IT to innovate faster now and well into the future.

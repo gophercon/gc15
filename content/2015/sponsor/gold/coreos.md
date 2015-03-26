@@ -10,4 +10,4 @@ title = "coreos"
 type = "sponsor"
 
 +++
-
+CoreOS is a new Linux distribution that has been rearchitected to provide features needed to run modern infrastructure stacks. The strategies and architectures that influence CoreOS allow companies like Google, Facebook and Twitter to run their services at scale with high resilience.

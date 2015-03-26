@@ -1,24 +1,8 @@
 {{ partial "header.html" . }}
 {{ $baseurl := .Site.BaseUrl }}
-
-
-{{ $data := .Data }}
-  <ul>
-    {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
-      <li><a href="/{{ $taxonomyname | urlize }}">{{ $taxonomyname }}</a>
-        <ul>
-          {{ range $key, $value := $taxonomy }}
-          <li> {{ $key }} </li>
-                <ul>
-                {{ range $value.Pages }}
-                    <li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
-                {{ end }}
-                </ul>
-          {{ end }}
-        </ul>
-      </li>
-    {{ end }}
-  </ul>
+  {{ range .Site.Taxonomies.sponsors.diamond}}
+    <li><a href="{{ .Page.Url }}">link</a></li>
+{{ end }}
 <main>
     <section class="row"> 
 		<div class="sponsors col-md-10">
@@ -26,7 +10,7 @@
 			<div class="col-md-12 diamond">
 				<img class="icon" src="/images/diamond.png" />
 				{{ range $taxonomy.Pages }}
-				<h1>	<a href="{{.Url}}">SPONSORS</a> </h1>
+				<h1>	<a href="{{.Page.Url}}">SPONSORS</a> </h1>
 				{{ end }}
                 <div class="clearfix"></div>
 			</div>

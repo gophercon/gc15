@@ -11,4 +11,4 @@ logo = "/images/temp-logos/metacasts.png"
 sponsors_weight=255
 +++
 
-
+Presented in HD and available on your computer, tablet or mobile phone, MetaCasts.tv digs deep into Go to help you better understand topics such as testing, concurrency, packages and more.

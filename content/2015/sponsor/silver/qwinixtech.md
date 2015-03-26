@@ -10,4 +10,4 @@ title = "qwinixtech"
 type = "sponsor"
 
 +++
-
+Qwinix Technologies is an application development and software solutions provider based in Denver specializing in agile development, lean thinking, and continuous delivery using a global delivery model.

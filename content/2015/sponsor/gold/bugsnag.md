@@ -10,4 +10,4 @@ title = "bugsnag"
 type = "sponsor"
 
 +++
-
+Bugsnag detects crashes in every popular programming language and framework, automatically collecting useful diagnostics to help you resolve your errors quickly.
