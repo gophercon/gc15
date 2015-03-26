@@ -1,6 +1,4 @@
-{{ partial "interior-header.html" . }}
-{{ $baseurl := .Site.BaseUrl }}
-
+{{ partial "header.html" . }}
 
 {{ $data := .Data }}
 
@@ -16,68 +14,10 @@
 
 {{ end }}
         </div><!-- sponsors col-md-10 -->
+
+        {{ partial "sidebar.html" . }}
         
-        <div class="sidebar col-md-2">
-        	<h3>Sidebar Content</h3>
-        	<br />
-        	<p>Some sample text here for stuff</p>
-            <br />
-        	<ul>
-            	<li>Lorem ipsum</li>
-                <li>Dolor sit</li>
-                <li>Amet lariet</li>
-                <li>Lorem ipsum</li>
-                <li>Dolor sit</li>
-                <li>Amet lariet</li>
-            </ul>
-            <br />
-            <p>Some sample text here for stuff</p>
-            <br />
-        	<ul>
-            	<li>Lorem ipsum</li>
-                <li>Dolor sit</li>
-                <li>Amet lariet</li>
-                <li>Lorem ipsum</li>
-                <li>Dolor sit</li>
-                <li>Amet lariet</li>
-            </ul>
-            <br />
-            <p>Some sample text here for stuff</p>
-            <br />
-        	<ul>
-            	<li>Lorem ipsum</li>
-                <li>Dolor sit</li>
-                <li>Amet lariet</li>
-                <li>Lorem ipsum</li>
-                <li>Dolor sit</li>
-                <li>Amet lariet</li>
-            </ul>
-            <br />
-        </div><!-- sidebar --> 
     </section>
 </main>
 
-<footer>
-	<div class="container">
-    	<div class="row">
-        	<div class="col-md-12">
-            	<p>© 2015 GopherAcademy, LLC</p>
-                <p>The Gopher character is based on the Go mascot designed by
-                <a href="http://reneefrench.blogspot.com/" target="blank">Renée French</a>
-                and copyrighted under the
-                <a href="http://creativecommons.org/licenses/by/3.0/us/" target="blank">Creative Commons Attribution 3.0 license.</a>
-				</p>
-            </div>
-        </div>
-    </div>
-</footer>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-<script src="/bootstrap/js/bootstrap.min.js"></script>
-
-</body>
-</html>
-
-
+{{ partial "footer.html" . }}
