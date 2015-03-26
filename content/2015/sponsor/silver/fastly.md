@@ -7,7 +7,7 @@ type = "sponsor"
 sponsors = [ "silver" ] 
 sponsorlevel = "Silver"
 sponsorclass = "silver"
-logo = "/images/temp-logos/silver.png"
+logo = "/images/temp-logos/fastly.png"
 +++
 
 Fastly - We're the smartest CDN on the planet. That means microsecond response. Unheard of extensibility.
