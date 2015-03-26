@@ -1,16 +1,14 @@
 {{ partial "header.html" . }}
 {{ $baseurl := .Site.BaseUrl }}
-  {{ range .Site.Taxonomies.sponsors.diamond}}
-    <li><a href="{{ .Page.Url }}">link</a></li>
-{{ end }}
+
 <main>
     <section class="row"> 
 		<div class="sponsors col-md-10">
 			{{ range $key, $taxonomy := .Site.Taxonomies.sponsors}}
 			<div class="col-md-12 diamond">
-				<img class="icon" src="/images/diamond.png" />
+				<img class="icon" src="/images/{{$key}}.png" />
 				{{ range $taxonomy.Pages }}
-				<h1>	<a href="{{.Page.Url}}">SPONSORS</a> </h1>
+				<h1>	<a href="{{.Permalink}}">{{ .LinkTitle}} </a> </h1>
 				{{ end }}
                 <div class="clearfix"></div>
 			</div>
