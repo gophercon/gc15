@@ -494,7 +494,7 @@ main .home-sponsors .diamond a {
 main .home-sponsors .diamond a img {
     height: auto;
     margin: -10px auto -10px;
-    max-width: 100%; 
+    max-width: 50%; 
     text-align: center;
 	position: relative;
 	bottom: -10px;
