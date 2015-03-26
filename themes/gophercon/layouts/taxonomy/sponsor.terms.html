@@ -3,18 +3,34 @@
 
 
 {{ $data := .Data }}
-
+  <ul>
+    {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+      <li><a href="/{{ $taxonomyname | urlize }}">{{ $taxonomyname }}</a>
+        <ul>
+          {{ range $key, $value := $taxonomy }}
+          <li> {{ $key }} </li>
+                <ul>
+                {{ range $value.Pages }}
+                    <li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
+                {{ end }}
+                </ul>
+          {{ end }}
+        </ul>
+      </li>
+    {{ end }}
+  </ul>
 <main>
     <section class="row"> 
 		<div class="sponsors col-md-10">
-			{{ $diamonds := $data.Terms.Get "diamond" }}
-			{{  $diamonds }}
+			{{ range $key, $taxonomy := .Site.Taxonomies.sponsors}}
 			<div class="col-md-12 diamond">
 				<img class="icon" src="/images/diamond.png" />
-			<h1>	<a href="">SPONSORS</a> </h1>
+				{{ range $taxonomy.Pages }}
+				<h1>	<a href="{{.Url}}">SPONSORS</a> </h1>
+				{{ end }}
                 <div class="clearfix"></div>
 			</div>
-
+		{{ end }} 
         </div><!-- sponsors col-md-10 -->
         
         <div class="sidebar col-md-2">
