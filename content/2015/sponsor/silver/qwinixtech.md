@@ -6,7 +6,7 @@ logo = "/images/temp-logos/qwinixtech.png"
 sponsorclass = "silver"
 sponsorlevel = "Silver"
 sponsors = ["silver"]
-title = "qwinixtech"
+title = "Qwinix Technologies"
 type = "sponsor"
 
 +++

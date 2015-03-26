@@ -6,7 +6,7 @@ logo = "/images/temp-logos/influxdb.png"
 sponsorclass = "gold"
 sponsorlevel = "Gold"
 sponsors = ["gold"]
-title = "influxdb"
+title = "InfluxDB"
 type = "sponsor"
 
 +++

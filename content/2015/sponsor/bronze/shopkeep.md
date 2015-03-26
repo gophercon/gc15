@@ -6,7 +6,7 @@ logo = "/images/temp-logos/shopkeep.png"
 sponsorclass = "bronze"
 sponsorlevel = "bronze"
 sponsors = ["bronze"]
-title = "shopkeep"
+title = "Shopkeep"
 type = "sponsor"
 sponsors_weight = 255
 +++

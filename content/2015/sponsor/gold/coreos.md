@@ -6,7 +6,7 @@ logo = "/images/temp-logos/coreos.png"
 sponsorclass = "gold"
 sponsorlevel = "Gold"
 sponsors = ["Gold"]
-title = "coreos"
+title = "CoreOS"
 type = "sponsor"
 
 +++

@@ -6,7 +6,7 @@ logo = "/images/temp-logos/datadog.png"
 sponsorclass = "gold"
 sponsorlevel = "Gold"
 sponsors = ["gold"]
-title = "datadog"
+title = "Datadog"
 type = "sponsor"
 
 +++
