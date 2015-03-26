@@ -3,10 +3,11 @@ author = ["Gopher Academy"]
 date = "2015-03-26T15:28:27-04:00"
 linktitle = "Site Updates"
 title = "Site Updates"
+type = "news"
 
 +++
 ### Sponsors and New Site
-We've finally taken a few hours to update the website, so we're excited to announce our first round of sponsors.  We're extremely grateful to the sponsors of GopherCon for trusting us to put on a great conference.  Please check out the [sponsors](/sponsors) page and show them some appreciation, too.  There are still sponsorship opportunities available, so if you are interested in being part of this awesome program, jjjêjj[send us an email](mailto:gophercon@gopheracademy.com).
+We've finally taken a few hours to update the website, so we're excited to announce our first round of sponsors.  We're extremely grateful to the sponsors of GopherCon for trusting us to put on a great conference.  Please check out the [sponsors](/sponsors) page and show them some appreciation, too.  There are still sponsorship opportunities available, so if you are interested in being part of this awesome program, [send us an email](mailto:gophercon@gopheracademy.com).
 
 ### CFP
 The CFP closes in just a few days.  Stop what you are doing and head [over to the CFP site](http://cfp.gophercon.com) and submit a speaking proposal.  We've got some great talks proposed already, but we are missing YOURS.  We want to hear from Gophers of all varieties and skill levels, so please submit your proposal now.  If you're not a seasoned speaker, we'll assign you a mentor to help you through the process.
