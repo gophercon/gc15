@@ -19,6 +19,6 @@ We've tentatively scheduled child care during the conference main program, but h
 The schedule this year is shaping up nicely.  We'll be updating the site with more information soon, including a schedule of activities during the whole week of GopherCon 2015.  Stay tuned.
 
 #### Dogfooding
-Gophercon.com is deployed using [Hugo](https://github.com/spf13/hugo), deployed on CoreOS, automated with Docker and [captainhook](https://github.com/bketelsen/captainhook)
+Gophercon.com is deployed using [Hugo](https://github.com/spf13/hugo), on CoreOS servers, automated with Docker and [captainhook](https://github.com/bketelsen/captainhook)
 
 
