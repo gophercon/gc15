@@ -9,4 +9,4 @@ sponsorlevel = "Gold"
 sponsorclass = "gold"
 logo = "/images/temp-logos/apcera.png"
 +++
-Apcera is the creator of the modern enterprise IT platform. Driven by policy, the platform solves systemic challenges and blends new and existing technologies to unify IT. Enterprise grade, the platform grows with needs and empowers IT to innovate faster now and well into the future.
+Apcera is disrupting the world of IT with the world’s first OS for the Hybrid Cloud.  Our Hybrid Cloud OS has policy and governance built in at the core, allowing IT organizations and developers alike to safely and easily develop, deploy, orchestrate and govern diverse workload — apps, services, Docker containers, OS’s — either on premise or in any cloud, public or private, in a friction-free and trusted fashion. 
