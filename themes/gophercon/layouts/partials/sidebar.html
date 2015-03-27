@@ -1,47 +1,38 @@
 <div class="sidebar col-md-2">
+	<h3>Recent News</h3>
+	<ul>
+	{{ range first 5 .Site.Recent }}
+		<li>{{.Section | upper }} : <a href="{{.Permalink}}"> {{ .Title}}</a></li>
+	{{ end }}
+	</ul>
     <h3>Our Sponsors</h3>
     <br />
     <p>Thank you to these companies that support Go and GopherCon 2015</p>
     <br />
 		<h4>Diamond Sponsors</h4>
-	  		<ul>	
 			{{ range .Site.Taxonomies.sponsors.diamond}}
-			<li>	
-				<a href="{{.Page.Permalink}}">{{ .Page.Title}}</a> 
-			</li>
-		    {{ end }}
-			</ul>
+			<p>	<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo}}"/></a> </p>
+			{{ end }}
+			<br/>
 		<h4>Platinum Sponsors</h4>
-	  		<ul>	
-			{{ range .Site.Taxonomies.sponsors.Platinum}}
-			<li>	
-				<a href="{{.Page.Permalink}}">{{ .Page.Title}}</a> 
-			</li>
-		    {{ end }}
-			</ul>
+			{{ range .Site.Taxonomies.sponsors.platinum}}
+			<p>	<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo}}"/></a> </p>
+			{{ end }}
+			<br/>
 		<h4>Gold Sponsors</h4>
-	  		<ul>	
 			{{ range .Site.Taxonomies.sponsors.gold}}
-			<li>	
-				<a href="{{.Page.Permalink}}">{{ .Page.Title}}</a> 
-			</li>
-		    {{ end }}
-			</ul>
+			<p>	<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo}}"/></a> </p>
+			{{ end }}
+			<br/>
 		<h4>Silver Sponsors</h4>
-	  		<ul>	
 			{{ range .Site.Taxonomies.sponsors.silver}}
-			<li>	
-				<a href="{{.Page.Permalink}}">{{ .Page.Title}}</a> 
-			</li>
-		    {{ end }}
-			</ul>
+			<p>	<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo}}"/></a> </p>
+			{{ end }}
+			<br/>
 		<h4>Bronze Sponsors</h4>
-	  		<ul>	
 			{{ range .Site.Taxonomies.sponsors.bronze}}
-			<li>	
-				<a href="{{.Page.Permalink}}">{{ .Page.Title}}</a> 
-			</li>
-		    {{ end }}
-			</ul>
+			<p>	<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo}}"/></a> </p>
+			{{ end }}
+			<br/>
     <br />
 </div><!-- sidebar -->

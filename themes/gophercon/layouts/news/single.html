@@ -1,8 +1,11 @@
 {{ partial "header.html" . }}
 
 <main>
+
     <section class="row"> 
-        <div class="generic col-md-10">
+		<div class="generic col-md-10">
+			<h2> {{ .Title }} </h2><small>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</small>
+					<br/>
             {{ .Content }}
         </div><!-- generic col-md-10 -->
 

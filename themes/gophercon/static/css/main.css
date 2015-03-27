@@ -539,6 +539,21 @@ main .home-sponsors .bronze a {
 .sidebar {
 	background: #f6f2e1;
 }
+.sidebar a img {
+	max-width: 70%; 
+	min-width: 60%; 
+	height: auto;
+	display: block;
+	text-align:center;
+}
+.sidebar a{
+	max-width: 70%; 
+	min-width: 60%; 
+	height: auto;
+	display: block;
+	text-align:center;
+}
+
 
 
 
