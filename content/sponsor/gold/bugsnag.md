@@ -10,4 +10,4 @@ title = "Bugsnag"
 type = "sponsor"
 
 +++
-Bugsnag detects crashes in every popular programming language and framework, automatically collecting useful diagnostics to help you resolve your errors quickly.
+Bugsnag detects crashes in your deployed Go applications, and applications written in almost all other popular programming languages and frameworks. You’ll spend a fraction of the time finding and fixing bugs, leaving you to work on the projects that matter most. Bugsnag automatically collects useful diagnostic information, and alerts you to crashes so you can resolve errors quickly.
