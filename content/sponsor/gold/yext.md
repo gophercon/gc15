@@ -10,4 +10,4 @@ title = "yext"
 type = "sponsor"
 
 +++
-Yext lets marketing departments manage local content, listings, social pages, and store pages, campaigns, in-store experiences, and analytics with our GeoMarketing Cloud. Over 250,000 businesses, including dozens of Fortune 500 companies and top retailers use the Yext Cloud. Yext was named to Forbes Most Promising Companies 2014.
+Yext lets companies manage their digital presence in online maps, directories and apps. Over 400,000 businesses make millions of monthly updates across 100+ exclusive global partners, making Yext the global market leader. Digital presence is a fundamental need for all 50 million businesses in the world, and Yext's mission is perfect location information in every hand.
