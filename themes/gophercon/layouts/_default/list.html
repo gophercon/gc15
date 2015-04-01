@@ -1,9 +1,9 @@
 {{ partial "header.html" . }}
 
 
-<main>
+<main class="container generic">
     <section class="row"> 
-        <div class="generic col-md-10">
+        <div class="col-md-9">
 
             {{ range .Data.Pages }}
 			<h4>{{ dateFormat "Monday, Jan 2, 2006" .Date }}<h4>
