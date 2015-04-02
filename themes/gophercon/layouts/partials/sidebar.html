@@ -2,7 +2,7 @@
 	<h3>Recent News</h3>
 	<ul>
 	{{ range first 5 .Site.Recent }}
-		<li>{{.Section | upper }} : <a href="{{.Permalink}}"> {{ .Title}}</a></li>
+		<li>{{.Section | upper }}<a href="{{.Permalink}}"> {{ .Title}}</a></li>
 	{{ end }}
 	</ul>
     <h3>Our Sponsors</h3>

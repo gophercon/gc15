@@ -4,7 +4,7 @@ date = "2015-04-01T16:03:09-04:00"
 linktitle = "Official After Party"
 title = "Official After Party"
 subtitle = "Wynkoop Brewing Company"
-
+type="event"
 +++
 
 ## Wynkoop Brewing Company
