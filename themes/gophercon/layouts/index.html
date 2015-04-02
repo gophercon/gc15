@@ -14,30 +14,45 @@
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet">
 <link href="css/animate.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
 <header>
-
-	<div class="row colors">
-    	<div class="col-md-2 animated slideInDown"></div>
+  <nav id="top-nav" class="navbar navbar-default navbar-fixed-top">
+    <div class="row colors">
+      <div class="col-md-2 animated slideInDown"></div>
         <div class="col-md-2 animated slideInDown"></div>
         <div class="col-md-2 animated slideInDown"></div>
         <div class="col-md-2 animated slideInDown"></div>
         <div class="col-md-2 animated slideInDown"></div>
         <div class="col-md-2 animated slideInDown"></div>
     </div>
-    
-    <nav>
-    	<ul>
-			<li><a href="/about">About</a></li>
-        	<li><a href="/sponsors">Sponsors</a></li>
-			<!--<li><a href="/2015/schedule">Schedule</a></li> -->
-			<li><a href="/news">News</a></li>
-			<li><a href="/code-of-conduct">Code of Conduct</a></li>
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"></a>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="/about">ABOUT</a></li>
+          <li><a href="/sponsors">SPONSORS</a></li>
+          <!--<li><a href="/2015/schedule">SCHEDULE</a></li> -->
+          <li class="dropdown">
+            <a href="/news">NEWS</a>
+          </li>
+          <li><a href="/code-of-conduct">CODE OF CONDUCT</a></li>
         </ul>
-    </nav>
+      </div>
+    </div>
+  </nav>
 
 	<div class="header-content">
     	<div class="container">
@@ -50,7 +65,10 @@
                 </div>
 
                 <div class="col-md-6">
-                    <img class="animated slideInDown" src="images/gc15-logo.svg" alt="GopherCon 2015" title="GopherCon 2015" />
+                    <img class="animated slideInDown" src="images/gc15-logo.svg" alt="GopherCon 2015" title="GopherCon 2015" width="500" />
+                </div>
+
+                <div class="speaker-section col-md-3">
                     <section class="countdown">
                         <script src="countdown/countdown.js" type="text/javascript"></script>
                         <script type="application/javascript">
@@ -65,21 +83,20 @@
                             width	: 180,
                             height	: 60,
                             labels : {
-                                font 	: "Arial",
-                                color	: "#000000",
+                                font 	: "Open Sans",
+                                color	: "#999999",
                                 weight	: "normal",
                                 offset  : 5,
                                 textScale : 1.3
+                            },
+                            numbers	: {
+                              font : "Open Sans",
+                              color	: "#FFFFFF",
+                              bkgd	: "#40657c"
                             }
                         });
                         </script>
                     </section>
-                </div>
-
-                <div class="speaker-section col-md-3">
-                    <h3>Be a speaker!</h3>
-                    <p>Submit your proposal to become a speaker at <b>GopherCon 2015</b> before March 31st</p>
-                    <a href="http://cfp.gophercon.com/events/gc15" class="btn btn-blue" target="_blank">Become a Speaker</a>
                 </div>
             </div>
         </div>
@@ -96,115 +113,108 @@
 
 <main>
   <section class="main-info">
-	<div class="container">
-    	<div class="row">
-        	<div class="col-md-10 col-md-offset-1">
-            	<h1>Till GopherCon <br /> <span>July 7th - 10th, 2015 in Denver, CO</span></h1>
-                <hr />
-                <p><b>GopherCon</b> is organized by GopherAcademy, LLC, a community-driven group of developers focused on the education of developers and the promotion of the Go programming language.</p>
-            </div>
-        </div>
-    </div>
-    </section>
-    <section class="event-dates">
     <div class="container">
-    	<div class="row">
-        	<div class="col-md-3">
-        			<div class="back-border">
-	        			<div class="event-date-orange">
-	        				<h3>July <span>7th</span></h3>
-	        				<img src="images/dates-background-orange.svg" alt="" />
-	        			</div>
-	        			<p><b>Work Shop ( Optional )</b></p>
-	        			<p>Optional workshop day.  Workshops to be announced soon.</p>
-        			</div>
-
-
-            </div>
-            <div class="col-md-3">
-            	<div class="back-border">
-	            	<div class="event-date-blue">
-	            		<h3>July <span>8th</span></h3>
-	            		<img src="images/dates-background-blue.svg" alt="" />
-	            	</div>
-                <p><b>Main Event ( Day 1 )</b></p>
-                <p>Featuring our first day of guest speakers talks and presentations.</p>
-               </div>
-            </div>
-            <div class="col-md-3">
-            	<div class="back-border">
-	            	<div class="event-date-blue">
-	            		<h3>July <span>9th</span></h3>
-	            		<img src="images/dates-background-blue.svg" alt="" />
-	            	</div>
-                <p><b>Main Event ( Day 2 )</b></p>
-                <p>Our second and last day of guest speakers talks and presentations.</p>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h1>July 7th - 10th, 2015 in Denver, CO</h1>
+                  <p><b>GopherCon</b> is organized by GopherAcademy, LLC, a community-driven group of developers focused on the education of developers and the promotion of the Go programming language.</p>
               </div>
+          </div>
+      </div>
+  </section>
+  <section class="content event-dates">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="event-date">
+            <div class="event-date-orange">
+              <h3>July <span>7th</span></h3>
             </div>
-            <div class="col-md-3">
-            	<div class="back-border">
-	            	<div class="event-date-orange">
-	            		<h3>July <span>10th</span></h3>
-	            		<img src="images/dates-background-orange.svg" alt="" />
-	            	</div>
-                <p><b>Hack Day ( Optional )</b></p>
-                <p>Optional (but highly recommended) hack day.  Socialize and work with your Go friends.</p>
-              </div>
-            </div>
+            <h4><strong>Work Shop</strong> (Optional)</h4>
+            <p>Optional workshop day.  Workshops to be announced soon.</p>
+          </div>
         </div>
+        <div class="col-md-3">
+          <div class="event-date">
+            <div class="event-date-blue">
+              <h3>July <span>8th</span></h3>
+            </div>
+            <h4><strong>Main Event</strong> (Day 1)</h4>
+            <p>Featuring our first day of guest speakers talks and presentations.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="event-date">
+            <div class="event-date-blue">
+              <h3>July <span>9th</span></h3>
+            </div>
+            <h4><strong>Main Event</strong> (Day 2)</h4>
+            <p>Our second and last day of guest speakers talks and presentations.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="event-date">
+            <div class="event-date-orange">
+              <h3>July <span>10th</span></h3>
+            </div>
+            <h4><strong>Hack Day</strong> (Optional)</h4>
+            <p>Optional (but highly recommended) hack day.  Socialize and work with your Go friends.</p>
+          </div>
+        </div>
+      </div>
     </div>
-    </section>
-    
-    <div class="home-sponsors col-md-12">
-        	<div class="sponsor-title">Our Sponsors</div>
-            
-        	<!---------- Diamond Sponsors ---------->
-            <div class="col-md-12 diamond">
-	  			{{ range .Site.Taxonomies.sponsors.diamond}}
-				<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
-				{{ end }}
-                <div class="clearfix"></div>
-            </div><!-- Diamond Sponsors End -->
-            
-            <!---------- Platinum Sponsors ---------->
-            <div class="col-md-12 platinum">
-	  			{{ range .Site.Taxonomies.sponsors.platinum}}
-				<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
-				{{ end }}
-                <div class="clearfix"></div>
-            </div><!-- Platinum Sponsors End -->
-            
-            <!---------- Gold Sponsors ---------->
-            <div class="col-md-12 gold">
-	  			{{ range .Site.Taxonomies.sponsors.gold}}
-				<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
-				{{ end }}
-                <div class="clearfix"></div>
-            </div><!-- Gold Sponsors End -->
-            
-            <!---------- Silver Sponsors ---------->
-            <div class="col-md-12 silver">
-	  			{{ range .Site.Taxonomies.sponsors.silver}}
-				<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
-				{{ end }}
-                <div class="clearfix"></div>
-            </div><!-- Silver Sponsors End -->
-            
-            <!---------- Bronze Sponsors ---------->
-            <div class="col-md-12 bronze">
-	  			{{ range .Site.Taxonomies.sponsors.bronze}}
-				<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
-				{{ end }}
-                <div class="clearfix"></div>
-            </div><!-- Bronze Sponsors End -->
-            
-        </div><!-- sponsors col-md-12 -->
+  </section>
+  <section class="home-sponsors content">
+    <div class="container">
+      <div class="col-md-10 col-md-offset-1 text-center">
+        <h1>Our Sponsors</h1>
 
-    <div class="hotels row">
+        <!---------- Diamond Sponsors ---------->
+          <div class="col-md-12 diamond">
+            {{ range .Site.Taxonomies.sponsors.diamond}}
+              <a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
+            {{ end }}
+            <div class="clearfix"></div>
+          </div><!-- Diamond Sponsors End -->
+          
+          <!---------- Platinum Sponsors ---------->
+          <div class="col-md-12 platinum">
+            {{ range .Site.Taxonomies.sponsors.platinum}}
+              <a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
+            {{ end }}
+            <div class="clearfix"></div>
+          </div><!-- Platinum Sponsors End -->
+          
+          <!---------- Gold Sponsors ---------->
+          <div class="col-md-12 gold">
+            {{ range .Site.Taxonomies.sponsors.gold}}
+              <a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
+            {{ end }}
+            <div class="clearfix"></div>
+          </div><!-- Gold Sponsors End -->
+          
+          <!---------- Silver Sponsors ---------->
+          <div class="col-md-12 silver">
+            {{ range .Site.Taxonomies.sponsors.silver}}
+              <a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
+            {{ end }}
+            <div class="clearfix"></div>
+          </div><!-- Silver Sponsors End -->
+          
+          <!---------- Bronze Sponsors ---------->
+          <div class="col-md-12 bronze">
+            {{ range .Site.Taxonomies.sponsors.bronze}}
+              <a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
+            {{ end }}
+            <div class="clearfix"></div>
+          </div><!-- Bronze Sponsors End -->
+      </div>
+    </div>
+  </section>
+  <section class="content hotels">
     	<div class="container">
-        	<div class="col-md-10 col-md-offset-1">
+        	<div class="col-md-10 col-md-offset-1 text-center">
                 <h1>Hotels</h1>
-                <hr />
                 <p>We have arranged special rates and reserved room blocks at hotels close to the Convention Center. Be sure to use the links, phone numbers, or booking codes below to get the reduced rates. If you have any trouble, call 1-866-650-8858 for help!</p>
         	</div>
         </div>
@@ -253,27 +263,27 @@
 20150705/index.jhtml?WT.mc_id=POG" class="btn btn-orange" target="_blank">Book</a></div>
             </section>
 		</div>
-    	<div class="embassy col-md-2">
-        	<h4>Embassy Suites</h4>
-        	<section>
-				<div style="float:left"><p><b>$205.00</b> / night, plus tax</p>
-                <p>1420 Stout Street,<br /> Denver, CO 80202</p>
-				<p>Tel: 800.445.8667<br />
-					Code: GopherCon </p></div>
-				<div style="float:right"><a href="http://embassysuites.hilton.com/en/es/groups/personalized/D/DENESES-GOP-
+    <div class="embassy col-md-2">
+        <h4>Embassy Suites</h4>
+        <section>
+      <div style="float:left"><p><b>$205.00</b> / night, plus tax</p>
+              <p>1420 Stout Street,<br /> Denver, CO 80202</p>
+      <p>Tel: 800.445.8667<br />
+        Code: GopherCon </p></div>
+      <div style="float:right"><a href="http://embassysuites.hilton.com/en/es/groups/personalized/D/DENESES-GOP-
 20150705/index.jhtml" class="btn btn-orange" target="_blank">Book</a></div>
-            </section>
-        </div>
+          </section>
+      </div>
 
-		
-    </div>
+      <div class="clear:both"></div>
+  </section>
 </main>
 
 <footer>
 	<div class="container">
     	<div class="row">
         	<div class="col-md-12">
-            	<p>© 2015 GopherAcademy, LLC</p>
+            	<p class="copyright">© 2015 GopherAcademy, LLC</p>
                 <p>The Gopher character is based on the Go mascot designed by
                 <a href="http://reneefrench.blogspot.com/" target="blank">Renée French</a>
                 and copyrighted under the
@@ -288,6 +298,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
 <script src="/bootstrap/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
