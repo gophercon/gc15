@@ -4,10 +4,9 @@
 
     <section class="row"> 
 		<div class="col-md-8">
-			<div class="well">
 			<div class="row">
-				<div class="col-md-5">
-				<img class="img-thumbnail" src="{{.Params.speakerimage}}" alt="{{.LinkTitle}}"/>
+				<div class="col-md-3">
+				<img class="img-rounded" src="{{.Params.speakerimage}}" alt="{{.LinkTitle}}" width="120" />
 				<h5>{{.LinkTitle}}</h5>
 				<em>{{.Params.speakertitle}}</em><br/>
 					<div>
@@ -16,10 +15,9 @@
             <a href="{{.Params.linkedin}}"><i class="fa fa-linkedin"></i></a>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-9">
 					{{.Content}}
 				</div>
-			</div>
 			</div>
         </div><!-- generic col-md-10 -->
         {{ partial "sidebar.html" . }}
