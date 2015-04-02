@@ -2,7 +2,7 @@
   <h4>Recent News</h4>
 	<ul class="sidebar nav nav-pills nav-stacked">
 	{{ range first 5 .Site.Recent }}
-  <li><a href="{{.Permalink}}"><img src="/images/{{.Section | lower }}.png" width="25"> {{ .Title}}</a></li>
+    <li><a href="{{.Permalink}}"><img src="/images/{{.Section | lower }}.png" width="25"> {{ .Title}}</a></li>
 	{{ end }}
 	</ul>
 </div><!-- sidebar -->
