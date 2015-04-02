@@ -409,7 +409,146 @@ main .speakers {
   background: rgba(179, 173, 159, 0.53);
 }
 
-main .gophercon-bio {
+/*-------------------- Schedule Styles --------------------*/
+.schedule .nav-tabs.schedule-days {
+  background: #40657c;
+}
+
+.schedule .nav-tabs.schedule-days>li:hover, .schedule .nav-tabs.schedule-days li:hover {
+  margin: 0;
+  background-color: inherit;
+}
+
+.schedule .nav-tabs.schedule-days>li a, .schedule .nav-tabs.schedule-days>li a:hover {
+  padding: 10px 80px;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: bold;
+  border: inherit;
+  border-radius: inherit;
+  background-color: inherit;
+  letter-spacing: 2px;
+  font-weight: 500;
+  line-height: 1.1;
+  text-align: left;
+}
+
+.schedule .nav-tabs.schedule-days>li a span {
+  font-weight: 800;
+  font-size: 20px;
+  display: block;
+  margin-left: 5px;
+}
+
+.schedule .nav-tabs.schedule-days>li.active,  .schedule .nav-tabs.schedule-days>li.active:hover {
+  background-color: #4cc4ec;
+  position: relative;
+}
+
+.schedule .nav-tabs.schedule-days>li.active::before, .schedule .nav-tabs.schedule-days>li.active::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  background-color: #4cc4ec;
+  width: 100%;
+  height: 15px;
+  z-index: 1;
+}
+
+.schedule .nav-tabs.schedule-days>li.active::before {
+  top: -10px;
+}
+
+.schedule .nav-tabs.schedule-days>li.active::after {
+  bottom: -10px;
+}
+
+.schedule .schedule-tab {
+  border: 1px solid rgba(179, 173, 159, 0.53);
+  border-top: none;
+  margin-top: -1px;
+}
+
+.schedule .schedule-tab .nav-tabs>li.active, .schedule .schedule-tab .nav-tabs>li.active:hover {
+  background-color: rgba(249, 181, 117, 0.21);
+}
+
+.schedule .schedule-tab .nav-tabs {
+  background-color: #f6f6f4;
+  border: none;
+  z-index: 2;
+}
+
+.schedule .schedule-tab .nav-tabs>li, .schedule .schedule-tab .nav-tabs li {
+  width: 50%;
+}
+
+.schedule .schedule-tab .nav-tabs>li:hover, .schedule .schedule-tab .nav-tabs li:hover {
+  margin: 0;
+  background-color: inherit;
+}
+
+.schedule .schedule-tab .nav-tabs>li a, .schedule .schedule-tab .nav-tabs>li a:hover {
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  border: inherit;
+  border-radius: inherit;
+  background-color: inherit;
+  letter-spacing: 2px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.schedule .schedule-item-tab {
+  padding: 15px;
+  text-align: left;
+}
+
+.schedule .schedule-item-slot span {
+  display: block;
+  text-align: left;
+}
+
+.schedule .schedule-item .time {
+  color: #4cc4ec;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.schedule .schedule-item-details {
+  padding-left: 0;
+}
+
+.schedule .schedule-item-summary {
+  color: #4cc4ec;
+  border-color: rgba(179, 173, 159, 0.529412);
+  border-top: 1px solid rgba(179, 173, 159, 0.529412); 
+  border-bottom: 1px dashed rgba(179, 173, 159, 0.529412);
+  padding: 10px;
+}
+
+.schedule .schedule-item-details .abstract {
+  padding-top: 20px;
+  padding: 10px;
+}
+
+.schedule .schedule-item-slot {
+  color: #4cc4ec;
+  border-color: rgba(179, 173, 159, 0.529412);
+  border-top: 2px solid rgba(179, 173, 159, 0.529412); 
+  padding: 10px;
+}
+
+
+.schedule .schedule-item .title {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.schedule .schedule-item .speaker .designation::before {
+  content: ' - ';
 }
 
 /*---------- Sponsor styles ----------*/
