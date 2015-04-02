@@ -18,46 +18,14 @@
 	<body>
 
 		<header>
-      <nav id="top-nav" class="navbar navbar-default navbar-fixed-top">
-        <div class="row colors">
-          <div class="col-md-2 animated slideInDown"></div>
-            <div class="col-md-2 animated slideInDown"></div>
-            <div class="col-md-2 animated slideInDown"></div>
-            <div class="col-md-2 animated slideInDown"></div>
-            <div class="col-md-2 animated slideInDown"></div>
-            <div class="col-md-2 animated slideInDown"></div>
-        </div>
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"></a>
-          </div>
-
-          <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li><a href="/about">ABOUT</a></li>
-              <li><a href="/sponsors">SPONSORS</a></li>
-              <!--<li><a href="/2015/schedule">SCHEDULE</a></li> -->
-              <li class="dropdown">
-                <a href="/news">NEWS</a>
-              </li>
-              <li><a href="/code-of-conduct">CODE OF CONDUCT</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      {{ partial "navbar.html" . }}
 
 			<div class="header-content">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 interior-header">
 
-              <img src="/images/gophercon-small.svg" alt="GopherCon 2015" title="GopherCon 2015" width="300" />
+              <a href="/"><img src="/images/gophercon-small.svg" alt="GopherCon 2015" title="GopherCon 2015" width="300" /></a>
 							<h1>Gophers of the world, Unite!</h1>
 							<p>GopherCon 2015 will be the largest gathering of Go developers ever. </p>
 						</div><!-- col-md-8 -->
