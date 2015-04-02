@@ -405,6 +405,13 @@ main .row {
 	margin: 0 auto;
 }
 
+main .speakers {
+  background: rgba(179, 173, 159, 0.53);
+}
+
+main .gophercon-bio {
+}
+
 /*---------- Sponsor styles ----------*/
 
 .sponsor-signUp {
