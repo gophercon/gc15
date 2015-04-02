@@ -409,6 +409,16 @@ main .speakers {
   background: rgba(179, 173, 159, 0.53);
 }
 
+main .gophercon-bio {
+  border: 1px solid rgba(179, 173, 159, 0.53);
+  background-color: rgba(249, 181, 117, 0.21);
+}
+
+main .gophercon-bio h1 {
+  font-weight: 800;
+  font-size: 30px;
+}
+
 /*-------------------- Schedule Styles --------------------*/
 .schedule .nav-tabs.schedule-days {
   background: #40657c;
