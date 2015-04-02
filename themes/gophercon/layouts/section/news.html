@@ -3,20 +3,22 @@
 
 <main>
     <section class="row"> 
-        <div class="generic col-md-10">
-{{ range first 10 .Data.Pages }}
-  <div class="summary">
-    <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-    {{ .Summary }}
-  </div>
-  {{ if .Truncated }}
-  <div class="read-more-link">
-    <a href="{{ .RelPermalink }}">Read More…</a>
-  </div>
-  {{ end }}
+		<div class="generic col-md-10">
+			<h3>GopherCon News</h3>
+			{{ range .Paginator.Pages }}
+	<div class="well">
+		
+		<h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+		<small>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</small><br/><br/>
+			{{ .Summary }}
+			{{ if .Truncated }} <br/><br/>
+    <a class="btn btn-primary" href="{{ .RelPermalink }}">Read More…</a>
+	{{ end }}
+</div>
 {{ end }}
 
-
+{{ template "_internal/pagination.html" . }}
+</div>
         {{ partial "sidebar.html" . }}
     </section>
 </main>

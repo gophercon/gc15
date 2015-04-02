@@ -5,7 +5,6 @@ linktitle = "Site Updates"
 title = "Site Updates"
 
 +++
-#### Sponsors and New Site
 We've finally taken a few hours to update the website, so we're excited to announce our first round of sponsors.  We're extremely grateful to the sponsors of GopherCon for trusting us to put on a great conference.  Please check out the [sponsors](/sponsors) page and show them some appreciation, too.  There are still sponsorship opportunities available, so if you are interested in being part of this awesome program, [send us an email](mailto:gophercon@gopheracademy.com).
 
 #### CFP
