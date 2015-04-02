@@ -4,12 +4,12 @@
 html {
     font-size: 10px;
     min-height: 100%;
-    position: relative;
 }
 body {
-	background: none repeat scroll 0 0 #f6f2e1;
-	font-family: 'Ubuntu', sans-serif;
-	margin-bottom: 100px;
+	background: none repeat scroll 0 0 #fff;
+	font-family: 'Open Sans', 'Helvetica Neue', arial, sans-serif;
+  margin-top: 30px;
+  -webkit-font-smoothing: antialiased;
 }
 a {
     color: #40657c;
@@ -22,15 +22,26 @@ a {
 }
 .btn-orange {
     background-color: #f07332;
-	border: 4px solid #f9b575;
     color: #fff;
-	font-size: 18px;
+    font-size: 16px;
+    padding: 8px 16px;
 }
+
+.btn-orange:hover {
+  background-color: #d9682e;
+  color: #fff; 
+}
+
 .btn-blue {
     background-color: #4cc4ec;
-	border: 4px solid #5dadc8;
     color: #fff;
-	font-size: 18px;
+	  font-size: 16px;
+    padding: 8px 16px;
+}
+
+.btn-blue:hover {
+  background-color: #42aace;
+  color: #fff; 
 }
 
 /*-------------------- Header Styles --------------------*/
@@ -42,7 +53,7 @@ header .colors {
 	margin: 0;
 }
 header .colors div {
-	height: 10px;
+	height: 5px;
 }
 header .colors .col-md-2 {
 	-webkit-animation-duration: 0.5s;
@@ -125,6 +136,7 @@ header .header-content .col-md-3 {
 }
 header .header-content .col-md-3 h3 {
 	color: #40657c;
+  font-size: 26px;
 	text-shadow: 0px 1px 0px #FFFFFF;
 }
 header .header-content .col-md-3 p {
@@ -136,6 +148,7 @@ header .header-content .tickets-section {
 	text-align: right;
 }
 header .header-content .speaker-section {
+  margin-top: 160px;
 	text-align: left;
 }
 header .header-content .col-md-6 section.countdown {
@@ -168,36 +181,87 @@ header .color-bar {
     z-index: 1;
     width: 100%;
 }
-header nav {
-	background: rgba(93,93,93,0.1);
-	border-bottom: 1px solid rgba(93,93,93,0.2);
-	border-top: 1px solid #FFFFFF;
-	box-shadow: 0px -1px 0px #FFFFFF inset, 0px 1px 0px rgba(93,93,93,0.2) inset;
-	position: relative;
+header .navbar-default {
+  background-color: #f6f6f4;
+  border: none;
+
+  -moz-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
-header nav .logo-small {
-    cursor: pointer;
-    display: block;
-    left: 50%;
-    margin-left: -125px;
-    position: absolute;
-    top: 40px;
-    width: 250px;
-    z-index: 200;
+
+header .navbar-default.scrolled, header .navbar-collapse.in {
+  background-color: #f6f6f4;
+  -moz-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
-header nav ul {
-	display: block;
-	text-align: center;
-	overflow: hidden;
-	margin: 0;
-	padding: 0;
+
+header .navbar-nav > li > a {
+  color: #40657c !important;
+  font-size: 13px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  padding-top: 30px;
+
+  -moz-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
-header nav ul li {
-	color: #40657c;
-	display: inline-block;
-	text-align: center;
-	padding: 10px 20px 30px;
+header .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  background-color: #eee;
 }
+
+.dropdown-menu {
+  background-color: #eee;
+  border: none;
+  color: #40657c;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.dropdown-toggle span.caret {
+  margin-left: 10px;
+}
+
+section.content {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+section.content h1 {
+  font-size: 28px;
+  color: #333;
+  font-weight: 600;
+}
+
+header .navbar-nav > li > a:hover {
+  color: #333 !important;
+}
+
+header .scrolled .navbar-nav > li > a, header .navbar-collapse.in .navbar-nav > li > a {
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+  -moz-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+
+header .scrolled .navbar-nav > li:hover, header .navbar-collapse.in .navbar-nav > li:hover {
+  background-color: #eee;
+
+  -moz-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
 header .header-content .interior-header {
 	text-align: center;
 }
@@ -218,24 +282,43 @@ header .header-content .interior-header p {
 
 /*-------------------- Event Dates Styles --------------------*/
 .event-dates {
-	background:#b3ad9f;
+	background:#40657c;
 	padding: 0 0 0 0;	
 }
-.event-dates .col-md-3 .back-border {
-	text-align: center;
-	border-bottom: 5px solid #918977;
-	border-radius: 10px;
-	padding: 25px;
-	margin: 80px 10px;
-	font-family: lato;
-	background: #ffffff;
-	color: #5b5b5b;
-	min-height: 210px;
+.event-date {
+  background: #fff;
+  color: #333;
 }
-.event-date-orange, .event-date-blue{
-	margin-top: -80px;
-	position: relative;
+
+.event-date h4 {
+  font-size: 16px;
+  margin-bottom: 0px;
+  padding: 0px 25px;
 }
+
+.event-date h4 strong {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.event-date p {
+  min-height: 120px;
+  padding: 10px 25px 0px 25px;
+}
+
+.event-date-orange, .event-date-blue {
+  background-color: #fff;
+  padding: 25px;
+}
+
+.event-date-orange {
+  background: #b3ad9f;
+}
+
+.event-date-blue {
+  background: #4cc4ec;
+}
+
 .event-date-orange h3 span, .event-date-blue h3 span{
 	font-weight: 800;
 }
@@ -244,7 +327,7 @@ header .header-content .interior-header p {
     letter-spacing: 2px;
     position: relative;
     z-index: 3;
-    margin: 0px 0px 15px;
+    margin: 0px;
 }
 .event-date-orange h3 span, .event-date-blue h3 span{
 	font-size: 40px;
@@ -269,11 +352,8 @@ header .header-content .interior-header p {
 /*-------------------- Main Styles --------------------*/
 
 .main-info{
-    background:#b3ad9f;
+    background:#40657c;
 	position: relative;
-}
-.main-info .container .row{
-	margin-top: 80px;
 }
 .main-info .container .col-md-10 {
 	color: #ffffff;
@@ -294,10 +374,9 @@ header .header-content .interior-header p {
 }
 main .container .col-md-10 p {
 	color: #4c4c4c;
-    font-size: 22px;
+  font-size: 18px;
 	font-weight: 300;
-	line-height: 30px;
-	margin: 0 0 30px 0;
+	margin: 15px 0 60px 0;
 }
 main .row {
 	margin: 0 auto;
@@ -322,7 +401,6 @@ main .row {
 }
 main .sponsors {
 	background: none repeat scroll 0 0 #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 0;
     padding: 0;
     position: relative;
@@ -370,7 +448,6 @@ main .sponsors a {
     padding: 30px 25px 10px;
 }
 main .sponsors .col-md-12 {
-	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
     margin-bottom: 0;
     padding: 15px;
 }
@@ -425,12 +502,8 @@ main .home-sponsors .sponsor-title {
 }
 main .home-sponsors {
 	background: none repeat scroll 0 0 #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 0;
-    padding: 0;
-    position: relative;
-    z-index: 2;
 }
+
 main .home-sponsors .title {
 	background: none repeat scroll 0 0 #f27423;
     color: #ffffff;
@@ -471,11 +544,10 @@ main .home-sponsors a img {
 	text-align:center;
 }
 main .home-sponsors a {
-    padding: 10px 40px;
+    padding: 10px;
 }
 main .home-sponsors .col-md-12 {
     margin-bottom: 0;
-    padding: 0 50px;
 }
 
 /*-- diamond styles --*/
@@ -529,7 +601,6 @@ main .home-sponsors .bronze a {
 /*-------------------- Generic Styles --------------------*/
 .generic {
 	background: #FFFFFF;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	padding: 60px 30px;
 	position: relative;
 	z-index: 2;
@@ -565,13 +636,18 @@ main .home-sponsors .bronze a {
 .hotels hr {
 	border-color: #CCCCCC;
 }
+
+.hotels .btn {
+  font-size: 12px;
+}
+
 main .hotels .col-md-2 {
     height: 400px;
     padding: 0;
     position: relative;
     width: 20%;
-	box-shadow: -2px 2px 5px rgba(0,0,0,0.3);
 }
+
 main .hotels .embassy {
 	background: url("../images/embassy.jpg") repeat scroll bottom rgba(0, 0, 0, 0);
 }
@@ -615,17 +691,19 @@ main .hotels .col-md-2 section p:nth-child(n+2) {
 	color: #e1e1e1;
 }
 footer {
-    background: none repeat scroll 0 0 #5d5d5d;
-    bottom: 0;
-    color: #ffffff;
-	height: 100px;
-    overflow: hidden;
-    padding: 20px;
-    position: absolute;
-    width: 100%;
+    background: #f6f6f4;
+    font-size: 11px;
+    padding: 25px;
 }
-footer a{
-	color: #f07332;
+footer a {
+	color: #40657c;
+  font-size: 11px;
+}
+
+footer .copyright {
+  font-size: 16px;
+  margin-bottom: 0px;
+  padding-top: 15px;
 }
 
 /*---------------------------------------- Responsive Styles Start ---------------------------------------- */
