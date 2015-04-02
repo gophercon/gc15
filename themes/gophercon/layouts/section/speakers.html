@@ -5,15 +5,14 @@
     <section class="row"> 
 		<div class="generic col-md-8">
 			<h2>2015 Speakers</h2>
-			<div class="well">
 			{{ range .Data.Pages }}
 			<div class="row">
-				<div class="col-md-5">
-				<img class="img-thumbnail" src="{{.Params.speakerimage}}" alt="{{.LinkTitle}}"/>
+				<div class="col-md-3">
+				<img class="img-rounded" src="{{.Params.speakerimage}}" alt="{{.LinkTitle}}" width="120" />
 				<h5>{{.LinkTitle}}</h5>
 				<em>{{.Params.speakertitle}}</em><br/>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-9">
 					{{.Summary}}
 				{{ if .Truncated }} <br/><br/>
     				<a class="btn btn-primary" href="{{ .RelPermalink }}">Read More…</a>
@@ -21,7 +20,6 @@
 				</div>
 			</div>
 			{{ end }}
-			</div>
 
 		</div>
         {{ partial "sidebar.html" . }}

@@ -473,41 +473,31 @@ main .sponsors a {
 }
 main .sponsors .col-md-12 {
     margin-bottom: 0;
-    padding: 15px;
+    padding: 45px 25px;
 }
 main .sponsors .col-md-6 {
 	margin-bottom: 0px;
 }
 
 /*-- Diamond sponsor styles --*/
-main .sponsors .diamond a {
-	float: left;
-    text-align: center;
-    width: 25%;
+main .sponsors .diamond a img {
+    width: 100%;
 }
 /*-- Platinum sponsor styles --*/
-main .sponsors .platinum a {
-	float: left;
-    text-align: center;
-    width: 25%;
+main .sponsors .platinum a img {
+    width: 85%;
 }
 /*-- Gold sponsor styles --*/
-main .sponsors .gold a {
-	float: left;
-    text-align: center;
-    width: 19%;
+main .sponsors .gold a img {
+    width: 70%;
 }
 /*-- Silver sponsor styles --*/
-main .sponsors .silver a {
-	float: left;
-	width:17%;
-	text-align:center;
+main .sponsors .silver a img {
+	width:60%;
 }
 /*-- Silver sponsor styles --*/
-main .sponsors .bronze a {
-	float: left;
-	width:19%;
-	text-align:center;
+main .sponsors .bronze a img {
+	width:50%;
 }
 
 /*---------- Home Sponsor styles ----------*/
