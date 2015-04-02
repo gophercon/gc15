@@ -1,0 +1,47 @@
+<section class="home-sponsors content">
+  <div class="container">
+    <div class="col-md-10 col-md-offset-1 text-center">
+      <h1>Our Sponsors</h1>
+
+      <!---------- Diamond Sponsors ---------->
+        <div class="col-md-12 diamond">
+          {{ range .Site.Taxonomies.sponsors.diamond}}
+            <a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
+          {{ end }}
+          <div class="clearfix"></div>
+        </div><!-- Diamond Sponsors End -->
+        
+        <!---------- Platinum Sponsors ---------->
+        <div class="col-md-12 platinum">
+          {{ range .Site.Taxonomies.sponsors.platinum}}
+            <a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
+          {{ end }}
+          <div class="clearfix"></div>
+        </div><!-- Platinum Sponsors End -->
+        
+        <!---------- Gold Sponsors ---------->
+        <div class="col-md-12 gold">
+          {{ range .Site.Taxonomies.sponsors.gold}}
+            <a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
+          {{ end }}
+          <div class="clearfix"></div>
+        </div><!-- Gold Sponsors End -->
+        
+        <!---------- Silver Sponsors ---------->
+        <div class="col-md-12 silver">
+          {{ range .Site.Taxonomies.sponsors.silver}}
+            <a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
+          {{ end }}
+          <div class="clearfix"></div>
+        </div><!-- Silver Sponsors End -->
+        
+        <!---------- Bronze Sponsors ---------->
+        <div class="col-md-12 bronze">
+          {{ range .Site.Taxonomies.sponsors.bronze}}
+            <a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
+          {{ end }}
+          <div class="clearfix"></div>
+        </div><!-- Bronze Sponsors End -->
+    </div>
+  </div>
+</section>

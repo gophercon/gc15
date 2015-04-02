@@ -502,7 +502,7 @@ main .home-sponsors .sponsor-title {
     font-weight: 500;
 }
 main .home-sponsors {
-	background: none repeat scroll 0 0 #ffffff;
+	background: none repeat scroll 0 0 #f6f6f4;
 }
 
 main .home-sponsors .title {
@@ -611,29 +611,19 @@ main .home-sponsors .bronze a {
 .sidebar {
 	background: #f9f9f9;
 }
-.sidebar a img {
-	max-width: 70%; 
-	min-width: 60%; 
-	height: auto;
-	display: block;
-	text-align:center;
-}
-.sidebar a{
-	max-width: 70%; 
-	min-width: 60%; 
-	height: auto;
-	display: block;
-	text-align:center;
+
+.sidebar a {
+  color: #3497da;
 }
 
-
-
-
+.sidebar img {
+  padding-right: 5px;
+  width: 20px;
+}
 
 /*-------------------- Hotel Styles --------------------*/
 .hotels {
-  background: #f6f6f4;
-	margin: 50px 0 0 0;
+  background: #fff;
 }
 .hotels hr {
 	border-color: #CCCCCC;
@@ -693,7 +683,7 @@ main .hotels .col-md-2 section p:nth-child(n+2) {
 	color: #e1e1e1;
 }
 footer {
-    background: #f6f6f4;
+    background: #fff;
     font-size: 11px;
     padding: 25px;
 }
