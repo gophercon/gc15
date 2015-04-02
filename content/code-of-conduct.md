@@ -6,7 +6,7 @@ subtitle = "A Community Event Hosted By GopherAcademy"
 slug = "code-of-conduct"
 +++
 
-<h4>GopherCon Code of Conduct</h4>
+<h2>GopherCon Code of Conduct</h2>
     <p>All delegates, speakers, sponsors and volunteers at any Gopher Academy event are required to agree with the following code of conduct. Organizers will enforce this code throughout the event.</p>
 
 <h4>The Quick Version</h4>

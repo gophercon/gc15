@@ -17,6 +17,28 @@ a {
     font-weight: 500;
     text-decoration: none;
 }
+
+h2 {
+  color: #4cc4ec;
+  font-size: 38px;
+  font-weight: 400;
+}
+
+h4 {
+  color: #40657c;
+  font-weight: 400;
+}
+
+p {
+  margin: 15px 0;
+}
+
+small {
+  color: #999;
+  font-size: 16px;
+  font-weight: 300;
+}
+
 .btn {
 	border-radius: 10px 10px 10px 10px;
 }
@@ -235,7 +257,7 @@ section.content {
 section.content h1 {
   font-size: 28px;
   color: #333;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 header .navbar-nav > li > a:hover {
@@ -403,7 +425,7 @@ main .row {
 main .sponsors {
 	background: none repeat scroll 0 0 #ffffff;
     margin: 0;
-    padding: 0;
+    padding: 25px;
     position: relative;
     z-index: 2;
 }
@@ -429,8 +451,8 @@ main .sponsors img.icon {
 	width: 70px;
 }
 main .sponsors h3 {
-	color: #737373;
-    font-size: 15px;
+	color: #999;
+    font-size: 11px;
     font-weight: 300;
     margin: 0;
     padding: 0;
@@ -438,6 +460,7 @@ main .sponsors h3 {
     right: 5px;
     text-align: right;
     top: 5px;
+    text-transform: uppercase;
 }
 main .sponsors a img {
 	max-width: 90%; 
@@ -613,7 +636,8 @@ main .home-sponsors .bronze a {
 }
 
 .sidebar a {
-  color: #3497da;
+  color: #40657c;
+  font-weight: 400;
 }
 
 .sidebar img {
