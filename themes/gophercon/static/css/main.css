@@ -320,27 +320,36 @@ header .header-content .interior-header p {
 .event-date {
   background: #fff;
   color: #333;
+
+  border-radius: 10px;
 }
 
 .event-date h4 {
   font-size: 16px;
   margin-bottom: 0px;
-  padding: 0px 25px;
+  padding: 15px 25px 0px 25px;
 }
 
 .event-date h4 strong {
-  font-size: 20px;
   font-weight: 600;
 }
 
 .event-date p {
   min-height: 120px;
-  padding: 10px 25px 0px 25px;
+  padding: 0px 25px 0px 25px;
 }
 
 .event-date-orange, .event-date-blue {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   background-color: #fff;
   padding: 25px;
+}
+
+.event-date-orange h3 span.fa, .event-date-blue h3 span.fa {
+  float:right;
+  font-size: 28px;
+  font-weight: 300;
 }
 
 .event-date-orange {
@@ -419,13 +428,11 @@ main .speakers {
 }
 
 main .gophercon-bio {
-  border: 1px solid rgba(179, 173, 159, 0.53);
   background-color: rgba(249, 181, 117, 0.21);
 }
 
 main .gophercon-bio h1 {
-  font-weight: 800;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 /*-------------------- Schedule Styles --------------------*/
