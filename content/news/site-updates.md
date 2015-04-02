@@ -3,7 +3,6 @@ author = ["Gopher Academy"]
 date = "2015-03-26T19:03:09-04:00"
 linktitle = "Site Updates"
 title = "Site Updates"
-type = "news"
 
 +++
 #### Sponsors and New Site
