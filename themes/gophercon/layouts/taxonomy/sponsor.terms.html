@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 {{ $baseurl := .Site.BaseUrl }}
 
-<main class="container">
+<main class="container generic">
     <section class="row"> 
 		<div class="sponsors col-md-12">
 			<div class="col-md-12 diamond">
@@ -26,6 +26,7 @@
 				<img class="icon" src="/images/gold.png" />
 	  			{{ range .Site.Taxonomies.sponsors.gold}}
 				<a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
+
 				{{ end }}
                 <div class="clearfix"></div>
 			</div>
