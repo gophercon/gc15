@@ -6,16 +6,15 @@
 		<div class="col-md-8">
 			<div class="row">
 				<div class="col-md-3">
-				<img class="img-rounded" src="{{.Params.speakerimage}}" alt="{{.LinkTitle}}" width="120" />
-				<h5>{{.LinkTitle}}</h5>
-				<em>{{.Params.speakertitle}}</em><br/>
-					<div>
-            <a href="{{.Params.twitter}}"><i class="fa fa-twitter"></i></a>
-            <a href="{{.Params.github}}"><i class="fa fa-github"></i></a>
-            <a href="{{.Params.linkedin}}"><i class="fa fa-linkedin"></i></a>
-					</div>
+          <img class="img-rounded avatar" src="{{.Params.speakerimage}}" alt="{{.LinkTitle}}" width="150" />
+        <div class="speaker-social">
+          <a href="{{.Params.twitter}}"><i class="fa fa-twitter"></i></a>
+          <a href="{{.Params.github}}"><i class="fa fa-github"></i></a>
+          <a href="{{.Params.linkedin}}"><i class="fa fa-linkedin"></i></a>
+        </div>
 				</div>
 				<div class="col-md-9">
+          <h3>{{.LinkTitle}}<br /><small>{{.Params.speakertitle}}</small></h3>
 					{{.Content}}
 				</div>
 			</div>
