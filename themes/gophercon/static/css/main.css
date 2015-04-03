@@ -440,19 +440,19 @@ main .gophercon-bio h1 {
   background: #40657c;
 }
 
-.schedule .nav-tabs.schedule-days>li:hover, .schedule .nav-tabs.schedule-days li:hover {
+.schedule .nav-tabs.schedule-days>li {
   margin: 0;
-  background-color: inherit;
+  background-color: initial;
 }
 
 .schedule .nav-tabs.schedule-days>li a, .schedule .nav-tabs.schedule-days>li a:hover {
   padding: 10px 80px;
+  margin: 0;
   color: #FFF;
   font-size: 15px;
-  font-weight: bold;
   border: inherit;
   border-radius: inherit;
-  background-color: inherit;
+  background-color: initial;
   letter-spacing: 2px;
   font-weight: 500;
   line-height: 1.1;
@@ -466,7 +466,7 @@ main .gophercon-bio h1 {
   margin-left: 5px;
 }
 
-.schedule .nav-tabs.schedule-days>li.active,  .schedule .nav-tabs.schedule-days>li.active:hover {
+.schedule .nav-tabs.schedule-days>li.active, .schedule .nav-tabs.schedule-days>li.active:hover {
   background-color: #4cc4ec;
   position: relative;
 }
@@ -492,7 +492,10 @@ main .gophercon-bio h1 {
 .schedule .schedule-tab {
   border: 1px solid rgba(179, 173, 159, 0.53);
   border-top: none;
-  margin-top: -1px;
+}
+
+.schedule .schedule-tab .tab-pane {
+  padding: 10px 20px;
 }
 
 .schedule .schedule-tab .nav-tabs>li.active, .schedule .schedule-tab .nav-tabs>li.active:hover {
@@ -505,29 +508,31 @@ main .gophercon-bio h1 {
   z-index: 2;
 }
 
-.schedule .schedule-tab .nav-tabs>li, .schedule .schedule-tab .nav-tabs li {
+.schedule .schedule-tab .nav-tabs>li, .schedule .schedule-tab .nav-tabs>li {
   width: 50%;
+  padding: 10px;
+  border: initial;
+  margin: 0;
 }
 
-.schedule .schedule-tab .nav-tabs>li:hover, .schedule .schedule-tab .nav-tabs li:hover {
+.schedule .schedule-tab .nav-tabs>li:hover, .schedule .schedule-tab .nav-tabs>li:hover {
   margin: 0;
   background-color: inherit;
 }
 
 .schedule .schedule-tab .nav-tabs>li a, .schedule .schedule-tab .nav-tabs>li a:hover {
-  padding: 15px;
+  padding: 25px;
+  margin: 0;
   font-size: 15px;
-  font-weight: bold;
   border: inherit;
   border-radius: inherit;
-  background-color: inherit;
+  background-color: initial;
   letter-spacing: 2px;
   font-weight: 500;
   line-height: 1.1;
 }
 
 .schedule .schedule-item-tab {
-  padding: 15px;
   text-align: left;
 }
 
