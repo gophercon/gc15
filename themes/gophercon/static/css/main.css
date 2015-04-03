@@ -926,6 +926,12 @@ footer {
   margin-top: 5px;
 }
 
+#workshop-schedule {
+  background: #fff;
+  color: #333;
+  padding: 25px;
+}
+
 /*---------------------------------------- Responsive Styles Start ---------------------------------------- */
 
 /*-- Smallest devices (phones, 320px to 480px) --*/
