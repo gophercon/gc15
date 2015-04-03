@@ -307,7 +307,7 @@ header .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:
 
 section.content {
   padding-bottom: 50px;
-  padding-top: 15px;
+  padding-top: 50px;
 }
 
 section.content h1 {
@@ -927,7 +927,7 @@ main .hotels .col-md-2 section p:nth-child(n+2) {
 	color: #e1e1e1;
 }
 footer {
-    background: #fff;
+    background: #f6f6f6;
     clear: both;
     padding: 50px 25px;
 }
