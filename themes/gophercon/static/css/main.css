@@ -295,7 +295,6 @@ section.content {
 
 section.content h1 {
   font-size: 28px;
-  color: #333;
   font-weight: 300;
 }
 
@@ -440,11 +439,10 @@ header .header-content .interior-header p {
 	font-size: 24px;
 	font-weight:normal;
 }
-.main-info .container .col-md-10 p {
+.main-info .container .col-md-10 p.subheader {
 	color: #FFFFFF;
 }
-main .container .col-md-10 p {
-	color: #4c4c4c;
+main .container .col-md-10 p.subheader {
   font-size: 18px;
 	font-weight: 300;
 	margin: 15px 0 60px 0;
@@ -453,8 +451,17 @@ main .row {
 	margin: 0 auto;
 }
 
+main .keynotes {
+  background: #f6f6f4;
+}
+
+main .schedule {
+  background: #40657c;
+  color: #fff;
+}
+
 main .speakers {
-  background: rgba(179, 173, 159, 0.53);
+  background: #fff;
 }
 
 main .gophercon-bio {
@@ -520,8 +527,7 @@ main .gophercon-bio h1 {
 }
 
 .schedule .schedule-tab {
-  border: 1px solid rgba(179, 173, 159, 0.53);
-  border-top: none;
+  border: none;
 }
 
 .schedule .schedule-tab .tab-pane {
@@ -760,6 +766,7 @@ main .home-sponsors h3 {
 main .home-sponsors a img {
 	max-width: 90%; 
 	min-width: 90%; 
+  max-height: 100px;
 	height: auto;
 	display: block;
 	text-align:center;
@@ -905,21 +912,17 @@ main .hotels .col-md-2 section p:nth-child(n+2) {
 }
 footer {
     background: #fff;
-    font-size: 11px;
-    padding: 25px;
-}
-footer a {
-	color: #40657c;
-  font-size: 11px;
+    padding: 50px 25px;
 }
 
-footer .copyright {
-  font-size: 16px;
+.copyright {
+  font-size: 14px;
   margin-bottom: 0px;
   padding-top: 15px;
 }
 
-footer .copyright-character {
+.copyright-character , .copyright-character a{
+  font-size: 11px;
   margin-top: 5px;
 }
 
