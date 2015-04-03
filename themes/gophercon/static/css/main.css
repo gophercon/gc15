@@ -54,7 +54,7 @@ small {
 }
 
 .btn {
-	border-radius: 10px 10px 10px 10px;
+	border-radius: 5px 5px 5px 5px;
 }
 .btn-orange {
     background-color: #f07332;
@@ -93,6 +93,23 @@ small {
   font-size: 24px;
   font-weight: 300;
   padding-right: 5px;
+}
+
+.thumbnail {
+  border: 1px solid #efefef;
+}
+
+.thumbnail .caption {
+  padding: 15px;
+}
+
+.thumbnail .caption p {
+  margin-top: 0;
+}
+
+.thumbnail .caption .handle a {
+  color: #999;
+  font-size: 12px;
 }
 
 /*-------------------- Header Styles --------------------*/
@@ -350,7 +367,7 @@ header .header-content .interior-header p {
   background: #fff;
   color: #333;
 
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .event-date h4 {
@@ -369,8 +386,8 @@ header .header-content .interior-header p {
 }
 
 .event-date-orange, .event-date-blue {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   background-color: #fff;
   padding: 25px;
 }
