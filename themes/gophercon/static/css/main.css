@@ -929,6 +929,7 @@ main .hotels .col-md-2 section p:nth-child(n+2) {
 }
 footer {
     background: #fff;
+    clear: both;
     padding: 50px 25px;
 }
 
