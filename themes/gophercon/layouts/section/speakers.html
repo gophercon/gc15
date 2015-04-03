@@ -3,25 +3,23 @@
 
 <main class="container generic">
     <section class="row"> 
-		<div class="col-md-8">
-			<h2>2015 Speakers</h2>
-			{{ range .Data.Pages }}
-			<div class="row">
-				<div class="col-md-3">
-				<img class="img-rounded" src="{{.Params.speakerimage}}" alt="{{.LinkTitle}}" width="120" />
-				<h5>{{.LinkTitle}}</h5>
-				<em>{{.Params.speakertitle}}</em><br/>
-				</div>
-				<div class="col-md-9">
-					{{.Summary}}
-				{{ if .Truncated }} <br/><br/>
-    				<a class="btn btn-primary" href="{{ .RelPermalink }}">Read More…</a>
-				{{ end }}
-				</div>
-			</div>
-			{{ end }}
-
-		</div>
+        <div class="col-md-8">
+          <h2>2015 Speakers</h2>
+          {{ range .Data.Pages }}
+            <div class="row">
+              <div class="col-md-3">
+                <img class="avatar img-rounded" src="{{.Params.speakerimage}}" alt="{{.LinkTitle}}" width="150" />
+              </div>
+              <div class="col-md-9">
+                <h3>{{.LinkTitle}} <br /><small>{{.Params.speakertitle}}</small></h3>
+                {{.Summary}}
+                {{ if .Truncated }} <br/><br/>
+                  <a class="readmore" href="{{ .RelPermalink }}">Read More <i class="fa fa-arrow-circle-right"></i></a>
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+        </div>
         {{ partial "sidebar.html" . }}
     </section>
 </main>

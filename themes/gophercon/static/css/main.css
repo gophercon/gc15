@@ -24,6 +24,16 @@ h2 {
   font-weight: 400;
 }
 
+h3 a {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+h3 {
+  color: #4cc4ec;
+  font-weight: 400;
+}
+
 h4 {
   color: #40657c;
   font-weight: 400;
@@ -37,6 +47,10 @@ small {
   color: #999;
   font-size: 16px;
   font-weight: 300;
+}
+
+.avatar {
+  margin-top: 20px;
 }
 
 .btn {
@@ -64,6 +78,10 @@ small {
 .btn-blue:hover {
   background-color: #42aace;
   color: #fff; 
+}
+
+.readmore {
+  font-weight: 300;
 }
 
 /*-------------------- Header Styles --------------------*/
@@ -887,6 +905,10 @@ footer .copyright {
   font-size: 16px;
   margin-bottom: 0px;
   padding-top: 15px;
+}
+
+footer .copyright-character {
+  margin-top: 5px;
 }
 
 /*---------------------------------------- Responsive Styles Start ---------------------------------------- */
