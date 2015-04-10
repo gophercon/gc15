@@ -68,6 +68,11 @@ small {
   color: #fff; 
 }
 
+.btn-danger {
+  font-size: 16px;
+  padding: 8px 16px;
+}
+
 .btn-blue {
     background-color: #4cc4ec;
     color: #fff;
