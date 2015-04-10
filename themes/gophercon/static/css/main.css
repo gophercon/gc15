@@ -133,19 +133,19 @@ small {
   height: 450px;
 }
 
-#speakers .container>div.speaker {
+#speakers div.speaker {
   height: 325px;
   margin-bottom: 25px;
 }
-#speakers .container .col-md-2 {
+#speakers .container .col-md-3 {
   	padding-left: 8px;
     padding-right: 8px;
 }
-#speakers .container .col-md-2 p {
+#speakers .container .col-md-3 p {
   	font-size: 13px;
 }
 
-#keynotes .container>div.speaker .thumbnail, #speakers .container>div.speaker .thumbnail {
+#keynotes .container>div.speaker .thumbnail, #speakers .container div.speaker .thumbnail {
   height: 100%;
   min-height: 100%;
 }
@@ -1151,7 +1151,7 @@ footer {
 		padding: 0px 0px;
 	}
 	#speakers .container > div.speaker {
-		height: 320px;
+		height: 325px;
 	}
 	#speakers .container .col-md-2 {
 		float: left;
@@ -1294,22 +1294,22 @@ footer {
 		float: left;
 		padding: 5px 5px 0px;
 	}
-	#speakers .container > div.speaker {
+	#speakers .container div.speaker {
 		height: 335px;
 	}
 	#keynotes .container > div.speaker img {
 		width: 250px;
 	}
-	#speakers .container .col-md-2 {
+	#speakers .container .col-md-3 {
 		float: left;
 		overflow: hidden;
 		width: 50%;
 	}
-	#speakers .container .col-md-2 img {
+	#speakers .container .col-md-3 img {
 		height: auto;
 		width: 210px;
 	}
-	#speakers .container .col-md-2 p {
+	#speakers .container .col-md-3 p {
 		font-size: 13px;
 	}
 	body {
@@ -1399,16 +1399,16 @@ footer {
 		width: 200px;
 	}
 
-	#speakers .container .col-md-2 {
+	#speakers .container .col-md-3 {
 		float: left;
 		overflow: hidden;
 		width: 33.333%;
 	}
-	#speakers .container .col-md-2 img {
+	#speakers .container .col-md-3 img {
 		height: auto;
 		width: 210px;
 	}
-	#speakers .container .col-md-2 p {
+	#speakers .container .col-md-3 p {
 		font-size: 13px;
 	}
 }
