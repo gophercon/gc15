@@ -105,8 +105,15 @@ small {
 }
 
 #speakers .container>div.speaker {
-  height: 350px;
+  height: 325px;
   margin-bottom: 25px;
+}
+#speakers .container .col-md-2 {
+  	padding-left: 8px;
+    padding-right: 8px;
+}
+#speakers .container .col-md-2 p {
+  	font-size: 13px;
 }
 
 #keynotes .container>div.speaker .thumbnail, #speakers .container>div.speaker .thumbnail {
@@ -970,7 +977,7 @@ footer {
 
 /*---------------------------------------- Responsive Styles Start ---------------------------------------- */
 
-/*-- Smallest devices (phones, 320px to 480px) --*/
+/*-- Smallest devices (phones, ` to 480px) --*/
 @media (min-width: 320px) and (max-width: 480px) {
 	header .colors .col-md-2 {
 		float: left;
@@ -1098,6 +1105,9 @@ footer {
 	}
 	
 	/*-- Home Sponsor Styles --*/
+	main .container .col-md-10 p.subheader {
+		margin: 15px 0 30px;
+	}
 	main .home-sponsors a {
 		padding: 10px 5px;
 	}
@@ -1105,6 +1115,24 @@ footer {
     	margin-bottom: 0;
 		padding: 0px 0px;
 	}
+	
+	/*-- Home Speaker Styles --*/
+	#keynotes .container > div.speaker {
+		height: auto;
+		padding: 0px 0px;
+	}
+	#speakers .container > div.speaker {
+		height: 320px;
+	}
+	#speakers .container .col-md-2 {
+		float: left;
+		overflow: hidden;
+		width: 50%;
+	}
+	#speakers .container .col-md-2 p {
+		font-size: 13px;
+	}
+
 	
 	body {
 		margin: 0;
@@ -1163,6 +1191,7 @@ footer {
 		height: 300px;
 	}
 	.event-dates .col-md-3 {
+		padding: 0 7px;
 		float: left;
 		width: 50%;
 	}
@@ -1227,6 +1256,33 @@ footer {
 		max-width: 170px;
 	}
 	
+	/*-- Home Speaker Styles --*/
+	main .container .col-md-10 p.subheader {
+		margin: 15px 0 30px;
+	}
+	#keynotes .container > div.speaker {
+		width: 50%;
+		float: left;
+		padding: 5px 5px 0px;
+	}
+	#speakers .container > div.speaker {
+		height: 335px;
+	}
+	#keynotes .container > div.speaker img {
+		width: 250px;
+	}
+	#speakers .container .col-md-2 {
+		float: left;
+		overflow: hidden;
+		width: 50%;
+	}
+	#speakers .container .col-md-2 img {
+		height: auto;
+		width: 210px;
+	}
+	#speakers .container .col-md-2 p {
+		font-size: 13px;
+	}
 	body {
 		margin: 0;
 	}
@@ -1298,6 +1354,33 @@ footer {
 	}
 	main .home-sponsors .diamond a img {
 		max-width: 160px;
+	}
+	
+	/*-- Home Speaker Styles --*/
+	main .container .col-md-10 p.subheader {
+		margin: 15px 0 30px;
+	}
+	#keynotes .container > div.speaker {
+		float: left;
+		height: 385px;
+		padding: 5px 5px 0;
+		width: 50%;
+	}
+	#keynotes .container > div.speaker img {
+		width: 200px;
+	}
+
+	#speakers .container .col-md-2 {
+		float: left;
+		overflow: hidden;
+		width: 33.333%;
+	}
+	#speakers .container .col-md-2 img {
+		height: auto;
+		width: 210px;
+	}
+	#speakers .container .col-md-2 p {
+		font-size: 13px;
 	}
 }
 
