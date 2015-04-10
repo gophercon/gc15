@@ -89,6 +89,35 @@ small {
   font-weight: 300;
 }
 
+.speaker h4 {
+  margin-bottom: 0;
+}
+
+.speaker h4 a {
+  font-weight: 600;
+}
+
+.speaker .fa-twitter {
+  color: #999;
+  font-size: 18px;
+}
+
+.speaker .handle {
+  display: inline;
+  float: right;
+  padding-top: 3px;
+}
+
+.speaker .title {
+  color: #999;
+  display: block;
+}
+
+.speaker .title , .speaker .title a {
+  font-size: 12px;
+  margin-bottom: 1em;
+}
+
 .speaker-social {
   margin-top: 5px;
 }
@@ -123,6 +152,7 @@ small {
 
 .thumbnail {
   border: 1px solid #efefef;
+  padding: 0;
 }
 
 .thumbnail .caption {
@@ -134,7 +164,6 @@ small {
 }
 
 .thumbnail .caption .handle a {
-  color: #999;
   font-size: 12px;
 }
 
