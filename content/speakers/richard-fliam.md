@@ -3,7 +3,7 @@ author = ["Richard Fliam"]
 date = "2015-04-14"
 linktitle = "Richard Fliam"
 title = "Richard Fliam"
-speakerimage = "/images/speakers/rishard-fliam.jpg"
+speakerimage = "/images/speakers/richard-fliam.jpg"
 
 +++
 A Practical Guide to Preventing Deadlocks and Leaks in Go
