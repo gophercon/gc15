@@ -3,7 +3,7 @@ author = ["Richard Fliam"]
 date = "2015-04-14"
 linktitle = "A Practical Guide to Preventing Deadlocks and Leaks in Go"
 title = "A Practical Guide to Preventing Deadlocks and Leaks in Go"
-speakerimage = ["/images/speakers/rishard-fliam.jpg"]
+speakerimage = ["/images/speakers/richard-fliam.jpg"]
 speakerpage=["/speakers/richard-fliam"]
 +++
 Communicating Sequential Processes (CSP) are a foundational element of writing Go code. Our Go application, Pillar, processes 15 gigabits per second, packages over 3000 channels, serves millions of users, and runs on more than 450 servers nationwide.
