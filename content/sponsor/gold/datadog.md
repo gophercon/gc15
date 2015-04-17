@@ -10,4 +10,4 @@ title = "Datadog"
 type = "sponsor"
 
 +++
-Datadog is Monitoring-as-a-Service for Dev & Ops teams who want to turn the massive amounts of data produced by their apps, tools and services into actionable insight.
+Datadog is a full-stack performance monitoring service that aggregates metrics/events from servers, databases, and applications in unified infrastructure views. Our SaaS-based data analytics platform helps Dev&Ops teams collaborate, minimize downtime, resolve performance issues, and ensure timely completion of development/deployment cycles.
