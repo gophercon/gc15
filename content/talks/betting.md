@@ -1,5 +1,5 @@
 +++
-author = ["Kelsey Hightowker"]
+author = ["Kelsey Hightower"]
 date = "2015-04-14"
 linktitle = "Betting the Company on Go and Winning"
 title = "Betting the Company on Go and Winning - The Good, The Bad, and Dependency Management"

@@ -1,7 +1,7 @@
 +++
-author = ["Kelsey Hightowker"]
+author = ["Kelsey Hightower"]
 date = "2015-04-14"
-linktitle = "Kelsey Hightowker"
+linktitle = "Kelsey Hightower"
 title = "Kelsey Hightower"
 speakerimage = "/images/speakers/kelsey-hightower.jpg"
 talk="/talks/betting"
