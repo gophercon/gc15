@@ -5,6 +5,7 @@ linktitle = "Kelsey Hightowker"
 title = "Kelsey Hightower"
 speakerimage = "/images/speakers/kelsey-hightower.jpg"
 talk="/talks/betting"
+speakertitle="Product Manager, Developer and Chief Advocate at CoreOS"
 +++
 Kelsey Hightower
 Product Manager, Developer and Chief Advocate at CoreOS
