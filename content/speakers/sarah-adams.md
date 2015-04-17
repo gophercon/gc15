@@ -1,5 +1,5 @@
 +++
-speakertitle = "Software Engineer at Sproutling"
+speakertitle = "Software Engineer at Restless Bandit"
 author = ["Sarah Adams"]
 date = "2015-04-14"
 linktitle = "Sarah Adams"
