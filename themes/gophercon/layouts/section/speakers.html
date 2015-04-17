@@ -11,11 +11,13 @@
                 <img class="avatar img-rounded" src="{{.Params.speakerimage}}" alt="{{.LinkTitle}}" width="150" />
               </div>
               <div class="col-md-9">
-                <h3>{{.LinkTitle}} <br /><small>{{.Params.speakertitle}}</small></h3>
+                <h3>{{.LinkTitle}} <br /><small>{{.Params.speakertitle}}</small></h3>          
                 {{.Summary}}
-                {{ if .Truncated }} <br/><br/>
-                  <a class="readmore" href="{{ .RelPermalink }}">Read More <i class="fa fa-arrow-circle-right"></i></a>
+                <br/><br/>
+                {{ if .Truncated }} 
+                <a class="readmore" href="{{ .RelPermalink }}">Read More <i class="fa fa-arrow-circle-right"></i></a>
                 {{ end }}
+                <a href="{{ .Params.talk}}">View Talk</a><br/><br />
               </div>
             </div>
           {{ end }}
