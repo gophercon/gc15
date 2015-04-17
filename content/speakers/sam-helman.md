@@ -4,7 +4,7 @@ author = ["Sam Helman"]
 date = "2015-04-14"
 linktitle = "Sam Helman"
 title = "Sam Helman"
-speakerimage = "/images/speakers/sam-helman.jpg"
+speakerimage = "/images/speakers/sam-helman.png"
 
 +++
 The Many Faces of Struct Tags
