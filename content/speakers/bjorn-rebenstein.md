@@ -2,8 +2,8 @@
 speakertitle = "Production Engineer at SoundCloud"
 author = ["Björn Rabenstein"]
 date = "2015-04-21"
-linktitle = ["Björn Rabenstein"]
-title = ["Björn Rabenstein"]
+linktitle = "Björn Rabenstein"
+title = "Björn Rabenstein"
 speakerimage = "/images/speakers/bjorn-rabenstein.jpg"
 talk="/talks/prometheus"
 +++
