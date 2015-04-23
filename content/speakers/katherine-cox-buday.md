@@ -2,7 +2,7 @@
 speakertitle = "Software Engineer at Canonical"
 author = ["Katherine Cox-Buday"]
 date = "2015-04-22"
-linktitle = Katherine Cox-Buday"
+linktitle = "Katherine Cox-Buday"
 title = "Katherine Cox-Buday"
 speakerimage = "/images/speakers/katherine-cox-buday.jpg"
 talk="/talks/simplicity-and-go"
