@@ -2,7 +2,7 @@
 author = ["Katherine Cox-Buday"]
 date = "2015-04-22"
 linktitle = "Simplicity and Go"
-title = "Uptime: Building Resilient Services with Go"
+title = "Simplicity and Go"
 speakerimage = ["/images/speakers/katherine-cox-buday.jpg"]
 speakerpage=["/speakers/katherine-cox-buday"]
 +++
