@@ -1,7 +1,7 @@
 +++
 author = ["Blake Caldwell"]
 date = "2015-04-20"
-linktitle = "Blake Caldwell"
+linktitle = "Uptime: Building Resilient Services with Go"
 title = "Uptime: Building Resilient Services with Go"
 speakerimage = ["/images/speakers/blakecaldwell.png"]
 speakerpage=["/speakers/blake-caldwell"]

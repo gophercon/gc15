@@ -1,8 +1,9 @@
 +++
 author = ["Björn Rabenstein"]
 date = "2015-04-22"
-linktitle = "Björn Rabenstein"
+linktitle = "Prometheus: Designing and Implementing a Modern Monitoring Solution in Go"
 title = "Prometheus: Designing and Implementing a Modern Monitoring Solution in Go"
+speakertitle="Engineer at SoundCloud"
 speakerimage = ["/images/speakers/bjorn-rabenstein.jpg"]
 speakerpage=["/speakers/bjorn-rabenstein"]
 +++

@@ -1,7 +1,7 @@
 +++
 author = ["Audrey Lim"]
 date = "2015-04-18"
-linktitle = "Audrey Lim"
+linktitle = "How a complete beginner learned Go as her first backend language in 5 weeks."
 title = "How a complete beginner learned Go as her first backend language in 5 weeks."
 speakerimage = ["/images/speakers/audrey-lim.jpg"]
 speakerpage=["/speakers/audrey-lim"]
