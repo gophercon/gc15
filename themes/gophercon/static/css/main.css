@@ -8,8 +8,8 @@ html {
 body {
 	background: none repeat scroll 0 0 #fff;
 	font-family: 'Open Sans', 'Helvetica Neue', arial, sans-serif;
-  margin-top: 30px;
   -webkit-font-smoothing: antialiased;
+  margin-top: 30px;
 }
 a {
     color: #40657c;
@@ -1029,7 +1029,7 @@ footer {
 		padding: 10px 30px;
 	}
 	header .color-bar .mobile-buttons a {
-		margin: 35px 0px 0px 0px;
+		margin: 65px 0px 0px 0px;
 		width: 45%;
 	}
 	header .color-bar .mobile-buttons a.btn-orange {
@@ -1038,7 +1038,36 @@ footer {
 	header .color-bar .mobile-buttons a.btn-blue {
 		float: right;
 	}
-	
+	.main-info .container .col-md-10 {
+		padding: 0;
+	}
+	.main-info .container .col-md-10 h1 {
+		font-size: 25px;
+	}
+	main .container .col-md-10 p.subheader {
+		text-align: justify;
+	}
+	.event-dates {
+		padding-top: 30px !important;
+	}
+	.event-dates .container {
+		padding: 0;
+	}
+	.event-dates .col-md-3 {
+		float: left;
+		padding: 0 5px;
+		width: 50%;
+	}
+	.event-date-orange h3 span, .event-date-blue h3 span {
+		display: block;
+		font-size: 30px;
+	}
+	.event-date h4 strong {
+		display: block;
+	}
+	.event-date p {
+		min-height: 150px;
+	}
 	.event-dates .col-md-3 .back-border {
 		min-height: 200px;
 	}
@@ -1058,10 +1087,17 @@ footer {
 	header {
 		background-size: 430%;
 	}
+	header .navbar-collapse {
+		height: auto;
+		max-height: none !important;
+	}
 	header nav ul li {
-		float: left;
-		padding: 15px 0 30px;
-		width: 33.333%;
+		float: none;
+		padding: 5px 0 0 0;
+		width: 100%;
+	}
+	header nav ul li a {
+		padding: 10px !important;
 	}
 	header nav .logo-small {
 		display: block;
@@ -1090,7 +1126,38 @@ footer {
 		text-align: center;
 	}
 	
+	/*-- Schedule Styles --*/
+	.schedule .nav-tabs.schedule-days {
+		overflow: hidden;
+	}
+	.schedule .nav-tabs.schedule-days li {
+		float: left;
+		width: 25%;
+	}
+	.schedule .nav-tabs.schedule-days li a {
+		font-size: 14px;
+		padding: 10px 12px;
+	}
+	.schedule .nav-tabs.schedule-days li a span {
+		font-size: 15px;
+	}
+	.schedule .schedule-tab .nav-tabs > li a {
+		font-size: 14px;
+		margin: 0;
+		padding: 5px;
+		text-align: left;
+	}
+	.schedule .schedule-tab .tab-pane {
+		padding: 10px 0px;
+	}
+	#bootcamp-schedule .row .col-md-3 img {
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+	}
+		
 	/*-- Sponsors styles --*/
+	
 	main .sponsors img.icon {
 		width: 50px;
 	}
@@ -1134,6 +1201,31 @@ footer {
 	}
 	
 	/*-- Home Sponsor Styles --*/
+	main .home-sponsors .container {
+		padding: 0;
+	}
+	main .home-sponsors .container .col-md-10 {
+		padding: 0;
+	}
+	main .home-sponsors .container .col-md-10 p {
+		padding: 0px 20px;
+		margin-bottom: 0 !important;
+	}
+	main .home-sponsors .diamond a { 
+		width: 45%;
+	}
+	main .home-sponsors .platinum a { 
+		width: 39%;
+	}
+	main .home-sponsors .gold a { 
+		width: 24%;
+	}
+	main .home-sponsors .silver a { 
+		width: 24%;
+	}
+	main .home-sponsors .bronze a { 
+		width: 19%;
+	}
 	main .container .col-md-10 p.subheader {
 		margin: 15px 0 30px;
 	}
@@ -1150,8 +1242,17 @@ footer {
 		height: auto;
 		padding: 0px 0px;
 	}
+	#speakers .container {
+		padding: 0;
+	}
+	#speakers .container .col-md-10 .speaker {
+		float: left;
+		width: 50%;
+	}
 	#speakers .container > div.speaker {
+		float: left;
 		height: 325px;
+		width: 50%;
 	}
 	#speakers .container .col-md-2 {
 		float: left;
@@ -1161,7 +1262,8 @@ footer {
 	#speakers .container .col-md-2 p {
 		font-size: 13px;
 	}
-
+	
+	
 	
 	body {
 		margin: 0;
@@ -1286,6 +1388,21 @@ footer {
 	}
 	
 	/*-- Home Speaker Styles --*/
+	main .home-sponsors .diamond a { 
+		width: 45%;
+	}
+	main .home-sponsors .platinum a { 
+		width: 39%;
+	}
+	main .home-sponsors .gold a { 
+		width: 24%;
+	}
+	main .home-sponsors .silver a { 
+		width: 24%;
+	}
+	main .home-sponsors .bronze a { 
+		width: 19%;
+	}
 	main .container .col-md-10 p.subheader {
 		margin: 15px 0 30px;
 	}
@@ -1311,6 +1428,9 @@ footer {
 	}
 	#speakers .container .col-md-3 p {
 		font-size: 13px;
+	}
+	main .hotels .col-md-2:last-child {
+		width: 100% !important;
 	}
 	body {
 		margin: 0;
