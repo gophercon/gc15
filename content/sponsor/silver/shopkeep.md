@@ -1,11 +1,11 @@
 +++
 author = ["Brian Ketelsen"]
 date = "2015-03-26T09:51:52-04:00"
-linktitle = "Bronze Sponsor - ShopKeep"
+linktitle = "Silver Sponsor - ShopKeep"
 logo = "/images/temp-logos/shopkeep.png"
-sponsorclass = "bronze"
-sponsorlevel = "bronze"
-sponsors = ["bronze"]
+sponsorclass = "silver"
+sponsorlevel = "silver"
+sponsors = ["silver"]
 title = "Shopkeep"
 type = "sponsor"
 sponsors_weight = 255
