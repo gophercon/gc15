@@ -1,0 +1,14 @@
+0.0.0.0:2015
+
+git {
+	repo https://github.com/gophercon/gc15
+	branch master
+	path gophercon
+	then hugo -t gophercon --destination=/site-source/gophercon/public
+}
+
+root /site-source/gophercon/public
+
+gzip
+ext .html
+log ../access.log
