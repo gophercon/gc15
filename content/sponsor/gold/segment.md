@@ -2,7 +2,7 @@
 author = ["Brian Ketelsen"]
 date = "2015-04-08T18:54:34-04:00"
 linktitle = "Gold Sponsor - Segment"
-title = "Segmment"
+title = "Segment"
 type = "sponsor"
 sponsors = [ "gold" ] 
 sponsorlevel = "Gold"
