@@ -11,4 +11,4 @@ root /site-source/gophercon/public
 
 gzip
 ext .html
-log ../access.log
+log stdout
