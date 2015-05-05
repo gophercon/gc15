@@ -9,4 +9,4 @@ sponsorlevel = "Gold"
 sponsorclass = "gold"
 logo = "/images/temp-logos/clusterhq.png"
 +++
-At ClusterHQ, we describe ourselves as The Container Data People™. We believe that support for databases and other stateful services is a major missing piece of the puzzle for containers and Docker. Without support for data migration, high availability and disaster recovery, containers are unable to easily capture entire applications (including databases, queues, and key-value stores) in production in a way that ops can manage. Why should the heart of most applications live outside the container?
+As The Container Data People™, ClusterHQ is the company behind the container industry’s first solution for reliably running stateful services like databases inside containers. Through its innovative open-source data volume manager, Flocker, ClusterHQ solves the significant operational challenges that come from running data-backed services inside containers.
