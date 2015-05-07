@@ -1,7 +1,7 @@
 +++
 author = ["Abhishek Kona"]
 date = "2015-04-21"
-linktitle = "Abhishek Kona"
+linktitle = "Rebuilding Parse.com in Go - an opinionated rewrite"
 title = "Rebuilding Parse.com in Go - an opinionated rewrite"
 speakerimage = ["/images/speakers/abhishek-kona.png"]
 speakerpage=["/speakers/abhishek-kona"]
