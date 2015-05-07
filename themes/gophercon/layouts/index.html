@@ -451,8 +451,8 @@
                 <br />
                 <ul class="nav nav-tabs schedule-days">
                   <li role="presentation" class="active"><a data-toggle="tab" href="#workshop-schedule">July <span>7th</span></a></li>
-                  <li role="presentation" class="disabled"><a href="#day1-schedule">July <span>8th</span></a></li>
-                  <li role="presentation" class="disabled"><a href="#day2-schedule">July <span>9th</span></a></li>
+                  <li role="presentation" class=""><a data-toggle="tab" href="#day1-schedule">July <span>8th</span></a></li>
+                  <li role="presentation" class=""><a data-toggle="tab" href="#day2-schedule">July <span>9th</span></a></li>
                   <li role="presentation" class="disabled"><a href="#hackday-schedule">July <span>10th</span></a></li>
                 </ul>
                 <div class="tab-content">
@@ -573,16 +573,80 @@
                       </div>
                       </div>
                   </div>
+                  <div id="day1-schedule" class="tab-pane schedule-item-tab schedule-tab">
+                    <div class="row schedule-item">
+                      <div class="col-md-3 schedule-item-slot">
+                        <span class="time">8:30am - 8:40pm</span>
+                        <span class="location">Location: Main Theatre</span>
+                      </div>
+                      <div class="col-md-9 schedule-item-details">
+                        <div class="schedule-item-summary">
+                          <span class="title">Welcome</span>
+                        </div>
+                        <div class="abstract">
+                          <p>Welcome ceremony and announcements.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row schedule-item">
+                      <div class="col-md-3 schedule-item-slot">
+                        <span class="time">8:40am - 9:25pm</span>
+                        <span class="location">Location: Main Theatre</span>
+                      </div>
+                      <div class="col-md-9 schedule-item-details">
+                        <div class="schedule-item-summary">
+                          <span class="title"><a href="/talks/opening-keynote">Opening Keynote</a></span>
+                          <div class="speaker">
+                            <span class="name"><a href="/speakers/russ-cox">Russ Cox</a></span>
+                            <span class="designation">Engineer at Google</span>
+                          </div>
+                        </div>
+                        <div class="abstract">
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div id="day1-schedule" class="tab-pane schedule-tab">
-                  </div>
-                  <div id="day2-schedule" class="tab-pane schedule-tab">
+                  <div id="day2-schedule" class="tab-pane schedule-tab schedule-item-tab">
+                    <div class="row schedule-item">
+                      <div class="col-md-3 schedule-item-slot">
+                        <span class="time">8:30am - 8:40pm</span>
+                        <span class="location">Location: Main Theatre</span>
+                      </div>
+                      <div class="col-md-9 schedule-item-details">
+                        <div class="schedule-item-summary">
+                          <span class="title">Welcome</span>
+                        </div>
+                        <div class="abstract">
+                          <p>Welcome ceremony and announcements.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row schedule-item">
+                      <div class="col-md-3 schedule-item-slot">
+                        <span class="time">8:40am - 9:10pm</span>
+                        <span class="location">Location: Main Theatre</span>
+                      </div>
+                      <div class="col-md-9 schedule-item-details">
+                        <div class="schedule-item-summary">
+                          <span class="title"><a href="/talks/evolution-of-go">The Evolution of Go</a></span>
+                          <div class="speaker">
+                            <span class="name"><a href="/speakers/robert-griesemer">Robert Griesemer</a></span>
+                            <span class="designation">Engineer at Google</span>
+                          </div>
+                        </div>
+                        <div class="abstract">
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <div id="hackday-schedule" class="tab-pane schedule-tab">
                   </div>
                 </div>
           </div>
       </div>
+    </div>
   </section>
 
   {{ partial "sponsors.html" . }}
