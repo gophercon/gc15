@@ -600,6 +600,7 @@ main .gophercon-bio h1 {
 
 .schedule .schedule-tab {
   border: none;
+  background-color: #fff;
 }
 
 .schedule .schedule-tab .tab-pane {
@@ -667,6 +668,10 @@ main .gophercon-bio h1 {
   padding: 10px;
 }
 
+.schedule .schedule-item-summary a {
+  color: #4cc4ec;
+}
+
 .schedule .schedule-item-details .abstract {
   padding-top: 20px;
   padding: 10px;
@@ -680,7 +685,8 @@ main .gophercon-bio h1 {
 }
 
 
-.schedule .schedule-item .title {
+.schedule .schedule-item .title, .schedule .schedule-item .title a {
+  color: #4cc4ec;
   display: block;
   font-size: 20px;
   font-weight: 500;
@@ -998,7 +1004,7 @@ footer {
   margin-top: 5px;
 }
 
-#workshop-schedule {
+.schedule-tab {
   background: #fff;
   color: #333;
   padding: 25px;
