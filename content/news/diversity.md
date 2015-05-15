@@ -2,7 +2,7 @@
 author = ["Gopher Academy"]
 date = "2015-03-26T19:03:09-04:00"
 linktitle = "Diversity"
-title = ""
+title = "Diversity Information"
 
 +++
 
