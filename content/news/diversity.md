@@ -7,7 +7,7 @@ title = "Diversity Information"
 +++
 
 #### Diversity Scholarship Applications
-If you are a member of an under-represented group and need help attending GopherCon 2015, we've created a scholarship application.  Please fill out [this form]() and we'll do our best to help finance your trip using the donations of the community.  We at GopherAcademy strongly believe in creating an environment where everyone is welcome to enjoy the speed, elegance, and fun concurrency of Go.
+If you are a member of an under-represented group and need help attending GopherCon 2015, we've created a scholarship application.  Please fill out [this form](https://docs.google.com/forms/d/1OBjjr-x5rLKssAovvxjd5W5tr_uiK3JP9_XIyQhCoQo/viewform) and we'll do our best to help finance your trip using the donations of the community.  We at GopherAcademy strongly believe in creating an environment where everyone is welcome to enjoy the speed, elegance, and fun concurrency of Go.
 
 
 #### Child Care
