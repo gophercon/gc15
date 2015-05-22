@@ -2,7 +2,7 @@
 author = ["Brian Ketelsen"]
 date = "2015-03-26T09:51:06-04:00"
 linktitle = "Silver Sponsor - MongoDB"
-logo = "/images/temp-logos/mongo.jpeg"
+logo = "/images/temp-logos/mongodb.png"
 sponsorclass = "silver"
 sponsorlevel = "Silver"
 sponsors = ["silver"]

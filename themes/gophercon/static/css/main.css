@@ -863,7 +863,7 @@ main .home-sponsors .diamond a {
   display: inline-block;
   margin-top: 20px;
     text-align: center;
-    width: 25%;
+    width: 30%;
 }
 /*-- Platinum sponsor styles --*/
 main .home-sponsors .platinum {
@@ -881,7 +881,7 @@ main .home-sponsors .gold {
 main .home-sponsors .gold a {
   display: inline-block;
     text-align: center;
-    width: 20%;
+    width: 22%;
 }
 /*-- Silver sponsor styles --*/
 main .home-sponsors .silver {
@@ -889,7 +889,7 @@ main .home-sponsors .silver {
 }
 main .home-sponsors .silver a {
   display: inline-block;
-	width: 17%;
+	width: 16%;
 	text-align:center;
 }
 /*-- Bronze sponsor styles --*/
@@ -898,7 +898,7 @@ main .home-sponsors .bronze {
 }
 main .home-sponsors .bronze a {
   display: inline-block;
-	width: 19%;
+	width: 13%;
 	text-align:center;
 }
 
