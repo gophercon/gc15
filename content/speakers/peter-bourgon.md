@@ -1,5 +1,5 @@
 +++
-speakertitle="Engineer at SoundCloud"
+speakertitle="Engineer at Weaveworks"
 author = ["Peter Bourgon"]
 date = "2015-04-10"
 linktitle = "Peter Bourgon"
