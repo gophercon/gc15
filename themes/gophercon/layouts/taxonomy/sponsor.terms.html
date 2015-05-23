@@ -74,6 +74,20 @@
           </div>
 				{{ end }}
 			</div>
+<div class="col-md-12 bronze">
+        <h3>ADDITIONAL SPONSORS</h3>
+				<img class="icon" src="/images/sponsor.png" />
+        {{ range .Site.Taxonomies.sponsors.additional}}
+          <div class="row">
+            <div class="col-md-3">
+              <a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}" /></a>
+            </div>
+            <div class="col-md-9">
+              <p>{{.Page.Content}}</p>
+            </div>
+          </div>
+				{{ end }}
+			</div>
 
         </div><!-- sponsors col-md-10 -->
         

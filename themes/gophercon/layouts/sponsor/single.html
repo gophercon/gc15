@@ -52,6 +52,15 @@
                 <div class="clearfix"></div>
 			</div>
 			{{ end }}
+            {{ if eq "additional"  .Params.sponsorclass}} 	
+            <div class="col-md-12 bronze">
+                <img class="icon" src="/images/sponsor.png" />
+                <h3>Additional Sponsors</h3>
+				<a href="{{.Params.site}}"><img src="{{.Params.logo}}"/></a>
+				<p>{{ .Content }}</p>
+                <div class="clearfix"></div>
+			</div>
+			{{ end }}
         </div><!-- sponsors col-md-10 -->
         
         {{ partial "sidebar.html" . }}

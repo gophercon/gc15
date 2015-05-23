@@ -42,7 +42,14 @@
             <a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
           {{ end }}
           <div class="clearfix"></div>
-        </div><!-- Bronze Sponsors End -->
+	  </div><!-- Bronze Sponsors End -->
+	  <!---------- Additional Sponsors ---------->
+        <div class="col-md-12 bronze">
+          {{ range .Site.Taxonomies.sponsors.additional}}
+            <a href="{{.Page.Permalink}}"><img src="{{ .Page.Params.logo }}"></img></a>
+          {{ end }}
+          <div class="clearfix"></div>
+        </div><!-- Additional Sponsors End -->
     </div>
   </div>
 </section>

@@ -58,7 +58,19 @@
                 <div class="clearfix"></div>
             </div><!-- Bronze Sponsors End -->
             {{end}}
+			{{ end }}
+			{{ range .Data.Pages }}
+			{{ if eq "additional"  .Params.sponsorclass}} 	
+            <!---------- Additional Sponsors ---------->
+            <div class="col-md-12 bronze">
+                <img class="icon" src="/images/sponsor.png" />
+                <h3>Additional Sponsors</h3>
+				<a href="{{.Permalink}}"><img src="{{ .Params.logo }}" /></a>
+                <div class="clearfix"></div>
+            </div><!-- Additional Sponsors End -->
+            {{end}}
 		{{ end }}
+
         </div><!-- sponsors col-md-10 -->
         
         {{ partial "sidebar.html" . }}
