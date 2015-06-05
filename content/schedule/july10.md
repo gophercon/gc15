@@ -44,7 +44,7 @@ title = "July 10th"
                   <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">10:00am - 5:00pm</span>
-                      <span class="location">Location: Hack Rooms</span>
+                      <span class="location">Location: Hack Rooms (401-407)</span>
                     </div>
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
