@@ -37,6 +37,6 @@ The Go standard library provides a lot of great utility for building web applica
 
 ## GopherCon Kickoff Party
 ### 6:00pm - 10:00pm - <a href="http://maps.google.com/maps?f=q&hl=en&q=1062+Delaware+Street%2C+Denver%2C+CO%2C+80204%2C+us">Galvanize, 1062 Delaware Street, Denver, CO</a>
-Join us for the Pre-Party and kick off the GopherCon event in style!
+Join us for the Pre-Party and kick off GopherCon 2015 in style!
 
 <a href="http://www.meetup.com/Denver-Go-Language-User-Group/events/222335594/">More details available on the Denver Gophers meetup page</a>.
