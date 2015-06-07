@@ -6,8 +6,8 @@ title = "Official After Party"
 subtitle = "Wynkoop Brewing Company"
 type="event"
 +++
-
-## Wynkoop Brewing Company
+## Wynkoop Brewing Company 
+#### Wednesday July 8th 8:00pm - 11:00pm
 
 This evening’s offsite event will once again take place at the Wynkoop Brewing Company, Colorado’s oldest brew pub. Back when now-Governor John Hickenlooper was just an out- of-work geologist, Denver law
 prohibited the brewing and selling of beer in one establishment. Governor Hickenlooper decided to change this and opened Denver’s first craft brewery. The building he chose was originally Denver’s J.S. Mercantile building, built in 1899 and most impressive of its time. With hardwood floors, thick
@@ -28,3 +28,6 @@ Throughout the evening, groups of up to twenty guests at a time will be taken on
 <img src="/images/afterparty/wynkoop4.png" align="left" style="width: 200px; margin: 25px;" class="img-rounded">
 In addition to the main level, guests will have use of the Wynkoop’s entire second floor pool hall. This expansive space features a large bar, ample seating, dartboards, pool tables, table shuffleboard, and foosball. In this area, guests can visit with the Wynkoop’s resident pool shark, “The Viper”. Before her career exploded, Colorado native Melissa Little could be found
 at the Wynkoop on a regular basis and even had her own designated table. She has been playing pool for over 25 years, is ranked 5th in the United States, and 17th in the world. Tonight Melissa will interact with guests while coordinating mini-challenges, demonstrating her skills in a trick shot show, and autographing cue balls for a few lucky attendees!
+
+<a href="http://www.wynkoop.com/">Wynkoop Brewing Company</a>
+<p>1634 18th St.<br />Denver, CO 80202</p>
