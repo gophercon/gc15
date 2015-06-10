@@ -74,6 +74,22 @@ title = "July 10th"
                       </div>
 				  </div>
                   </div>
+              <div class="row schedule-item">
+                    <div class="col-md-3 schedule-item-slot">
+                      <span class="time">10:00am - 5:00pm</span>
+                      <span class="location">Location: Hack Rooms</span>
+                    </div>
+                    <div class="col-md-9 schedule-item-details">
+                      <div class="schedule-item-summary">
+                        <span class="title">
+                          Docker Workshop
+                        </span>
+                      </div>
+                      <div class="abstract">
+                        <p>The Docker Workshop is a 1 day, hands-on class for beginners who want to learn to use and contribute to Docker. Members of the Docker Team will get you up to speed on the basics and coach you from setup to integrating Docker into your working environment. You’ll also learn your way around the Docker Project and leave with the resources to make your first contribution.</p>
+                      </div>
+				  </div>
+			  </div>
                          <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">Afternoon</span>
