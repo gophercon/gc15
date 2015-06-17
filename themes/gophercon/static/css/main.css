@@ -858,43 +858,52 @@ main .home-sponsors .col-md-12 {
 /*-- diamond styles --*/
 main .home-sponsors .diamond {
   text-align: center;
+  vertical-align: middle;
 }
 main .home-sponsors .diamond a {
   display: inline-block;
   margin-top: 20px;
     text-align: center;
+  vertical-align: middle;
     width: 30%;
 }
 /*-- Platinum sponsor styles --*/
 main .home-sponsors .platinum {
   text-align: center;
+  vertical-align: middle;
 }
 main .home-sponsors .platinum a {
   display: inline-block;
     text-align: center;
-    width: 19%;
+  vertical-align: middle;
+    width: 200px;
 }
 /*-- Gold sponsor styles --*/
 main .home-sponsors .gold {
   text-align: center;
+  vertical-align: middle;
 }
 main .home-sponsors .gold a {
   display: inline-block;
     text-align: center;
+  vertical-align: middle;
     width: 22%;
 }
 /*-- Silver sponsor styles --*/
 main .home-sponsors .silver {
   text-align: center;
+  vertical-align: middle;
 }
 main .home-sponsors .silver a {
   display: inline-block;
 	width: 16%;
 	text-align:center;
+  vertical-align: middle;
 }
 /*-- Bronze sponsor styles --*/
 main .home-sponsors .bronze {
   text-align: center;
+  vertical-align: middle;
 }
 main .home-sponsors .bronze a {
   display: inline-block;
