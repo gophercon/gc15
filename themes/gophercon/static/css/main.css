@@ -603,7 +603,11 @@ main .gophercon-bio h1 {
   background-color: #fff;
 }
 
-.schedule .schedule-tab .tab-pane {
+.schedule .schedule-tab.tab-pane-subtabs {
+  padding: 0px !important;
+}
+
+.schedule .schedule-tab.tab-pane{
   padding: 10px 20px;
 }
 
@@ -662,10 +666,6 @@ main .gophercon-bio h1 {
 
 .schedule .schedule-item-summary {
   color: #4cc4ec;
-  border-color: rgba(179, 173, 159, 0.529412);
-  border-top: 1px solid rgba(179, 173, 159, 0.529412); 
-  border-bottom: 1px dashed rgba(179, 173, 159, 0.529412);
-  padding: 10px;
 }
 
 .schedule .schedule-item-summary a {
@@ -673,20 +673,20 @@ main .gophercon-bio h1 {
 }
 
 .schedule .schedule-item-details .abstract {
-  padding-top: 20px;
-  padding: 10px;
+  padding: 0px; 10px;
 }
 
 .schedule .schedule-item-slot {
   color: #4cc4ec;
-  border-color: rgba(179, 173, 159, 0.529412);
-  border-top: 2px solid rgba(179, 173, 159, 0.529412); 
   padding: 10px;
+}
+
+.schedule-tab .schedule-item {
+  margin-top: 25px;
 }
 
 
 .schedule .schedule-item .title, .schedule .schedule-item .title a {
-  color: #4cc4ec;
   display: block;
   font-size: 20px;
   font-weight: 500;
@@ -694,6 +694,16 @@ main .gophercon-bio h1 {
 
 .schedule .schedule-item .speaker .designation::before {
   content: ' - ';
+}
+
+.schedule2 h3 {
+  color: #333;
+  font-weight: 400;
+  background-color: #f5f5f5;
+  padding: 10px 25px;
+  font-size: 18px;
+  text-align: left;
+  margin: 25px;
 }
 
 /*---------- Sponsor styles ----------*/
@@ -1013,10 +1023,55 @@ footer {
   margin-top: 5px;
 }
 
-.schedule-tab {
+.schedule-page, .schedule-tab {
   background: #fff;
   color: #333;
-  padding: 25px;
+}
+
+.schedule-page .schedule-item-slot {
+  margin-top: 5px;
+}
+
+.schedule-page .schedule-item-slot .time, .schedule-tab .schedule-item-slot .time {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+}
+
+.schedule-page .schedule-item-slot .location, .schedule-tab .schedule-item-slot .location {
+  color: #555;
+  display: block;
+}
+
+.schedule-page .schedule-item {
+  margin-bottom: 25px;
+}
+
+.schedule-page .title, .schedule-page .title a, .schedule-tab .title, .schedule-tab .title a {
+  color: #40657c;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.schedule-page .speaker .designation, .schedule-page .speaker .name, .schedule-page .speaker .name a,
+.schedule-tab .speaker .designation, .schedule-tab .speaker .name, .schedule-tab .speaker .name a {
+  font-weight: 400;
+  color: #999;
+}
+.schedule-page .speaker .name a {
+  text-decoration: underline;
+}
+
+.highlighted-schedule-item {
+  background: #f5f5f5;
+  display: block;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.highlighted-schedule-item .title {
+  color: #333;
 }
 
 /*---------------------------------------- Responsive Styles Start ---------------------------------------- */

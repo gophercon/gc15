@@ -6,11 +6,36 @@ title = "July 9th"
 +++
               
 
-				<div id="day2-schedule" class="tab-pane schedule-tab schedule-item-tab">
+				<div id="day2-schedule" class="tab-pane schedule-page schedule-item-tab">
+                  <div class="row schedule-item highlighted-schedule-item">
+                    <div class="col-md-3 schedule-item-slot"> 
+                      <span class="time">6:45am - 12:00pm</span>
+                      <span class="location">Lower Lobby F</span>
+                    </div>
+                    <div class="col-md-9 schedule-item-details">
+                      <div class="schedule-item-summary">
+                        <span class="title">Registration</span>
+                      </div>
+                      <div class="abstract">
+                        <p>Come early and beat the registration lines.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row schedule-item highlighted-schedule-item">
+                    <div class="col-md-3 schedule-item-slot">
+                      <span class="time">7:00am – 8:30am</span>
+                      <span class="location">Mile High Ballroom 1 - 2</span>
+                    </div>
+                    <div class="col-md-9 schedule-item-details">
+                      <div class="schedule-item-summary">
+                        <span class="title">Breakfast</span>
+                      </div>
+                    </div>
+                  </div>
                   <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">8:30am</span>
-                      <span class="location">Location: Mile High Ballroom 3-4</span>
+                      <span class="location">Mile High Ballroom 3-4</span>
                     </div>
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
@@ -24,7 +49,7 @@ title = "July 9th"
                   <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">8:40am</span>
-                      <span class="location">Location: Mile High Ballroom 3-4</span>
+                      <span class="location">Mile High Ballroom 3-4</span>
                     </div>
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
@@ -46,7 +71,7 @@ title = "July 9th"
                   <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">9:15am</span>
-                      <span class="location">Location: Mile High Ballroom 3-4</span>
+                      <span class="location">Mile High Ballroom 3-4</span>
                     </div>
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
@@ -70,7 +95,7 @@ title = "July 9th"
                   <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">9:50am</span>
-                      <span class="location">Location: Mile High Ballroom 3-4</span>
+                      <span class="location">Mile High Ballroom 3-4</span>
                     </div>
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
@@ -92,7 +117,7 @@ title = "July 9th"
                       </div>
                     </div>
                   </div>
-                  <div class="row schedule-item">
+                  <div class="row schedule-item highlighted-schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">10:20am</span>
                     </div>
@@ -105,7 +130,7 @@ title = "July 9th"
                   <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">11:00am</span>
-                      <span class="location">Location: Mile High Ballroom 3-4</span>
+                      <span class="location">Mile High Ballroom 3-4</span>
                     </div>
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
@@ -130,7 +155,7 @@ title = "July 9th"
                   <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">11:35am</span>
-                      <span class="location">Location: Mile High Ballroom 3-4</span>
+                      <span class="location">Mile High Ballroom 3-4</span>
                     </div>
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
@@ -155,7 +180,7 @@ title = "July 9th"
                   <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">12:10pm</span>
-                      <span class="location">Location: Mile High Ballroom 3-4</span>
+                      <span class="location">Mile High Ballroom 3-4</span>
                     </div>
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
@@ -178,7 +203,7 @@ title = "July 9th"
                       </div>
                     </div>
                   </div>
-                  <div class="row schedule-item">
+                  <div class="row schedule-item highlighted-schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">12:40pm</span>
                     </div>
@@ -191,7 +216,7 @@ title = "July 9th"
                   <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">1:40pm</span>
-                      <span class="location">Location: Mile High Ballroom 3-4</span>
+                      <span class="location">Mile High Ballroom 3-4</span>
                     </div>
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
@@ -215,7 +240,7 @@ title = "July 9th"
                   <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">2:15pm</span>
-                      <span class="location">Location: Mile High Ballroom 3-4</span>
+                      <span class="location">Mile High Ballroom 3-4</span>
                     </div>
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
@@ -241,7 +266,7 @@ title = "July 9th"
                   <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">2:50pm</span>
-                      <span class="location">Location: Mile High Ballroom 3-4</span>
+                      <span class="location">Mile High Ballroom 3-4</span>
                     </div>
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
@@ -270,7 +295,7 @@ title = "July 9th"
                       </div>
                     </div>
                   </div>
-                  <div class="row schedule-item">
+                  <div class="row schedule-item highlighted-schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">3:20pm</span>
                     </div>
@@ -283,7 +308,7 @@ title = "July 9th"
                   <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">4:00pm</span>
-                      <span class="location">Location: Mile High Ballroom 3-4</span>
+                      <span class="location">Mile High Ballroom 3-4</span>
                     </div>
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
@@ -310,7 +335,7 @@ title = "July 9th"
                   <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">4:35pm</span>
-                      <span class="location">Location: Mile High Ballroom 3-4</span>
+                      <span class="location">Mile High Ballroom 3-4</span>
                     </div>
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
@@ -328,5 +353,7 @@ title = "July 9th"
                         <p>Andrew will present the final talk of GopherCon 2015.</p>
                       </div>
                     </div>
+                  </div>
+                </div>
 
 
