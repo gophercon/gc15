@@ -15,9 +15,6 @@ title = "July 8th"
                       <div class="schedule-item-summary">
                         <span class="title">Registration</span>
                       </div>
-                      <div class="abstract">
-                        <p>Come early and beat the registration lines.</p>
-                      </div>
                     </div>
                   </div>
                   <div class="row schedule-item highlighted-schedule-item">
