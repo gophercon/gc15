@@ -9,7 +9,7 @@ title = "July 9th"
 				<div id="day2-schedule" class="tab-pane schedule-page schedule-item-tab">
                   <div class="row schedule-item highlighted-schedule-item">
                     <div class="col-md-3 schedule-item-slot"> 
-                      <span class="time">6:45am - 12:00pm</span>
+                      <span class="time">7:00am - 12:00pm</span>
                       <span class="location">Lower Lobby F</span>
                     </div>
                     <div class="col-md-9 schedule-item-details">
