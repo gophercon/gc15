@@ -79,7 +79,7 @@ title = "July 10th Hack Day"
                   <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">10:00am - 5:00pm</span>
-                      <span class="location">Hack Rooms</span>
+                      <span class="location">Room 405</span>
                     </div>
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
@@ -100,7 +100,7 @@ title = "July 10th Hack Day"
                   <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">10:00am - 5:00pm</span>
-                      <span class="location">Hack Rooms</span>
+                      <span class="location">Room 403</span>
                     </div>
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
@@ -114,7 +114,7 @@ title = "July 10th Hack Day"
                   <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">10:00am - 5:00pm</span>
-                      <span class="location">Hack Rooms</span>
+                      <span class="location">Room 401</span>
                     </div>
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
@@ -128,7 +128,7 @@ title = "July 10th Hack Day"
                   <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">10:00am - 5:00pm</span>
-                      <span class="location">Hack Rooms</span>
+                      <span class="location">Root 406</span>
                     </div>
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
@@ -142,7 +142,7 @@ title = "July 10th Hack Day"
                   <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">10:00am - 5:00pm</span>
-                      <span class="location">Hack Rooms</span>
+                      <span class="location">Room 404</span>
                     </div>
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
