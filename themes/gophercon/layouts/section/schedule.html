@@ -4,7 +4,7 @@
 <main class="container generic">
     <section class="row"> 
         <div class="col-md-8">
-          <h2>{{ .Title }}</h2>
+          <h2>Schedule</h2>
           {{ range (.Data.Pages).Reverse }}
             <h3><a href="{{ .RelPermalink }}">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</a></h3>
             {{ .Summary }}
