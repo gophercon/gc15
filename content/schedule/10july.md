@@ -10,7 +10,7 @@ title = "July 10th Hack Day"
                   <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">10:00am - 5:00pm</span>
-                      <span class="location">Mile High Ballroom 3-4</span>
+                      <span class="location">Mile High Ballroom 1-2</span>
                     </div>
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
@@ -52,7 +52,10 @@ title = "July 10th Hack Day"
                         </span>
                       </div>
                       <div class="abstract">
-                        <p>Five minute lightning talks will run until everybody has had their say.  Check back in a few days for an online signup form.</p>
+                        <p>We've scheduled three lightning talk sessions with 10 talks each over the course of Friday July 10th. The first session begins at 11:00 and runs through to lunch at 12:30. The second resumes at 13:30 and runs through to 15:00. After a short break, the third session begins at 15:30 and runs til we run out of speakers or we reach end of day.</p>
+			<p><a href="http://blog.gopheracademy.com/gophercon-2015/gophercon-lightning-talk-results/">The list of registered speakers is here</a></p>
+			<h4>Registrations on the day</h4>
+			<p>We will be accepting registrations on the day, please come to the side of the stage and speak to the organisers. You will present in the third session once all the registered speakers have given their presentations. Registrations on the day will be handled on a first come first served basis.</p>
                       </div>
 				  </div>
 			  </div>
