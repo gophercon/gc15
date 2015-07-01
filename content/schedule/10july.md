@@ -132,10 +132,12 @@ title = "July 10th Hack Day"
                     </div>
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
-                        <span class="title">Google room</span>
+                        <span class="title">Google Cloud Platform Room</span>
                       </div>
                       <div class="abstract">
-                        <p>Google’s Francesc Campoy Flores will be giving tutorials on using Go on the Google Cloud Platform. If you’re keen to learn how to get started building a simple app with App Engine and Compute Engine, this is the room for you.</p>
+			<p>Join this room to learn what you can do with the Google Cloud Platform and how to get started. The day will be divided in an introductory part where you we will cover the basis and organize teams with a mission: build an awesome project on the cloud!</p>
+			<p>Attendees should plan to spend the most of the day in the room, as they will be working in teams. Bring your ideas and laptops and we’ll provide the infrastructure, the experts, and the credits to make it happen!</p>
+			</p>Gophers such as Francesc Campoy, Andrew Gerrand, and Mark Mandel from Google will be there to make sure you make the best out of this Hack Day.</p>
                       </div>
 	            </div>
 		  </div>
