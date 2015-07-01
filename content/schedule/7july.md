@@ -1,8 +1,8 @@
 +++
 author = ["Brian Ketelsen"]
 date = "2015-07-07"
-linktitle = "July 7th"
-title = "July 7th"
+linktitle = "July 7th Workshops"
+title = "July 7th Workshops"
 +++
 
 <div id="workshop-schedule" class="tab-pane schedule-page schedule-item-tab">

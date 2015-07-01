@@ -6,7 +6,8 @@
         <div class="col-md-8">
           <h2>Schedule</h2>
           {{ range (.Data.Pages).Reverse }}
-            <h3><a href="{{ .RelPermalink }}">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</a></h3>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <small>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</small><br/><br/>
             {{ .Summary }}
             {{ if .Truncated }} <br/><br/>
             <a class="readmore" href="{{ .RelPermalink }}">Read More <i class="fa fa-arrow-circle-right"></i></a>

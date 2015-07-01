@@ -1,8 +1,8 @@
 +++
 author = ["Brian Ketelsen"]
 date = "2015-07-10"
-linktitle = "July 10th"
-title = "July 10th"
+linktitle = "July 10th Hack Day"
+title = "July 10th Hack Day"
 +++
 
 
@@ -23,7 +23,23 @@ title = "July 10th"
                       </div>
 				  </div>
 			  </div>
-
+                  <div class="row schedule-item">
+                    <div class="col-md-3 schedule-item-slot">
+                      <span class="time">10:00am - 11:00am</span>
+                      <span class="location">Mile High Ballroom 3-4</span>
+                    </div>
+                    <div class="col-md-9 schedule-item-details">
+                      <div class="schedule-item-summary">
+                        <span class="title">
+                          	Investment 101 for Startups
+                        </span>
+                      </div>
+                      <div class="abstract">
+						  <p>Robin Vasan will give a presentation about venture capital and the process behind getting your startup funded.  <a href="http://www.mayfield.com/team/investment-team/robin-vasan">Robin</a> is a managing director at Mayfield, one of the most prestigious investment firms in the country.  Robin will be joined for a question and answer session by the CEO's from two of Mayfield's investments.  Paul Dix from InfluxDB and Mitchell Hashimoto from HashiCorp who will share their experiences as founders going through the investment process.</p>
+						  <p>If you've ever considered a startup, this informal presentation is one you can't afford to miss.</p>
+                      </div>
+				  </div>
+                  </div>
 <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">11:00am - 5:00pm</span>
@@ -57,23 +73,6 @@ title = "July 10th"
                       </div>
 				  </div>
 			  </div>
-                  <div class="row schedule-item">
-                    <div class="col-md-3 schedule-item-slot">
-                      <span class="time">10:00am - 11:00am</span>
-                      <span class="location">Mile High Ballroom 3-4</span>
-                    </div>
-                    <div class="col-md-9 schedule-item-details">
-                      <div class="schedule-item-summary">
-                        <span class="title">
-                          	Investment 101 for Startups
-                        </span>
-                      </div>
-                      <div class="abstract">
-						  <p>Robin Vasan will give a presentation about venture capital and the process behind getting your startup funded.  <a href="http://www.mayfield.com/team/investment-team/robin-vasan">Robin</a> is a managing director at Mayfield, one of the most prestigious investment firms in the country.  Robin will be joined for a question and answer session by the CEO's from two of Mayfield's investments.  Paul Dix from InfluxDB and Mitchell Hashimoto from HashiCorp who will share their experiences as founders going through the investment process.</p>
-						  <p>If you've ever considered a startup, this informal presentation is one you can't afford to miss.</p>
-                      </div>
-				  </div>
-                  </div>
               <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">10:00am - 5:00pm</span>
