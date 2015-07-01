@@ -38,16 +38,16 @@ title = "July 7th Workshops"
     <div class="col-md-9 schedule-item-details">
       <div class="schedule-item-summary">
         <span class="title">
-            Go Workshop Track: Exploring Go's Utility Ecosystem 
+            Go Workshop Track: Working with Data in Go 
         </span>
         <div class="speaker">
           <span class="name">
-            Kevin Gillette
+            Cory LaNou
           </span>
         </div>
       </div>
       <div class="abstract">
-        <p>Discover the full breadth and depth of the Go development and analysis tools available today. We will explore the go tool, golint, oracle, profiling, and various other utilities that will bolster your efficiency and capabilities as a developer. If you know the language and libraries but haven't had time to peruse the toolchain, this is a great opportunity to learn about what you've been missing!</p>
+        <p>Working with data is a core component of many applications, and Go has great support for working with many different types of databases. In this workshop, we will cover the use of MongoDB to store and retrieve data with the mgo driver. Following this, you will learn best practices for building packages and apps that work with and expose data from any database.</p>
       </div>
     </div>
   </div>
@@ -60,16 +60,16 @@ title = "July 7th Workshops"
     <div class="col-md-9 schedule-item-details">
       <div class="schedule-item-summary">
         <span class="title">
-            Go Workshop Track: Working with Data in Go 
+            Go Workshop Track: Exploring Go's Utility Ecosystem 
         </span>
         <div class="speaker">
           <span class="name">
-            Cory LaNou
+            Kevin Gillette
           </span>
         </div>
       </div>
       <div class="abstract">
-        <p>Working with data is a core component of many applications, and Go has great support for working with many different types of databases. In this workshop, we will cover the use of MongoDB to store and retrieve data with the mgo driver. Following this, you will learn best practices for building packages and apps that work with and expose data from any database.</p>
+        <p>Discover the full breadth and depth of the Go development and analysis tools available today. We will explore the go tool, golint, oracle, profiling, and various other utilities that will bolster your efficiency and capabilities as a developer. If you know the language and libraries but haven't had time to peruse the toolchain, this is a great opportunity to learn about what you've been missing!</p>
       </div>
     </div>
   </div>
