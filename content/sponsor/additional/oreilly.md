@@ -9,4 +9,6 @@ sponsors = ["additional"]
 title = "oreilly"
 type = "sponsor"
 sponsors_weight = 255
+site = "http://www.oreilly.com/work-with-us.html"
 +++
+O'Reilly Media spreads the knowledge of innovators through its books, video, articles, research, and conferences. You have something important to say, to teach, to champion. We can help you reach the people who need to hear it.
