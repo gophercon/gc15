@@ -1,6 +1,6 @@
 +++
 author = ["Brian Ketelsen"]
-date = "2015-04-14"
+date = "2015-07-09"
 linktitle = "July 9th"
 title = "July 9th"
 +++
