@@ -60,7 +60,7 @@ title = "July 10th Hack Day"
 				  </div>
 			  </div>
 			<div id="hackday-schedule" class="tab-pane schedule-tab schedule-item-tab">
-                  <div class="row schedule-item">
+                  <div class="row schedule-item highlighted-schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">10:00am - 5:00pm</span>
                       <span class="location">Hack Rooms (401-407)</span>
@@ -72,11 +72,74 @@ title = "July 10th Hack Day"
                         </span>
                       </div>
                       <div class="abstract">
-                        <p>Some of your favorite open source projects and companies will be hosting hack sessions in dedicated rooms.  Join the core teams of great projects like Etcd and Gobot and hack the day away.</p>
+                        <p>Some of your favorite open source projects and companies will be hosting hack sessions in dedicated rooms.</p>
                       </div>
-				  </div>
-			  </div>
-              <div class="row schedule-item">
+		    </div>
+		  </div>
+                  <div class="row schedule-item">
+                    <div class="col-md-3 schedule-item-slot">
+                      <span class="time">10:00am - 5:00pm</span>
+                      <span class="location">Hack Rooms</span>
+                    </div>
+                    <div class="col-md-9 schedule-item-details">
+                      <div class="schedule-item-summary">
+                        <span class="title">Denver Gopher's room</span>
+                      </div>
+                      <div class="abstract">
+                        <p>Denver is a great city for Go, and not just because they love to host GopherCon. Denver is home to many companies who have chosen to build their businesses on Go.</p>
+			<p>10:00 - 10:45 - Bit.ly<br>
+			10:45 - 11:00 - Break<br>
+			11:00 - 12:30 - InfluxDB<br>
+			12:30 - 2:00 - Lunch<br>
+			2:00 - 3:30 - SendGrid<br>
+			3:30 - 3:45 - Break<br>
+			3:45 - 5:00 - Denver Gophers Workshop (TBD)</p>
+                      </div>
+	            </div>
+		  </div>
+                  <div class="row schedule-item">
+                    <div class="col-md-3 schedule-item-slot">
+                      <span class="time">10:00am - 5:00pm</span>
+                      <span class="location">Hack Rooms</span>
+                    </div>
+                    <div class="col-md-9 schedule-item-details">
+                      <div class="schedule-item-summary">
+                        <span class="title">CoreOS room</span>
+                      </div>
+                      <div class="abstract">
+                        <p>CoreOS is celebrating its second birthday during the CoreOS GopherCon hack day, so join them for a special birthday hack day project, educational talks and workshops from some of your favorite CoreOS team members. In addition, CoreOS will have lightning talks from the Go community on CoreOS tips and tricks. Join in on CoreOS birthday fun, learn how to contribute and leave with more knowledge on CoreOS overall.</p>
+                      </div>
+	            </div>
+		  </div>
+                  <div class="row schedule-item">
+                    <div class="col-md-3 schedule-item-slot">
+                      <span class="time">10:00am - 5:00pm</span>
+                      <span class="location">Hack Rooms</span>
+                    </div>
+                    <div class="col-md-9 schedule-item-details">
+                      <div class="schedule-item-summary">
+                        <span class="title">Gobot room</span>
+                      </div>
+                      <div class="abstract">
+                        <p>Who doesn’t love robots? What could be better than robots controlled with Go?!? Join last year’s speakers, Ron Evans and Adrian Zankich for all day hardware hacking. Gobot will also provide loaner robots, Intel Edison boards and more for you to hack on. In Go, of course.</p>
+                      </div>
+	            </div>
+		  </div>
+                  <div class="row schedule-item">
+                    <div class="col-md-3 schedule-item-slot">
+                      <span class="time">10:00am - 5:00pm</span>
+                      <span class="location">Hack Rooms</span>
+                    </div>
+                    <div class="col-md-9 schedule-item-details">
+                      <div class="schedule-item-summary">
+                        <span class="title">Google room</span>
+                      </div>
+                      <div class="abstract">
+                        <p>Google’s Francesc Campoy Flores will be giving tutorials on using Go on the Google Cloud Platform. If you’re keen to learn how to get started building a simple app with App Engine and Compute Engine, this is the room for you.</p>
+                      </div>
+	            </div>
+		  </div>
+                  <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">10:00am - 5:00pm</span>
                       <span class="location">Hack Rooms</span>
@@ -90,8 +153,8 @@ title = "July 10th Hack Day"
                       <div class="abstract">
                         <p>The Docker Workshop is a 1 day, hands-on class for beginners who want to learn to use and contribute to Docker. Members of the Docker Team will get you up to speed on the basics and coach you from setup to integrating Docker into your working environment. You’ll also learn your way around the Docker Project and leave with the resources to make your first contribution.</p>
                       </div>
-				  </div>
-			  </div>
+	            </div>
+		  </div>
                          <div class="row schedule-item highlighted-schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">Afternoon</span>
