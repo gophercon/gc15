@@ -9,4 +9,6 @@ sponsors = ["bronze"]
 title = "raintank"
 type = "sponsor"
 sponsors_weight = 255
+site = "http://www.raintank.io/"
 +++
+Raintank is an open source monitoring platform that collects, stores and analyzes data about your infrastructure through a gorgeously powerful front-end. The company behind Grafana.
