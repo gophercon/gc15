@@ -188,7 +188,7 @@ title = "July 9th Day 2"
                           <span class="name">
                             <a href="/speakers/blake-caldwell">Blake Caldwell</a>
                           </span>
-                          <span class="designation">Developer, Fog Creek Software</span>
+                          <span class="designation">Developer, Kentik</span>
                         </div>
                       </div>
                       <div class="abstract">
