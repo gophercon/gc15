@@ -87,13 +87,11 @@ title = "July 10th Hack Day"
                       </div>
                       <div class="abstract">
                         <p>Denver is a great city for Go, and not just because they love to host GopherCon. Denver is home to many companies who have chosen to build their businesses on Go.</p>
-			<p>10:00 - 10:45 - Bit.ly<br>
-			10:45 - 11:00 - Break<br>
-			11:00 - 12:30 - InfluxDB<br>
+			<p>10:00 - 12:30 - InfluxDB<br>
 			12:30 - 2:00 - Lunch<br>
-			2:00 - 3:30 - SendGrid<br>
+			2:00 - 3:30 - Bit.ly<br>
 			3:30 - 3:45 - Break<br>
-			3:45 - 5:00 - Denver Gophers Workshop (TBD)</p>
+			3:45 - 5:00 - SendGrid</p>
                       </div>
 	            </div>
 		  </div>
