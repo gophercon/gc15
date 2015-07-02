@@ -773,8 +773,10 @@ main .sponsors a {
     padding: 30px 25px 10px;
 }
 main .sponsors .col-md-12 {
-    margin-bottom: 0;
-    padding: 45px 25px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 0;
+    padding: 45px 25px;
 }
 main .sponsors .col-md-6 {
 	margin-bottom: 0px;

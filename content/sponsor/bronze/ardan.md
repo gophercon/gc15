@@ -10,4 +10,4 @@ sponsorclass = "bronze"
 logo = "/images/temp-logos/ardan.png"
 sponsors_weight = 256
 +++
-Ardan Labs is a Mobile and Web App Development company. Bill has been a software developer for over 20 years developing back end systems for the call center, gaming and financial industries.
+At Ardan Labs we dream big and ask all of our clients to do so as well. With a focused set of principles, we deliver products that work, grow and adapt to the ever changing marketplace. We also help individuals and corporations develop a passion for programming through innovative training courses.
