@@ -1,5 +1,5 @@
 +++
-speakertitle="Developer, CloudHelix, Inc."
+speakertitle="Developer, Kentik"
 author = ["Blake Caldwell"]
 date = "2015-04-20"
 linktitle = "Blake Caldwell"
