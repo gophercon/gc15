@@ -6,6 +6,9 @@ title = "Kelsey Hightower"
 speakerimage = "/images/speakers/kelsey-hightower.jpg"
 talk="/talks/betting"
 speakertitle="Product Manager, Developer and Chief Advocate at CoreOS"
+twitter="https://twitter.com/kelseyhightower"
+github="https://github.com/kelseyhightower"
+linkedin="https://www.linkedin.com/in/kelseyjhightower"
 +++
 Kelsey Hightower
 Product Manager, Developer and Chief Advocate at CoreOS
