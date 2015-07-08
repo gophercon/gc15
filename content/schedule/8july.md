@@ -132,27 +132,21 @@ title = "July 8th Day 1"
                     <div class="col-md-9 schedule-item-details">
                       <div class="schedule-item-summary">
                         <span class="title">
-                          <a href="/talks/code-generation">Code Generation For The Sake Of Consistency</a>
+                          <a href="/talks/learning-go">How a complete beginner learned Go as her first backend language in 5 weeks.</a>
                         </span>
                         <div class="speaker">
                           <span class="name">
-                            <a href="/speakers/sarah-adams">Sarah Adams</a>
+                            <a href="/speakers/audrey-lim">Audrey Lim</a>
                           </span>
-                          <span class="designation">Software Engineer at Restless Bandit</span>
+                          <span class="designation">Developer Evangelist at Nitrous.IO</span>
                         </div>
                       </div>
                       <div class="abstract">
-                        <p>Maintaining consistency within a growing project is a challenge. I have struggled with my company’s Go web API as it has
-                          grown over the past two years, trying to find a nice solution to this intra-project consistency problem without resorting
-                          to a large-scale framework.</p>
-                        <p>In my mind, there are three general layers to project consistency:</p>
-                        <ul>
-                          <li>consistency in implementation among similar bits of code</li>
-                          <li>consistency in black-box behavior among similar endpoints or commands</li>
-                          <li>consistency between actual behavior and documented behavior (documentation accuracy)</li>
-                        </ul>
-                        <p>This talk will outline how I have leveraged small-scale code and documentation generator tools for each of the three layers
-                          outlined above, specifically for the sake of consistency in a growing Go application without using a large-scale framework.</p>
+                        <p>Go can be seen as a language that is too difficult for beginner programmers. The resources and documentation for the language
+                          seem too technically advanced for the beginner to pick up fundamental programming concepts. Nevertheless within 5 weeks of
+                          looking into Go I taught myself how to build my first CRUD web application and a week later, an API client. In this talk
+                          I will share my thoughts about why I think Go is a fantastic teaching tool, and why beginners should not be afraid to learn
+                          it.</p>
                       </div>
                     </div>
                   </div>
