@@ -113,6 +113,8 @@ title = "July 8th Day 1"
                           <span class="name">
                             <a href="/speakers/derek-parker">Derek Parker</a>
                           </span>
+
+                          <span class="designation">Engineer at Hashrocket</span>
                         </div>
                       </div>
                       <div class="abstract">
