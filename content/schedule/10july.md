@@ -155,7 +155,7 @@ title = "July 10th Hack Day"
                       </div>
 	            </div>
 		  </div>
-		                    <div class="row schedule-item">
+		    <div class="row schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">10:00am - 5:00pm</span>
                       <span class="location">Room 407</span>
