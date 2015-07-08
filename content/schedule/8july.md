@@ -364,6 +364,8 @@ title = "July 8th Day 1"
                       <p>This evening’s offsite event will once again take place at the Wynkoop Brewing Company, Colorado’s oldest brew pub.</p>
                       <p>Upon arrival, guests will enter the main level where a large bar and ample seating is available. Just beyond the bar, the Mercantile Room will host a special tasting area for the evening. For guests that want to learn more about Colorado’s local brewery explosion, four (4) professional beer experts will be on-hand to answer questions on all matters of beer, including brewing processes, storage, serving, and sampling. Hops and grains such as wheat, barley and rye will be displayed in glass containers, while tasting notes will allow guests to have an interactive and hands-on experience under the guidance of our brew experts.</p>
                       <p>In addition to the main level, guests will have use of the Wynkoop’s entire second floor pool hall. This expansive space features a large bar, ample seating, dartboards, pool tables, table shuffleboard, and foosball.</p>
+
+                      <p>Admission requires your GopherCon badge or T-Shirt, and a government issued photo ID if you intend on drinking.</p>
                       <p><a href="http://www.wynkoop.com/">Wynkoop Brewing Company</a>
                       <br />1634 18th St.<br />Denver, CO 80202</p>
                       </div>

@@ -150,10 +150,11 @@ title = "July 10th Hack Day"
         </span>
       </div>
 
-  <a name="mesosphere"></a>
       <div class="abstract">
         <p>The Docker Workshop is a 1 day, hands-on class for beginners who want to learn to use and contribute to Docker. Members of the Docker Team will get you up to speed on the basics and coach you from setup to integrating Docker into your working environment. You’ll also learn your way around the Docker Project and leave with the resources to make your first contribution.</p>
       </div>
+
+  <a name="mesosphere"></a>
     </div>
   </div>
 
