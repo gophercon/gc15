@@ -155,6 +155,23 @@ title = "July 10th Hack Day"
                       </div>
 	            </div>
 		  </div>
+		                    <div class="row schedule-item">
+                    <div class="col-md-3 schedule-item-slot">
+                      <span class="time">10:00am - 5:00pm</span>
+                      <span class="location">Room 407</span>
+                    </div>
+                    <div class="col-md-9 schedule-item-details">
+                      <div class="schedule-item-summary">
+                        <span class="title">
+                          Mesosphere and Cisco room
+                        </span>
+                      </div>
+                      <div class="abstract">
+                        <p>Come hack with the Mesosphere and Cisco team for a whole day! We'll help you write your first Mesos framework in Go, teach you how to use Kubernetes on the Mesosphere DCOS and guide you to become a contributor to any of our open-source Go projects. Please let us know if you're interested in attending: http://goo.gl/forms/fP1zPBSNdA</p>
+                      </div>
+	            </div>
+		  </div>
+		  
                          <div class="row schedule-item highlighted-schedule-item">
                     <div class="col-md-3 schedule-item-slot">
                       <span class="time">Afternoon</span>
