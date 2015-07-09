@@ -134,7 +134,7 @@ title = "July 10th Hack Day"
       <div class="abstract">
         <p>Join this room to learn what you can do with the Google Cloud Platform and how to get started. The day will be divided in an introductory part where you we will cover the basis and organize teams with a mission: build an awesome project on the cloud!</p>
         <p>Attendees should plan to spend the most of the day in the room, as they will be working in teams. Bring your ideas and laptops and we’ll provide the infrastructure, the experts, and the credits to make it happen!</p>
-        </p>Gophers such as Francesc Campoy, Andrew Gerrand, and Mark Mandel from Google will be there to make sure you make the best out of this Hack Day.</p>
+        <p>Gophers such as Francesc Campoy, Andrew Gerrand, and Mark Mandel from Google will be there to make sure you make the best out of this Hack Day.</p>
       </div>
     </div>
   </div>
