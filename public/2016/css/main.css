@@ -123,6 +123,9 @@ footer {
 	section .wrap {
 		width: 250px;
 	}
+    section .wrap img {
+		bottom: -40px;
+	}
 	h1 {
 		font-size: 16px;
 		margin: 61px 0 0;
