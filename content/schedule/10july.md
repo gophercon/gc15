@@ -118,7 +118,12 @@ title = "July 10th Hack Day"
         <span class="title">Gobot room</span>
       </div>
       <div class="abstract">
-        <p>Who doesn’t love robots? What could be better than robots controlled with Go?!? Join last year’s speakers, Ron Evans and Adrian Zankich for all day hardware hacking. Gobot will also provide loaner robots, Intel Edison boards and more for you to hack on. In Go, of course.</p>
+        <p>Gophercon, get ready to hack on hardware using Go & <a href="http://gobot.io">Gobot!</a></p>
+	<p>Last year, you saw all of the amazing things you can do with Golang and hardware devices at our talk.</p>
+	<p>This year, come hang out with us, and actually make something.</p>
+	<p>Thanks to Intel, we have 25 Intel Edison single board Linux computer and IoT Grove Starter Kit to give away to the first 25 people to register. The IoT Starter Kits have everything you need to get started connectng your software to the real-world, and do not require any soldering. Just plug in the cables and your're ready.</p>
+	<p>To register for a <em>free</em> Intel Edison single board kit, <a href="https://gophercon-gobot-hackday.eventbrite.com">use this link</a>.</p>
+	<p>If you miss out, don't worry. In addition, we've brought a bunch of hardware to loan out, such as Sphero robots, Leap Motion gestural controllers, and more.</p>
       </div>
     </div>
   </div>
@@ -149,7 +154,6 @@ title = "July 10th Hack Day"
           Docker Workshop
         </span>
       </div>
-
       <div class="abstract">
         <p>The Docker Workshop is a 1 day, hands-on class for beginners who want to learn to use and contribute to Docker. Members of the Docker Team will get you up to speed on the basics and coach you from setup to integrating Docker into your working environment. You’ll also learn your way around the Docker Project and leave with the resources to make your first contribution.</p>
       </div>
