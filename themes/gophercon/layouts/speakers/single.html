@@ -2,16 +2,22 @@
 
 <main class="container generic">
 
-    <section class="row"> 
+    <section class="row">
 		<div class="col-md-8">
 			<div class="row">
 				<div class="col-md-3">
           <img class="img-rounded avatar" src="{{.Params.speakerimage}}" alt="{{.LinkTitle}}" width="150" />
-        <div class="speaker-social">
-          <a href="{{.Params.twitter}}"><i class="fa fa-twitter"></i></a>
-          <a href="{{.Params.github}}"><i class="fa fa-github"></i></a>
-          <a href="{{.Params.linkedin}}"><i class="fa fa-linkedin"></i></a>
-        </div>
+          <div class="speaker-social">
+            {{ with .Params.twitter }}
+            <a href="{{.}}"><i class="fa fa-twitter"></i></a>
+            {{ end }}
+            {{ with .Params.github }}
+            <a href="{{.}}"><i class="fa fa-github"></i></a>
+            {{ end }}
+            {{ with .Params.linkedin }}
+            <a href="{{.}}"><i class="fa fa-linkedin"></i></a>
+            {{ end }}
+          </div>
 				</div>
 				<div class="col-md-9">
           <h3>{{.LinkTitle}}<br /><small>{{.Params.speakertitle}}</small></h3>
