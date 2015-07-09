@@ -109,7 +109,7 @@ title = "July 10th Hack Day"
     </div>
   </div>
   <div class="row schedule-item">
-    <div class="col-md-3 schedule-item-slot">
+    <div id="gobot" class="col-md-3 schedule-item-slot">
       <span class="time">10:00am - 5:00pm</span>
       <span class="location">Room 401</span>
     </div>
