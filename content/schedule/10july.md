@@ -143,6 +143,26 @@ title = "July 10th Hack Day"
       </div>
     </div>
   </div>
+  <div id="diversity" class="row schedule-item">
+    <div class="col-md-3 schedule-item-slot">
+      <span class="time">1pm - 2pm</span>
+      <span class="location">Room 406 (Google Cloud Platform Room)</span>
+    </div>
+    <div class="col-md-9 schedule-item-details">
+      <div class="schedule-item-summary">
+        <span class="title">Go Community Code of Conduct and Diversity Discussion</span>
+      </div>
+      <div class="abstract">
+        <p>There is a lack of diversity in the Go community; this hinders the growth of the community, and the success of the project as a whole.</p>
+	<p>There is only so much I can do alone. I need your help.</p>
+	<p>This session is for anyone with ideas or feedback on how we can make the Go community more welcoming and diverse.</p>
+	<p>This session is also for anyone with a desire to listen, to learn, or to better understand these issues.</p>
+	<p>The first point for discussion will be the proposed Code of Conduct.</p>
+	<p>I invite anyone interested in these topics to attend the session and <em>more importantly</em> <a href="https://docs.google.com/a/golang.org/forms/d/1Gebv9jKLQMHCuEDBfhDfBISSCoJXzeCJU1a-STKNHX0/viewform?usp=send_form#start=invite">to suggest a topic for inclusion in the agenda</a>. When suggesting a topic you may include your name or remain anonymous.</p>
+	<p>&mdash; Andrew Gerrand (adg@golang.org)</p>
+      </div>
+    </div>
+  </div>
   <div class="row schedule-item">
     <div class="col-md-3 schedule-item-slot">
       <span class="time">10:00am - 5:00pm</span>
