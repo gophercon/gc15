@@ -212,23 +212,6 @@ title = "July 10th Hack Day"
 
   <div class="row schedule-item">
     <div class="col-md-3 schedule-item-slot">
-      <span class="time">10:00am - 3:00pm</span>
-      <span class="location">Room 402</span>
-    </div>
-    <div class="col-md-9 schedule-item-details">
-      <div class="schedule-item-summary">
-        <span class="title">
-          MongoDB Room
-        </span>
-      </div>
-      <div class="abstract">
-        <p>MongoDB will be hosting open office hours and birds of a feather sessions during that time.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="row schedule-item">
-    <div class="col-md-3 schedule-item-slot">
       <span class="time">12:00pm - 4:00pm</span>
       <span class="location">Room 301</span>
     </div>
