@@ -117,6 +117,28 @@ footer {
 .push {
 	height: 35px;
 }
+.vid-wrapper {
+	background: #527e93 none repeat scroll 0 0;
+    border-bottom: 10px solid #4cc4ec;
+    border-radius: 0;
+    border-top: 10px solid #4cc4ec;
+    box-shadow: 20px 20px 0 #34505d;
+    margin: 50px auto 0;
+    padding: 40px 0;
+    width: 60%;
+    max-width: 750px;
+}
+.vid-wrapper h2 {
+	color: #fff;
+    font-weight: 300;
+    margin: 0 0 20px;
+    text-align: center;
+}
+.vid-wrapper iframe {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
 
 /*-- Smallest devices (phones, 320px to 480px) --*/
 @media (min-width: 320px) and (max-width: 480px) {
@@ -134,6 +156,12 @@ footer {
 	h3 {
 		font-size: 15px;
 	}
+	.vid-wrapper {
+		width: 100%;
+	}
+	.vid-wrapper iframe {
+		width: 90%;
+	}
 }
 
 /*-- Small devices (tablets, 481px to 767px) --*/
@@ -148,12 +176,28 @@ footer {
 	h3 {
 		font-size: 25px;
 	}
+	.vid-wrapper {
+		width: 100%;
+	}
+	.vid-wrapper iframe {
+		width: 90%;
+	}
+	.vid-wrapper {
+		width: 90%;
+	}
+
 }
 
 /*-- Medium devices (desktops, 768px to 991px) --*/
 @media (min-width: 768px) and (max-width: 991px) {
 	section .wrap {
 		width: 430px;
+	}
+	.vid-wrapper iframe {
+		width: 90%;
+	}
+	.vid-wrapper {
+		width: 90%;
 	}
 }
 
