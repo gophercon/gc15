@@ -1,124 +1,233 @@
+
 <!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>GopherCon 2016 Denver,CO</title>
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/animate.css">
-<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
-</head>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>GopherCon 2016</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="2016/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="2016/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="2016/css/theme-gophercon.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="2016/font/styles.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+    	<div class="loader">
+    		<div class="strip-holder">
+				<div class="strip-1"></div>
+				<div class="strip-2"></div>
+				<div class="strip-3"></div>
+    		</div>
+    	</div>
 
-<body>
-
-<div class="colors">
-    <div class="animated slideInDown"></div>
-      <div class="animated slideInDown"></div>
-      <div class="animated slideInDown"></div>
-      <div class="animated slideInDown"></div>
-      <div class="animated slideInDown"></div>
-      <div class="animated slideInDown"></div>
-  </div>
-  
-  <div class="clearfix"></div>
-
-<div class="wrapper">
-    
-<section>
-    <div class="wrap">
-	<img class="slideInDown animated" src="images/gophercon2016.svg" />
-    </div>
-</section>
-
-<h1 class="slideInLeft animated">July 11th - 13th, 2016 <br /> Denver, Colorado</h1>
-
-<div class="countdown">
-        <script src="countdown/countdown.js" type="text/javascript"></script>
-                <script type="application/javascript">
-                  var myCountdownTest = new Countdown({
-                            year	: 2016,
-                            month	: 7,
-                            day		: 11,
-                            hour:   8,
-                            minute	: 0,
-                            second	: 0,
-                            rangeHi		: "month",
-                            rangeLo		: "day",
-                            width	: 180,
-                            height	: 60,
-                            labels : {
-                                font 	: "Open Sans",
-                                color	: "#FFFFFF",
-                                weight	: "normal",
-                                offset  : 5,
-                                textScale : 1.3
-                            },
-                            numbers	: {
-                              font : "Open Sans",
-                              color	: "#FFFFFF",
-                              bkgd	: "#4cc4ec"
-                            }
-                        });
-                </script>
+    	
+    	<a id="top"></a>
+				
+      <div class="nav-container"></div>
+      <div class="main-container">
+        <div class="row colors">
+          <div class="col-md-2"></div>
+          <div class="col-md-2"></div>
+          <div class="col-md-2"></div>
+          <div class="col-md-2"></div>
+          <div class="col-md-2"></div>
+          <div class="col-md-2"></div>
+        </div>
+        <section class="hero-slider">
+          <ul class="slides">
+            <li class="video-header">
+              <div class="background-image-holder parallax-background">
+                <img class="background-image" alt="Background Image" src="2016/img/gallery/Gophercon-still-002.jpg">
+              </div>
+              
+              <div class="video-wrapper">
+                <video autoplay="" muted="" loop="">
+                  <source src="2016/video/Gophercon Webloop.webm" type="video/webm">
+                  <source src="2016/video/Gophercon Webloop.mp4" type="video/mp4">
+                </video>
+              </div>
+            
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                    <img alt="logo" class="logo" src="2016/img/gophercon2016-2.png">
+									  <span class="uppercase text-white">July 11th to 13th - Denver, Colorado</span>
+                    <h1 class="large-h1 text-white">Largest event in the world dedicated to the Go programming language.</h1>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        
+        <section class="color-blocks">
+          <div class="color-block block-left col-md-6 col-sm-12"></div>
+          <div class="color-block block-right col-md-6 col-sm-12"></div>
+          
+          <div class="container">
+            <div class="row">
+              <a href="https://ti.to/gophercon/gophercon-2016" class="block-content">
+                <div class="col-md-2 col-sm-4 text-center">
+                  <i>
+                    <img class="icon" src="2016/img/icons/Hummingbird-70.png" width="60" style="margin-left: -5px; margin-top: -10px">
+                  </i>
+                </div>
+              
+                <div class="col-md-4 col-sm-8">
+                  <h1>Purchase an early bird ticket and save!</h1>
+                  <p>
+                    Catch our Early Bird special and save 25% off your ticket, be quick before they sell out!
+                  </p>
+                </div>
+              </a>
+              
+              <a href="http://cfp.gophercon.com/" class="block-content">
+                <div class="col-md-2 col-sm-4 text-center">
+                  <i>
+                    <img class="icon" src="2016/img/icons/Advertising-70.png" width="50" style="margin-top: -18px">
+                  </i>
+                </div>
+              
+                <div class="col-md-4 col-sm-8">
+                  <h1>Give a talk and your ticket, flight, and stay are free!</h1>
+                  <p>We are currently accepting talk proposals for conference sessions. Please see our CFP for details.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="contained-gallery">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5 col-sm-6">
+                <h1>Why attend GopherCon?</h1>
+                
+                <p class="lead">
+                  GopherCon 2015 built on the success of the inaugural conference and attracted 1,300 attendees up from 700 of 2014. This year, the conference will continue to grow and expand with an anticipated attendance of 1,500 professionals from more than 25 countries. Based on community feedback, we will continue to offer a single-track format in the morning, but will include various options in the afternoon based on each attendee’s knowledge level and interests.
+                </p>
+                
+                <a href="https://ti.to/gophercon/gophercon-2016" class="btn"><i class="icons8-ticket"></i> Buy Tickets</a>
+                <a href="/Gophercon2016Prospectus.pdf" class="btn btn-hollow"><i class="icons8-handshake-filled"></i> Sponsor 2016</a>
+              </div>
+              
+              <div class="col-md-6 col-sm-6 col-md-offset-1">
+                <div class="embedded-video-holder vju">
+                  <iframe width="600" height="370" src="https://www.youtube.com/embed/616jvCSR0cg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="lightbox-gallery gallery-header">
+          <div>
+            <ul>
+              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-014.jpg&quot;) 50% 0%;">
+                <a href="2016/img/gallery/Gophercon-still-014.jpg" data-lightbox="true" data-title="GopherCon 2015">
+                  <img src="2016/img/gallery/Gophercon-still-014.jpg" style="opacity: 0;">
+                </a>
+              </li>
+              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-008.jpg&quot;) 50% 0%;">
+                <a href="2016/img/gallery/Gophercon-still-008.jpg" data-lightbox="true" data-title="GopherCon 2015">
+                  <img src="2016/img/gallery/Gophercon-still-008.jpg" style="opacity: 0;">
+                </a>
+              </li>
+              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-011.jpg&quot;) 50% 0%;">
+                <a href="2016/img/gallery/Gophercon-still-011.jpg" data-lightbox="true" data-title="GopherCon 2015">
+                  <img src="2016/img/gallery/Gophercon-still-011.jpg" style="opacity: 0;">
+                </a>
+              </li>
+              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-012.jpg&quot;) 50% 0%;">
+                <a href="2016/img/gallery/Gophercon-still-012.jpg" data-lightbox="true" data-title="GopherCon 2015">
+                  <img src="2016/img/gallery/Gophercon-still-012.jpg" style="opacity: 0;">
+                </a>
+              </li>
+              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-015.jpg&quot;) 50% 0%;">
+                <a href="2016/img/gallery/Gophercon-still-015.jpg" data-lightbox="true" data-title="GopherCon 2015">
+                  <img src="2016/img/gallery/Gophercon-still-015.jpg" style="opacity: 0;">
+                </a>
+              </li>
+              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-018.jpg&quot;) 50% 0%;">
+                <a href="2016/img/gallery/Gophercon-still-018.jpg" data-lightbox="true" data-title="GopherCon 2015">
+                  <img src="2016/img/gallery/Gophercon-still-018.jpg" style="opacity: 0;">
+                </a>
+              </li>
+              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-039.jpg&quot;) 50% 0%;">
+                <a href="2016/img/gallery/Gophercon-still-039.jpg" data-lightbox="true" data-title="GopherCon 2015">
+                  <img src="2016/img/gallery/Gophercon-still-039.jpg" style="opacity: 0;">
+                </a>
+              </li>
+              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-041.jpg&quot;) 50% 0%;">
+                <a href="2016/img/gallery/Gophercon-still-041.jpg" data-lightbox="true" data-title="GopherCon 2015">
+                  <img src="2016/img/gallery/Gophercon-still-041.jpg" style="opacity: 0;">
+                </a>
+              </li>
+              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-043.jpg&quot;) 50% 0%;">
+                <a href="2016/img/gallery/Gophercon-still-043.jpg" data-lightbox="true" data-title="GopherCon 2015">
+                  <img src="2016/img/gallery/Gophercon-still-043.jpg" style="opacity: 0;">
+                </a>
+              </li>
+              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-005.jpg&quot;) 50% 0%;">
+                <a href="2016/img/gallery/Gophercon-still-005.jpg" data-lightbox="true" data-title="GopherCon 2015">
+                  <img src="2016/img/gallery/Gophercon-still-005.jpg" style="opacity: 0;">
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                <h1 class="text-white large-h1">
+                    <img class="icon" src="2016/img/icons/Camera-50.png" width="40" style="margin-right: 5px">
+                  Memories from GopherCon 2015</h1>
+                <span class="lead text-white">Watch talks from last year on <strong><a class="text-white" href="https://www.youtube.com/playlist?list=PL2ntRZ1ySWBf-_z-gHCOR2N156Nw930Hm">YouTube</a></strong></span>
+              </div>
+            </div><!--end of row-->
+          </div><!--end of container-->
+        </section>
       </div>
-      <h3>Sign up and you won't miss a thing.</h3>
-<!-- Begin MailChimp Signup Form -->
-<style type="text/css">
-/* MailChimp Form Embed Code - Slim - 08/17/2011 */
-#mc_embed_signup form {display:block; text-align:center; padding:10px 0 10px; }
-#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
-#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
-#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
-#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
-#mc_embed_signup input:focus {border-color:#333;}
-#mc_embed_signup .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
-#mc_embed_signup .button:hover {background-color:#777;}
-#mc_embed_signup .small-meta {font-size: 11px;}
-#mc_embed_signup .nowrap {white-space:nowrap;}     
-#mc_embed_signup .clear {clear:none; display:inline;}
+      <div class="footer-container">			
+        <footer class="short footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-7">
+                <span class="text-white">© Copyright 2016 GopherAcademy, LLC.<br>
+                </span>
+                <p class="small character-copyright">The Gopher character is based on the Go mascot designed by
+                  <a href="http://reneefrench.blogspot.com/" target="blank">Renée French</a>
+                  and copyrighted under the
+                  <a href="http://creativecommons.org/licenses/by/3.0/us/" target="blank">Creative Commons Attribution 3.0 license.</a>
+                </p>
+              </div>
+        
+              <div class="col-sm-5 text-right">
+                <ul class="menu">
+                  <li><a href="https://gopheracademy.com/about/">About</a></li>
+                  <li><a href="mailto:gophercon@gopheracademy.com">Contact</a></li>
+                  <li><a class="inner-link back-to-top" href="#top">Back To Top&nbsp;<i class="icon pe-7s-angle-up-circle"></i></a></li>
+                </ul>
+              </div>
+      
+            </div>
+          </div>
+        </footer>
+      </div>
+				
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+      <script src="2016/js/bootstrap.min.js"></script>
+      <script src="2016/js/skrollr.min.js"></script>
+      <script src="2016/js/lightbox.min.js"></script>
+      <script src="2016/js/smooth-scroll.min.js"></script>
+      <script src="2016/js/scripts.js"></script>
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-#mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
-#mc_embed_signup input.email {display:block; font-size:20px;padding:8px 0; margin:0 auto; text-indent:5px; min-width: 70%;max-width:90%;}
-#mc_embed_signup input.button {display:block; width:35%; margin:10px auto; min-width:90px;}
-
-#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
-#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
-#mc_embed_signup #mce-error-response {display:none;}
-#mc_embed_signup #mce-success-response {color:#529214; display:none;}
-#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:center; padding:.5em 0;}
-#mc_embed_signup{margin: 0 auto; width:50%;}
-</style>
-<div id="mc_embed_signup">
-<form action="//gophercon.us7.list-manage.com/subscribe/post?u=52c683df6e3b7219db6f8d98e&amp;id=f6dad8f26b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	
-	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_52c683df6e3b7219db6f8d98e_f6dad8f26b" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-</form>
-</div>
-
-<!--End mc_embed_signup-->
-      <h3>Early bird tickets available 1st January 2016.</h3>
-
-<div class="push"></div>
-</div><!-- wrapper -->
-<footer>
-	<p>© 2016 GopherAcademy, LLC</p>
-	<p>The Gopher character is based on the Go mascot designed by Renée French and copyrighted under the Creative Commons Attribution 3.0 license.</p>
-</footer>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-40886074-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-</body>
+        ga('create', 'UA-40886074-1', 'auto');
+        ga('send', 'pageview');
+      </script>
+    </body>
 </html>
+				
