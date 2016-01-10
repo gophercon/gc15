@@ -2384,3 +2384,37 @@ body .colors .col-md-2:nth-child(6n+0) {
 	-o-animation-delay: 0.6s;
 	animation-delay: 0.6s;
 }
+
+.hotel-code {
+  color: #999;
+  display: block;
+  float: right;
+  font-size: 11px;
+  position: relative;
+  top: -18px;
+}
+
+.hotel-link a {
+  border-color: #FF6B1E !important;
+  color: #FF6B1E !important;
+}
+
+.hotel-price {
+  background: rgba(40, 40, 40, 0.6); 
+  color: #fff; 
+  height; 26px; 
+  padding: 8px 15px; 
+  font-size: 18px; 
+  position: relative; 
+  bottom: -38px; 
+  margin-top: -42px;
+  width: 180px;
+  float: right;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}
+
+.hotel-phone {
+  color: #36566B;
+  float: right;
+  font-size: 18px;
+}
