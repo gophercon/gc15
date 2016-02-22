@@ -2307,7 +2307,7 @@ footer.classic .social-profiles {
   margin-top: 36px;
 }
 .social-profiles {
-  display: inline-block;
+  display: inline-block;	
   overflow: hidden;
 }
 .social-profiles li {
