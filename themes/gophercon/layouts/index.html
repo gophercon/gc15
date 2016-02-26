@@ -1,16 +1,17 @@
 
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>GopherCon 2016</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="2016/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="2016/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="2016/css/theme-gophercon.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="2016/font/styles.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
-    	<link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
+	<head>
+    <meta charset="utf-8">
+    <title>GopherCon 2016</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="2016/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="2016/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="2016/css/theme-gophercon.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="2016/font/styles.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	</head>
     <body>
     	<div class="loader">
@@ -22,244 +23,320 @@
     	</div>
 
     	<a id="top"></a>
-      <div class="nav-container"></div>
+      {{ partial "navbar.html" . }}
       <div class="main-container">
-        <div class="row colors">
-          <div class="col-md-2"></div>
-          <div class="col-md-2"></div>
-          <div class="col-md-2"></div>
-          <div class="col-md-2"></div>
-		  <div class="col-md-2"></div>
-        </div>
-        <section class="hero-slider">
-          <ul class="slides">
-            <li class="video-header">
-              <div class="background-image-holder parallax-background">
-                <img class="background-image" alt="Background Image" src="2016/img/gallery/Gophercon-still-002.jpg">
-              </div>
-              
-              <div class="video-wrapper">
-                <video autoplay="" muted="" loop="">
-                  <source src="2016/video/Gophercon Webloop.webm" type="video/webm">
-                  <source src="2016/video/Gophercon Webloop.mp4" type="video/mp4">
-                </video>
-              </div>
-            
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-                    <img alt="logo" class="logo" src="2016/img/gopher-logo.png">
-									  <span class="uppercase text-white">July 11th to 13th - Denver, Colorado</span>
-                    <h1 class="large-h1 text-white">Largest event in the world dedicated to the Go programming language.</h1>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </section>
-        
-        <section class="color-blocks">
-          <div class="color-block block-left col-md-6 col-sm-12"></div>
-          <div class="color-block block-right col-md-6 col-sm-12"></div>
-          
-          <div class="container">
-            <div class="row">
-              <a href="https://ti.to/gophercon/gophercon-2016" class="block-content">
-                <div class="col-md-2 col-sm-4 text-center">
-                  <i>
-                    <img class="icon" src="2016/img/icons/Hummingbird-70.png" width="60" style="margin-left: -5px; margin-top: -10px">
-                  </i>
-                </div>
-              
-                <div class="col-md-4 col-sm-8">
-                  <h1>Purchase an early bird ticket and save!</h1>
-                  <p>
-                    Catch our Early Bird special and save 25% off your ticket, be quick before they sell out!
-                  </p>
-                </div>
-              </a>
-              
-              <a href="http://cfp.gophercon.com/" class="block-content">
-                <div class="col-md-2 col-sm-4 text-center">
-                  <i>
-                    <img class="icon" src="2016/img/icons/Advertising-70.png" width="50" style="margin-top: -18px">
-                  </i>
-                </div>
-              
-                <div class="col-md-4 col-sm-8">
-                  <h1>Give a talk and your ticket, flight, and stay are free!</h1>
-                  <p>We are currently accepting talk proposals for conference sessions. Please see our CFP for details.</p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </section>
-        <section class="contained-gallery">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-5">
-                <h1>Why attend GopherCon?</h1>
-                
-                <p class="lead">
-                  GopherCon 2015 built on the success of the inaugural conference and attracted 1,300 attendees up from 700 of 2014. This year, the conference will continue to grow and expand with an anticipated attendance of 1,500 professionals from more than 25 countries. Based on community feedback, we will continue to offer a single-track format in the morning, but will include various options in the afternoon based on each attendee’s knowledge level and interests.
-                </p>
-                
-                <a href="https://ti.to/gophercon/gophercon-2016" class="btn"><i class="icons8-ticket"></i> Buy Tickets</a>
-                <a href="/Gophercon2016Prospectus.pdf" class="btn btn-hollow"><i class="icons8-handshake-filled"></i> Sponsor 2016</a>
-              </div>
-              
-              <div class="col-md-6 col-md-offset-1">
-                <div class="embedded-video-holder vju">
-                  <iframe width="100%" height="370" src="https://www.youtube.com/embed/616jvCSR0cg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="lightbox-gallery gallery-header">
-          <div>
-            <ul>
-              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-014.jpg&quot;) 50% 0%;">
-                <a href="2016/img/gallery/Gophercon-still-014.jpg" data-lightbox="true" data-title="GopherCon 2015">
-                  <img src="2016/img/gallery/Gophercon-still-014.jpg" style="opacity: 0;">
-                </a>
-              </li>
-              <li style="background: url(&quot;2016/img/gallery/image_1.jpeg&quot;) 50% 0%;">
-                <a href="2016/img/gallery/image_1.jpeg" data-lightbox="true" data-title="GopherCon 2015">
-                  <img src="2016/img/gallery/image_1.jpeg" style="opacity: 0;">
-                </a>
-              </li>
-              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-011.jpg&quot;) 50% 0%;">
-                <a href="2016/img/gallery/Gophercon-still-011.jpg" data-lightbox="true" data-title="GopherCon 2015">
-                  <img src="2016/img/gallery/Gophercon-still-011.jpg" style="opacity: 0;">
-                </a>
-              </li>
-              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-012.jpg&quot;) 50% 0%;">
-                <a href="2016/img/gallery/Gophercon-still-012.jpg" data-lightbox="true" data-title="GopherCon 2015">
-                  <img src="2016/img/gallery/Gophercon-still-012.jpg" style="opacity: 0;">
-                </a>
-              </li>
-              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-015.jpg&quot;) 50% 0%;">
-                <a href="2016/img/gallery/Gophercon-still-015.jpg" data-lightbox="true" data-title="GopherCon 2015">
-                  <img src="2016/img/gallery/Gophercon-still-015.jpg" style="opacity: 0;">
-                </a>
-              </li>
-              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-018.jpg&quot;) 50% 0%;">
-                <a href="2016/img/gallery/Gophercon-still-018.jpg" data-lightbox="true" data-title="GopherCon 2015">
-                  <img src="2016/img/gallery/Gophercon-still-018.jpg" style="opacity: 0;">
-                </a>
-              </li>
-              <li style="background: url(&quot;2016/img/gallery/image_3.jpeg&quot;) 50% 0%;">
-                <a href="2016/img/gallery/image_3.jpeg" data-lightbox="true" data-title="GopherCon 2015">
-                  <img src="2016/img/gallery/image_3.jpeg" style="opacity: 0;">
-                </a>
-              </li>
-              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-041.jpg&quot;) 50% 0%;">
-                <a href="2016/img/gallery/Gophercon-still-041.jpg" data-lightbox="true" data-title="GopherCon 2015">
-                  <img src="2016/img/gallery/Gophercon-still-041.jpg" style="opacity: 0;">
-                </a>
-              </li>
-              <li style="background: url(&quot;2016/img/gallery/image_2.jpeg&quot;) 50% 0%;">
-                <a href="2016/img/gallery/image_2.jpeg" data-lightbox="true" data-title="GopherCon 2015">
-                  <img src="2016/img/gallery/image_2.jpeg" style="opacity: 0;">
-                </a>
-              </li>
-              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-005.jpg&quot;) 50% 0%;">
-                <a href="2016/img/gallery/Gophercon-still-005.jpg" data-lightbox="true" data-title="GopherCon 2015">
-                  <img src="2016/img/gallery/Gophercon-still-005.jpg" style="opacity: 0;">
-                </a>
-              </li>
-            </ul>
-          </div>
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2 text-center">
-                <h1 class="text-white large-h1">
-                    <img class="icon" src="2016/img/icons/Camera-50.png" width="40" style="margin-right: 5px">
-                  Memories from GopherCon 2015</h1>
-                <span class="lead text-white">Watch talks from last year on <strong><a class="text-white" href="https://www.youtube.com/playlist?list=PL2ntRZ1ySWBf-_z-gHCOR2N156Nw930Hm">YouTube</a></strong></span>
-              </div>
-            </div><!--end of row-->
-          </div><!--end of container-->
-        </section>
-        <section class="duplicatable-content visitor-info">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-12">
-								<h1>Hotel Accomodations</h1>
-							</div>
-						</div>
-				
-						<div class="row">
-							<div class="col-sm-6">
-								<div class="info-box">
-                  <div class="hotel-price"><strong>$175</strong><small> / night, plus tax</small></div>
-									<img alt="Hampton Inn" src="2016/img/hotels/hampton.jpg">
-                  
-									<h3 class="hotel-name">Hampton Inn<span class="hotel-phone">800.445.8667</span></h3>
-                  <div class="hotel-code">Code: GopherCon</div>
-                  <p class="hotel-address">
-                    550 15th Street,<br>
-                    Denver, CO 80202
-                  </p>
-
-									<div class="hotel-link text-link">
-                    <a href="http://hamptoninn.hilton.com/en/hp/groups/personalized/D/DENCVHX-GOP-20160707/index.jhtml">Book Now</a>
-                  </div>
+	      <div id="landing-page">
+	        <div class="row colors">
+	          <span></span>
+		       	<span></span>
+		       	<span></span>
+		       	<span></span>
+			  		<span></span>
+	        </div>
+	        <section class="hero-slider">
+	          <ul class="slides">
+	            <li class="video-header">
+	              <div class="background-image-holder parallax-background">
+	                <img class="background-image" alt="Background Image" src="2016/img/gallery/Gophercon-still-002.jpg">
+	              </div>
+	              
+	              <div class="video-wrapper">
+	                <video autoplay="" muted="" loop="">
+	                  <source src="2016/video/Gophercon Webloop.webm" type="video/webm">
+	                  <source src="2016/video/Gophercon Webloop.mp4" type="video/mp4">
+	                </video>
+	              </div>
+	            
+	              <div class="container">
+	                <div class="row">
+	                  <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+	                    <img alt="logo" class="logo" src="2016/img/gopher-logo.png">
+										  <span class="uppercase text-white">July 11th to 13th - Denver, Colorado</span>
+	                    <h1 class="large-h1 text-white">Largest event in the world dedicated to the Go programming language.</h1>
+	                  </div>
+	                </div>
+	              </div>
+	            </li>
+	          </ul>
+	        </section>
+	        <section class="color-blocks">
+	          <div class="color-block block-left col-md-6 col-sm-12"></div>
+	          <div class="color-block block-right col-md-6 col-sm-12"></div>
+	          
+	          <div class="container">
+	            <div class="row">
+	              <a href="https://ti.to/gophercon/gophercon-2016" class="block-content">
+	                <div class="col-md-2 col-sm-4 text-center">
+	                  <i>
+	                    <img class="icon" src="2016/img/icons/Hummingbird-70.png" width="60" style="margin-left: -5px; margin-top: -10px">
+	                  </i>
+	                </div>
+	              
+	                <div class="col-md-4 col-sm-8">
+	                  <h1 style="color: #EED897;">Purchase an early bird ticket and save!</h1>
+	                  <p>
+	                    Catch our Early Bird special and save 25% off your ticket, be quick before they sell out!
+	                  </p>
+	                </div>
+	              </a>
+	              
+	              <a href="http://cfp.gophercon.com/" class="block-content">
+	                <div class="col-md-2 col-sm-4 text-center">
+	                  <i>
+	                    <img class="icon" src="2016/img/icons/Advertising-70.png" width="50" style="margin-top: -18px">
+	                  </i>
+	                </div>
+	              
+	                <div class="col-md-4 col-sm-8">
+	                  <h1 style="color: #FDB98D;">Give a talk and your ticket, flight, and stay are free!</h1>
+	                  <p>We are currently accepting talk proposals for conference sessions. Please see our CFP for details.</p>
+	                </div>
+	              </a>
+	            </div>
+	          </div>
+	        </section>
+	        <section class="contained-gallery">
+	          <div class="container">
+	            <div class="row">
+	              <div class="col-md-5">
+	                <h1>Why attend GopherCon?</h1>
+	                
+	                <p class="lead">
+	                  GopherCon 2015 built on the success of the inaugural conference and attracted 1,300 attendees up from 700 of 2014. This year, the conference will continue to grow and expand with an anticipated attendance of 1,500 professionals from more than 25 countries. Based on community feedback, we will continue to offer a single-track format in the morning, but will include various options in the afternoon based on each attendee’s knowledge level and interests.
+	                </p>
+	                
+	                <a href="https://ti.to/gophercon/gophercon-2016" class="btn"><i class="icons8-ticket"></i> Buy Tickets</a>
+	                <a href="/Gophercon2016Prospectus.pdf" class="btn btn-hollow"><i class="icons8-handshake-filled"></i> Sponsor 2016</a>
+	              </div>
+	              
+	              <div class="col-md-6 col-md-offset-1">
+	                <div class="embedded-video-holder vju">
+	                  <iframe width="100%" height="370" src="https://www.youtube.com/embed/616jvCSR0cg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+	        </section>
+	        <section class="lightbox-gallery gallery-header">
+	          <div>
+	            <ul>
+	              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-014.jpg&quot;) 50% 0%;">
+	                <a href="2016/img/gallery/Gophercon-still-014.jpg" data-lightbox="true" data-title="GopherCon 2015">
+	                  <img src="2016/img/gallery/Gophercon-still-014.jpg" style="opacity: 0;">
+	                </a>
+	              </li>
+	              <li style="background: url(&quot;2016/img/gallery/image_1.jpeg&quot;) 50% 0%;">
+	                <a href="2016/img/gallery/image_1.jpeg" data-lightbox="true" data-title="GopherCon 2015">
+	                  <img src="2016/img/gallery/image_1.jpeg" style="opacity: 0;">
+	                </a>
+	              </li>
+	              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-011.jpg&quot;) 50% 0%;">
+	                <a href="2016/img/gallery/Gophercon-still-011.jpg" data-lightbox="true" data-title="GopherCon 2015">
+	                  <img src="2016/img/gallery/Gophercon-still-011.jpg" style="opacity: 0;">
+	                </a>
+	              </li>
+	              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-012.jpg&quot;) 50% 0%;">
+	                <a href="2016/img/gallery/Gophercon-still-012.jpg" data-lightbox="true" data-title="GopherCon 2015">
+	                  <img src="2016/img/gallery/Gophercon-still-012.jpg" style="opacity: 0;">
+	                </a>
+	              </li>
+	              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-015.jpg&quot;) 50% 0%;">
+	                <a href="2016/img/gallery/Gophercon-still-015.jpg" data-lightbox="true" data-title="GopherCon 2015">
+	                  <img src="2016/img/gallery/Gophercon-still-015.jpg" style="opacity: 0;">
+	                </a>
+	              </li>
+	              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-018.jpg&quot;) 50% 0%;">
+	                <a href="2016/img/gallery/Gophercon-still-018.jpg" data-lightbox="true" data-title="GopherCon 2015">
+	                  <img src="2016/img/gallery/Gophercon-still-018.jpg" style="opacity: 0;">
+	                </a>
+	              </li>
+	              <li style="background: url(&quot;2016/img/gallery/image_3.jpeg&quot;) 50% 0%;">
+	                <a href="2016/img/gallery/image_3.jpeg" data-lightbox="true" data-title="GopherCon 2015">
+	                  <img src="2016/img/gallery/image_3.jpeg" style="opacity: 0;">
+	                </a>
+	              </li>
+	              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-041.jpg&quot;) 50% 0%;">
+	                <a href="2016/img/gallery/Gophercon-still-041.jpg" data-lightbox="true" data-title="GopherCon 2015">
+	                  <img src="2016/img/gallery/Gophercon-still-041.jpg" style="opacity: 0;">
+	                </a>
+	              </li>
+	              <li style="background: url(&quot;2016/img/gallery/image_2.jpeg&quot;) 50% 0%;">
+	                <a href="2016/img/gallery/image_2.jpeg" data-lightbox="true" data-title="GopherCon 2015">
+	                  <img src="2016/img/gallery/image_2.jpeg" style="opacity: 0;">
+	                </a>
+	              </li>
+	              <li style="background: url(&quot;2016/img/gallery/Gophercon-still-005.jpg&quot;) 50% 0%;">
+	                <a href="2016/img/gallery/Gophercon-still-005.jpg" data-lightbox="true" data-title="GopherCon 2015">
+	                  <img src="2016/img/gallery/Gophercon-still-005.jpg" style="opacity: 0;">
+	                </a>
+	              </li>
+	            </ul>
+	          </div>
+	          
+	          <div class="container">
+	            <div class="row">
+	              <div class="col-md-8 col-md-offset-2 text-center">
+	                <h1 class="text-white large-h1">
+	                    <img class="icon" src="2016/img/icons/Camera-50.png" width="40" style="margin-right: 5px">
+	                  Memories from GopherCon 2015</h1>
+	                <span class="lead text-white">Watch talks from last year on <strong><a class="text-white" href="https://www.youtube.com/playlist?list=PL2ntRZ1ySWBf-_z-gHCOR2N156Nw930Hm">YouTube</a></strong></span>
+	              </div>
+	            </div><!--end of row-->
+	          </div><!--end of container-->
+	        </section>
+	        <section class="speakers duplicatable-content">
+	        	<div class="container">
+	        		<div class="row">
+	        			<div class="col-sm-12">
+	        				<h1>Keynote Speakers</h1>
+	        			</div>
+	        		</div>
+	        		
+	        		<div class="row speakers-row">
+	        			<div class="col-md-3 col-sm-6 speaker-column">
+	        				<div class="speaker">
+	        					<div class="image-holder">
+	        						<img class="background-image" alt="Speaker" src="/2016/img/speakers/user.jpg">
+	        						<div class="hover-state text-center preserve3d">
+	        							<div class="social-links vertical-align">
+	        								<a href="#"><i class="fa fa-twitter"></i> @Jdoe</a>
+	        								
+	        							</div>
+	        						</div>
+	        					</div>
+	        					<span class="speaker-name">John Doe</span>
+	        					<span>Engineer at Google</span>
+	        				</div>
+	        			</div>
+	        			
+	        			<div class="col-md-3 col-sm-6 speaker-column">
+	        				<div class="speaker">
+	        					<div class="image-holder">
+	        						<img class="background-image" alt="Speaker" src="/2016/img/speakers/user.jpg">
+	        						<div class="hover-state text-center preserve3d">
+	        							<div class="social-links vertical-align">
+	        								<a href="#"><i class="fa fa-twitter"></i> @Jdoe</a>
+	        								
+	        							</div>
+	        						</div>
+	        					</div>
+	        					<span class="speaker-name">John Doe</span>
+	        					<span>Engineer at Google</span>
+	        				</div>
+	        			</div>
+	        			
+	        			<div class="col-md-3 col-sm-6 speaker-column">
+	        				<div class="speaker">
+	        					<div class="image-holder">
+	        						<img class="background-image" alt="Speaker" src="/2016/img/speakers/user.jpg">
+	        						<div class="hover-state text-center preserve3d">
+	        							<div class="social-links vertical-align">
+	        								<a href="#"><i class="fa fa-twitter"></i> @Jdoe</a>
+	        								
+	        							</div>
+	        						</div>
+	        					</div>
+	        					<span class="speaker-name">John Doe</span>
+	        					<span>Engineer at Google</span>
+	        				</div>
+	        			</div>
+	        			
+	        			<div class="col-md-3 col-sm-6 speaker-column">
+	        				<div class="speaker">
+	        					<div class="image-holder">
+	        						<img class="background-image" alt="Speaker" src="/2016/img/speakers/user.jpg">
+	        						<div class="hover-state text-center preserve3d">
+	        							<div class="social-links vertical-align">
+	        								<a href="#"><i class="fa fa-twitter"></i> @Jdoe</a>
+	        								
+	        							</div>
+	        						</div>
+	        					</div>
+	        					<span class="speaker-name">John Doe</span>
+	        					<span>Engineer at Google</span>
+	        				</div>
+	        			</div>
+	        		</div>
+	        	</div>
+	        </section>
+	        <section class="duplicatable-content visitor-info">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-12">
+									<h1>Hotel Accomodations</h1>
 								</div>
 							</div>
 					
-							<div class="col-sm-6">
-								<div class="info-box">
-                  <div class="hotel-price"><strong>$185</strong><small> / night, plus tax</small></div>
-									<img alt="Homewood Suites" src="2016/img/hotels/homewood.jpg">
-									<h3 class="hotel-name">Homewood Suites<span class="hotel-phone">800.445.8667</span></h3>
-                  <div class="hotel-code">Code: GopherCon</div>
-									<p class="hotel-address">
-                    550 15th Street,<br>
-                    Denver, CO 80202
-                  </p>
-									<div class="hotel-link text-link">
-                    <a href="http://homewoodsuites.hilton.com/en/hw/groups/personalized/D/DENDCHW-GOP-20160707/index.jhtml">Book Now</a>
-                  </div>
+							<div class="row">
+								<div class="col-sm-3">
+									<div class="info-box">
+	                  <div class="hotel-price"><strong>$175</strong><small> / night, plus tax</small></div>
+										<img alt="Hampton Inn" src="2016/img/hotels/hampton.jpg">
+	                  
+										<h3 class="hotel-name">Hampton Inn<span class="hotel-phone">800.445.8667</span></h3>
+	                  <div class="hotel-code">Code: GopherCon</div>
+	                  <p class="hotel-address">
+	                    550 15th Street,<br>
+	                    Denver, CO 80202
+	                  </p>
+	
+										<div class="hotel-link text-link">
+	                    <a href="http://hamptoninn.hilton.com/en/hp/groups/personalized/D/DENCVHX-GOP-20160707/index.jhtml">Book Now</a>
+	                  </div>
+									</div>
 								</div>
-							</div>
-					
-							<div class="col-sm-6">
-								<div class="info-box">
-                  <div class="hotel-price"><strong>$185</strong><small> / night, plus tax</small></div>
-									<img alt="Hyatt Place" src="2016/img/hotels/hyatt.jpg">
-                  <h3 class="hotel-name">Hyatt Place<span class="hotel-phone">888.591.1234</span></h3>
-                  <div class="hotel-code">Code: G-GO16</div>
-									<p class="hotel-address">
-										440 14th Street<br>
-                    Denver, CO 80202
-                  </p>
-									<div class="hotel-link text-link">
-                    <a href="http://denverdowntown.place.hyatt.com/en/hotel/home.html?corp_id=G-GO16">Book Now</a>
-                  </div>
+						
+								<div class="col-sm-3">
+									<div class="info-box">
+	                  <div class="hotel-price"><strong>$185</strong><small> / night, plus tax</small></div>
+										<img alt="Homewood Suites" src="2016/img/hotels/homewood.jpg">
+										<h3 class="hotel-name">Homewood Suites<span class="hotel-phone">800.445.8667</span></h3>
+	                  <div class="hotel-code">Code: GopherCon</div>
+										<p class="hotel-address">
+	                    550 15th Street,<br>
+	                    Denver, CO 80202
+	                  </p>
+										<div class="hotel-link text-link">
+	                    <a href="http://homewoodsuites.hilton.com/en/hw/groups/personalized/D/DENDCHW-GOP-20160707/index.jhtml">Book Now</a>
+	                  </div>
+									</div>
 								</div>
-							</div>
-
-							<div class="col-sm-6">
-								<div class="info-box">
-                  <div class="hotel-price"><strong>$189</strong><small> / night, plus tax</small></div>
-									<img alt="Hilton Garden Inn" src="2016/img/hotels/hiltongardeninn.jpg">
-                  <h3 class="hotel-name">Hilton Garden Inn<span class="hotel-phone">855.215.1283</span></h3>
-                  <div class="hotel-code">Code: GopherCon</div>
-									<p class="hotel-address">
-										1400 Welton Street<br>
-                    Denver, CO 80202
-                  </p>
-									<div class="hotel-link text-link">
-                    <a href="http://hiltongardeninn.hilton.com/en/gi/groups/personalized/D/DENDDGI-GOPHER-20160708/index.jhtml?WT.mc_id=POG">Book Now</a>
-                  </div>
+						
+								<div class="col-sm-3">
+									<div class="info-box">
+	                  <div class="hotel-price"><strong>$185</strong><small> / night, plus tax</small></div>
+										<img alt="Hyatt Place" src="2016/img/hotels/hyatt.jpg">
+	                  <h3 class="hotel-name">Hyatt Place<span class="hotel-phone">888.591.1234</span></h3>
+	                  <div class="hotel-code">Code: G-GO16</div>
+										<p class="hotel-address">
+											440 14th Street<br>
+	                    Denver, CO 80202
+	                  </p>
+										<div class="hotel-link text-link">
+	                    <a href="http://denverdowntown.place.hyatt.com/en/hotel/home.html?corp_id=G-GO16">Book Now</a>
+	                  </div>
+									</div>
+								</div>
+	
+								<div class="col-sm-3">
+									<div class="info-box">
+	                  <div class="hotel-price"><strong>$189</strong><small> / night, plus tax</small></div>
+										<img alt="Hilton Garden Inn" src="2016/img/hotels/hiltongardeninn.jpg">
+	                  <h3 class="hotel-name">Hilton Garden Inn<span class="hotel-phone">855.215.1283</span></h3>
+	                  <div class="hotel-code">Code: GopherCon</div>
+										<p class="hotel-address">
+											1400 Welton Street<br>
+	                    Denver, CO 80202
+	                  </p>
+										<div class="hotel-link text-link">
+	                    <a href="http://hiltongardeninn.hilton.com/en/gi/groups/personalized/D/DENDDGI-GOPHER-20160708/index.jhtml?WT.mc_id=POG">Book Now</a>
+	                  </div>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-				</section>
+					</section>
+				</div>
       </div>
       <div class="footer-container">			
         <footer class="short footer">
