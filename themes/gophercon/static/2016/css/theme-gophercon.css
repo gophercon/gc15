@@ -979,7 +979,7 @@ nav .container {
 .countdown-divider img,
 .countdown-header img,
 .video-header img {
-  max-width: 350px;
+  max-width: 300px;
   display: inline-block;
   margin-bottom: 12px;
 }
@@ -1210,10 +1210,10 @@ nav .container {
   -moz-transition: all 0.1s ease-out;
 }
 .block-left {
-  background-color: #FFB452;
+  background-color: #FFBA89;
 }
 .block-right {
-  background-color: #FF6B1E;
+  background-color: #98DADB;
   right: 0px;
 }
 @media all and (max-width: 768px) {
