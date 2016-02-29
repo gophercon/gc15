@@ -2516,7 +2516,6 @@ body .colors .col-xs-2:nth-child(6n+0) {
 		width: 50%;
 	}
 	.block-right {
-		background-color: #f9a987;
 		right: 0;
 		top: 0 !important;
 	}
@@ -2582,7 +2581,6 @@ body .colors .col-xs-2:nth-child(6n+0) {
 		width: 100%;
 	}
 	.block-right {
-		background-color: #f9a987;
 		bottom: 0 !important;
 		right: 0;
 		top: auto !important;
@@ -2648,7 +2646,6 @@ body .colors .col-xs-2:nth-child(6n+0) {
 		width: 100%;
 	}
 	.block-right {
-		background-color: #f9a987;
 		bottom: 0 !important;
 		right: 0;
 		top: auto !important;
