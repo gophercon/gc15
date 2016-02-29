@@ -2426,3 +2426,221 @@ body .colors .col-xs-2:nth-child(6n+0) {
   float: right;
   font-size: 15px;
 }
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.hero-slider img.logo {
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+	/*-- video section --*/
+	.embedded-video-holder {
+		margin-top: 30px;
+	}
+	.embedded-video-holder iframe {
+		height: 230px;
+	}
+	
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*-- Hero section --*/
+	.hero-slider img.logo {
+		display: block;
+		margin: 0 auto;
+		max-width: 370px;
+		text-align: center;
+		width: 70%;
+	}
+	.hero-slider .container {
+		top: 50%;
+	}
+	.video-header .uppercase, .countdown-header .uppercase {
+		margin-bottom: 24px;
+		margin-top: 24px;
+	}
+	.hero-slider .slides li {
+		height: 650px;
+	}
+	
+	/*-- color section --*/
+	.block-content {
+		margin-bottom: 0;
+	}
+	.color-block {
+		height: 100%;
+		width: 50%;
+	}
+	.block-right {
+		background-color: #f9a987;
+		right: 0;
+		top: 0 !important;
+	}
+	.color-blocks a {
+		float: left;
+		width: 50%;
+	}
+	
+	/*-- video section --*/
+	.embedded-video-holder {
+		margin-top: 30px;
+	}
+	.embedded-video-holder iframe {
+		height: 370px;
+	}
+	
+	/*-- hotel styles --*/
+	.info-box img {
+		display: block;
+		margin-bottom: 12px;
+		max-width: 100%;
+		width: 100%;
+	}
+	.hotel-price {
+		float: left;
+		width: auto;
+	}
+	.visitor-info .col-sm-6 {
+		float: left;
+		width: 50%;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	
+	/*-- Hero section --*/
+	.hero-slider img.logo {
+		display: block;
+		margin: 0 auto;
+		max-width: 70%;
+		text-align: center;
+	}
+	.hero-slider .container {
+		top: 50%;
+	}
+	.video-header .uppercase, .countdown-header .uppercase {
+		margin-bottom: 24px;
+		margin-top: 24px;
+	}
+	.hero-slider .slides li {
+		height: 500px;
+	}
+	
+	/*-- color section --*/
+	.block-content {
+		display: block;
+		margin-bottom: 144px;
+		overflow: hidden;
+	}
+	.color-block {
+		height: 50%;
+		width: 100%;
+	}
+	.block-right {
+		background-color: #f9a987;
+		bottom: 0 !important;
+		right: 0;
+		top: auto !important;
+	}
+	.color-blocks a {
+		float: none;
+		width: 100%;
+	}
+	
+	/*-- video section --*/
+	.embedded-video-holder {
+		margin-top: 30px;
+	}
+	.embedded-video-holder iframe {
+		height: 250px;
+	}
+	
+	/*-- hotel styles --*/
+	.info-box img {
+		display: block;
+		margin-bottom: 12px;
+		max-width: 100%;
+		width: 100%;
+	}
+	.hotel-price {
+		float: left;
+		width: auto;
+	}
+	.visitor-info .col-sm-6 {
+		float: none;
+		width: 100%;
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+	/*-- Hero section --*/
+	.hero-slider img.logo {
+		display: block;
+		margin: 0 auto;
+		max-width: 70%;
+		text-align: center;
+	}
+	.hero-slider .container {
+		top: 50%;
+	}
+	.video-header .uppercase, .countdown-header .uppercase {
+		margin-bottom: 24px;
+		margin-top: 24px;
+	}
+	.hero-slider .slides li {
+		height: 500px;
+	}
+	
+	/*-- color section --*/
+	.block-content {
+		display: block;
+		margin-bottom: 144px;
+		overflow: hidden;
+	}
+	.color-block {
+		height: 50%;
+		width: 100%;
+	}
+	.block-right {
+		background-color: #f9a987;
+		bottom: 0 !important;
+		right: 0;
+		top: auto !important;
+	}
+	.color-blocks a {
+		float: none;
+		width: 100%;
+	}
+	
+	/*-- video section --*/
+	.embedded-video-holder {
+		margin-top: 30px;
+	}
+	.embedded-video-holder iframe {
+		height: 250px;
+	}
+	
+	/*-- hotel styles --*/
+	.info-box img {
+		display: block;
+		margin-bottom: 12px;
+		max-width: 100%;
+		width: 100%;
+	}
+	.hotel-price {
+		float: left;
+		width: auto;
+	}
+	.visitor-info .col-sm-6 {
+		float: none;
+		width: 100%;
+	}
+}
