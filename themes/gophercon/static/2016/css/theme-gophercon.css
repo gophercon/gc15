@@ -1255,7 +1255,11 @@ nav .container {
 .topic {
   margin-bottom: 36px;
 }
+.speaker .background-image {
+  border-radius: 100%;
+}
 .speaker .hover-state {
+  border-radius: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -1269,6 +1273,7 @@ nav .container {
   -moz-transition: all 0.3s ease-out;
 }
 .speaker .image-holder {
+  max-width: 175px;
   margin-bottom: 12px;
 }
 .speaker span {
