@@ -2327,7 +2327,7 @@ body .colors {
 body .colors div {
 	height: 5px;
 }
-body .colors .col-md-2 {
+body .colors .col-xs-2 {
 	-webkit-animation-duration: 0.5s;
 	-moz-animation-duration: 0.5s;
 	-ms-animation-duration: 0.5s;
@@ -2336,7 +2336,7 @@ body .colors .col-md-2 {
 	padding: 0;
 	margin: 0;
 }
-body .colors .col-md-2:nth-child(1n+0) {
+body .colors .col-xs-2:nth-child(1n+0) {
     background: #40657c;
   	-webkit-animation-delay: 0.1s;
 	-moz-animation-delay: 0.1s;
@@ -2344,7 +2344,7 @@ body .colors .col-md-2:nth-child(1n+0) {
 	-o-animation-delay: 0.1s;
 	animation-delay: 0.1s;
 }
-body .colors .col-md-2:nth-child(2n+0) {
+body .colors .col-xs-2:nth-child(2n+0) {
     background: #4cc4ec;
 	-webkit-animation-delay: 0.2s;
 	-moz-animation-delay: 0.2s;
@@ -2352,7 +2352,7 @@ body .colors .col-md-2:nth-child(2n+0) {
 	-o-animation-delay: 0.2s;
 	animation-delay: 0.2s;
 }
-body .colors .col-md-2:nth-child(3n+0) {
+body .colors .col-xs-2:nth-child(3n+0) {
     background: #edead7;
 	-webkit-animation-delay: 0.3s;
 	-moz-animation-delay: 0.3s;
@@ -2360,7 +2360,7 @@ body .colors .col-md-2:nth-child(3n+0) {
 	-o-animation-delay: 0.3s;
 	animation-delay: 0.3s;
 }
-body .colors .col-md-2:nth-child(4n+0) {
+body .colors .col-xs-2:nth-child(4n+0) {
     background: #b3ad9f;
 	-webkit-animation-delay: 0.4s;
 	-moz-animation-delay: 0.4s;
@@ -2368,7 +2368,7 @@ body .colors .col-md-2:nth-child(4n+0) {
 	-o-animation-delay: 0.4s;
 	animation-delay: 0.4s;
 }
-body .colors .col-md-2:nth-child(5n+0) {
+body .colors .col-xs-2:nth-child(5n+0) {
     background: #f9b575;
 	-webkit-animation-delay: 0.5s;
 	-moz-animation-delay: 0.5s;
@@ -2376,7 +2376,7 @@ body .colors .col-md-2:nth-child(5n+0) {
 	-o-animation-delay: 0.5s;
 	animation-delay: 0.5s;
 }
-body .colors .col-md-2:nth-child(6n+0) {
+body .colors .col-xs-2:nth-child(6n+0) {
     background: #f07332;
 	-webkit-animation-delay: 0.6s;
 	-moz-animation-delay: 0.6s;
