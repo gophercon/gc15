@@ -2015,6 +2015,16 @@ p.question {
   border-color: #004470;
 }
 
+.diamond-sponsors .sponsor {
+  height: 100px;
+  line-height: 100px;
+}
+
+.diamond-sponsors .sponsor img {
+  max-width: 240px;
+  max-height: 100px;
+}
+
 .platinum-sponsors .sponsor {
   height: 80px;
   line-height: 80px;
