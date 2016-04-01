@@ -1,16 +1,4 @@
-
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>GopherCon 2016</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="2016/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="2016/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="2016/css/theme-gophercon.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="2016/font/styles.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
-    </head>
+  {{ partial "header.html" . }}
     <body>
     	<div class="loader">
     		<div class="strip-holder">
@@ -594,12 +582,12 @@ Then write a lot of code.</p>
     
                 <div class="speaker-description col-md-9">
                   <h2>Cindy Sridharan</h2>
-                  <span class="sub">Hwyman, a building an origin cache for images</span>
-		  <p>At Imgix, our multitiered caching layer forms one of the most important components of our real­time image processing and delivery service.Hwyman is the origin cache that we built using Go. The talk will shed light on what necessitated the system in the first place and the architecture, the libraries we had to write ourselves such as a ragel bagel based cache control field parser, how several of the language’s inbuilt constructs, newer features (like the library introduced in 1.5 which helped us do our own dns resolutions that helped us replace nginx ‘s own resolver in the old architecture) well as the tooling were used to design, implement and test our cache filling, cache eviction and purging logic, and more interestingly, our experience ‘productionizing this’, debugging difficult to pin down goroutine and filedescriptor leaks, tuning our system to handle disparate traffic patterns, how we evaluated performance pre and post ­production, the mistakes we made, challenges we faced and lessons we learned building this.</p>
-		  <div class="speaker-bio">
-		    <p>Cindy learned Go in the fall of 2015 and currently work at Imgix, a real time image processing and image CDN service where she uses Go to build components for their caching layer.</p>
-		    <p>In her past life she worked with Python where she remembers fixing unicode errors for the most part, and prior to that worked with C/C++, and believes Go combines the best of both worlds.</p>
-		    <p>She lives in San Francisco where you're most likely to find her at one of the many, many, many awesome meetups about the latest and greatest in technology or in a hipster coffee shop. She helped found the Women Who Go Bangalore chapter and organizes the Python Twisted and Lua meetups in San Francisco.</p>
+                  <span class="sub">Building an origin cache for images</span>
+                  <p>At Imgix, our multitiered caching layer forms an important components of our real­time image processing and delivery service. This talk will shed light on what necessitated the system and the architecture, how several of the language’s inbuilt constructs, newer features (like the library introduced in 1.5 which enabled us to do our own dns resolutions that helped replace nginx‘s own resolver in the old architecture) well as the tooling were used to design, implement and test the cache filling, eviction and purging logic, and more interestingly, our experience ‘productionizing this’, tuning the system to handle disparate traffic patterns, evaluating performance pre and post production, the mistakes made, challenges faced and lessons learned building this.</p>
+                  <div class="speaker-bio">
+                    <p>Cindy Sridharan learned Go in the fall of 2015 and currently works at Imgix where Go is used to build components of the origin cache.</p>
+                    <p>She helped found the Women Who Go Bangalore chapter and organizes the Python Twisted and Lua meetups in San Francisco.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -891,8 +879,20 @@ Then write a lot of code.</p>
             </div>
 
             <div class="row">
+              <div class="col-sm-12 diamond-sponsors">
+                <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 text-center">
+                  <div class="sponsor">
+                    <a href="http://www.google.com/">
+                      <img alt="Google" src="2016/img/sponsors/diamond/google.png">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
               <div class="col-sm-12 platinum-sponsors">
-                <div class="col-md-2 col-md-offset-3 col-sm-2 col-sm-offset-3 text-center">
+                <div class="col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-2 text-center">
                   <div class="sponsor">
                     <a href="http://www.twitch.tv/">
                       <img alt="Twitch" src="2016/img/sponsors/platinum/twitch.png">
@@ -904,6 +904,14 @@ Then write a lot of code.</p>
                   <div class="sponsor">
                     <a href="https://www.compose.io/">
                       <img alt="Compose" src="2016/img/sponsors/platinum/compose.png" style="margin-left: 35px;">
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-md-2 col-sm-2 text-center">
+                  <div class="sponsor">
+                    <a href="https://www.verizon.com/">
+                      <img alt="Verizon" src="2016/img/sponsors/platinum/verizon.png">
                     </a>
                   </div>
                 </div>
@@ -940,7 +948,7 @@ Then write a lot of code.</p>
 
             <div class="row">
               <div class="col-sm-12 silver-sponsors">
-                <div class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 text-center">
+                <div class="col-md-2 col-sm-2 text-center">
                   <div class="sponsor">
                     <a href="https://www.hashicorp.com/">
                       <img alt="HashiCorp" src="2016/img/sponsors/silver/hashicorp.png" style="max-width: 120px">
@@ -979,6 +987,14 @@ Then write a lot of code.</p>
                     </a>
                   </div>
                 </div>
+
+                <div class="col-md-2 col-sm-2 text-center">
+                  <div class="sponsor">
+                    <a href="https://www.yikyak.com/home/">
+                      <img alt="YikYak" src="2016/img/sponsors/silver/yikyak.png" style="">
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -1010,51 +1026,4 @@ Then write a lot of code.</p>
           </div>
         </section>
       </div>
-      <div class="footer-container">			
-        <footer class="short footer">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-7">
-                <span class="text-white">© Copyright 2016 GopherAcademy, LLC.<br>
-                </span>
-                <p class="small character-copyright">The Gopher character is based on the Go mascot designed by
-                  <a href="http://reneefrench.blogspot.com/" target="blank">Renee French</a>
-                  and copyrighted under the
-                  <a href="http://creativecommons.org/licenses/by/3.0/us/" target="blank">Creative Commons Attribution 3.0 license.</a>
-                </p>
-              </div>
-        
-              <div class="col-sm-5 text-right">
-                <ul class="menu">
-                  <li><a href="https://gopheracademy.com/about/">About</a></li>
-                  <li><a href="https://golang.org/conduct">Code of Conduct</a></li>
-                  <li><a href="mailto:gophercon@gopheracademy.com">Contact</a></li>
-		  <li><a class="inner-link back-to-top" href="#top">Back To Top&nbsp;<i class="icon pe-7s-angle-up-circle"></i></a></li>
-		  <!--		  <li><a href="https://www.digitalocean.com/"><img height=39 width=140 src="/img/dohost.png" /></a></li> -->
- 
-               </ul>
-              </div>
-      
-            </div>
-          </div>
-        </footer>
-      </div>
-				
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
-      <script src="2016/js/bootstrap.min.js"></script>
-      <script src="2016/js/skrollr.min.js"></script>
-      <script src="2016/js/lightbox.min.js"></script>
-      <script src="2016/js/smooth-scroll.min.js"></script>
-      <script src="2016/js/scripts.js"></script>
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-40886074-1', 'auto');
-        ga('send', 'pageview');
-      </script>
-    </body>
-</html>
-				
+  {{ partial "footer.html" . }}

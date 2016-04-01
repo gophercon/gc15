@@ -107,6 +107,10 @@ nav {
 .no-loader .loader {
   display: none !important;
 }
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
 /*!
 // 3. Loader
 // --------------------------------------------------*/
@@ -2009,6 +2013,16 @@ p.question {
 .sponsors span a {
   color: #004470;
   border-color: #004470;
+}
+
+.diamond-sponsors .sponsor {
+  height: 100px;
+  line-height: 100px;
+}
+
+.diamond-sponsors .sponsor img {
+  max-width: 240px;
+  max-height: 100px;
 }
 
 .platinum-sponsors .sponsor {
