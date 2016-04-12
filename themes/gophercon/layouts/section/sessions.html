@@ -25,7 +25,7 @@
     
                 <div class="speaker-description col-md-9">
                   <h2>{{ .Params.talk }}</h2>
-                  <span class="sub">{{ .Title }}</span>
+		  <span class="sub"><a href="/speakers/{{.Params.speaker}}">{{ .Title }}</a></span>
 			{{.Content}}
                   </div>
                 </div>
