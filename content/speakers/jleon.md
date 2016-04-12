@@ -6,6 +6,7 @@ title = "John Leon"
 talk = "Packet Capture, Analysis, and Injection with Go"
 subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/john-leon.png"
+session = "jleon"
 +++
 
 John "NanoDano" Leon is currently an Application Security Architect with a background in software engineering.

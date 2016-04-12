@@ -6,6 +6,7 @@ title = "Emily Gu"
 talk = "The Power and Elegance of Reflection"
 subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/emily-big.png"
+session = "egu"
 +++
 Emily Gu currently works for Intel Corporation as a cloud software engineer in the Software Defined Infrastructure (SDI-X) group and is a graduate from East Carolina University.
 

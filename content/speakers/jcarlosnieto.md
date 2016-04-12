@@ -6,6 +6,7 @@ title = "José Carlos Nieto"
 talk = "Go Mobile as the backbone of Lantern for Android"
 subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/jose-carlos-nieto.jpg"
+session = "jcarlosnieto"
 +++
 
 José is a Mexican gopher who loves Open Source (https://github.com/xiam).

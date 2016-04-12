@@ -6,6 +6,10 @@ linktitle = "Raphael Simon"
 talk = "goa: A New Approach to Microservice Development in Go"
 subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/raphael-simon.jpg"
+twitter = "https://twitter.com/rgsimon"
+github = "https://github.com/raphael/"
+linkedin = "https://www.linkedin.com/in/raphael-simon-3b65ba"
+session = "rsimon"
 +++
 
 Raphael Simon is a Systems Architect at RightScale where he’s been designing many of the systems that make up the platform for the past 8 years.

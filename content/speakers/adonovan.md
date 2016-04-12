@@ -6,6 +6,7 @@ title = "Alan Donovan"
 talk = "Navigating unfamiliar code with the Go Oracle"
 subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/alan-donovan.jpg"
+session = "adonovan"
 +++
 
 Alan Donovan is a Staff Engineer in Google's infrastructure division, specializing in software development tools.

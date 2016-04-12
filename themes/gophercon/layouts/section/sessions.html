@@ -9,7 +9,7 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
-                <h1>Speakers</h1>
+                <h1>Sessions</h1>
               </div>
             </div>
           {{ range .Data.Pages }}
@@ -24,8 +24,8 @@
                 </div>
     
                 <div class="speaker-description col-md-9">
-                  <h2>{{ .Title }}</h2>
-		  <span class="sub"><a href="/sessions/{{.Params.session}}">{{ .Params.talk }}</a></span>
+                  <h2>{{ .Params.talk }}</h2>
+                  <span class="sub">{{ .Title }}</span>
 			{{.Content}}
                   </div>
                 </div>
@@ -44,3 +44,4 @@
 
 
 {{ partial "footer.html" . }}
+

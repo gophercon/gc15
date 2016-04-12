@@ -6,6 +6,7 @@ title = "Francesc Campoy Flores"
 talk = "Understanding nil"
 subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/francesc-campoy-flores.jpg"
+session = "fcampoyflores"
 +++
 
 Francesc Campoy Flores is a Developer Advocate for Go and the Cloud at Google. He joined the Go team in 2012 and since then he has written some considerable didactic resources and traveled the world attending conferences, organizing live courses, and meeting fellow gophers.

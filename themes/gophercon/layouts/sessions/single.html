@@ -14,19 +14,9 @@
                 </div>
 
                 <div class="speaker-description col-md-9">
-                  <h2>{{.LinkTitle}}</h2>
-		<div id="social-wrapper">
-            		{{ with .Params.twitter }}
-			<a href="{{.}}"><i class="fa fa-twitter"></i></a>
-			{{ end }}
-		        {{ with .Params.github }}
-                        <a href="{{.}}"><i class="fa fa-github"></i></a>
-                        {{ end }}
-                        {{ with .Params.linkedin }}
-                        <a href="{{.}}"><i class="fa fa-linkedin"></i></a>
-                        {{ end }}
-		</div> 
-		  <span class="sub">{{.Params.talk}}</span>
+			<h2>{{.Params.talk}}</h2>
+
+			<span class="sub"><a href="/speakers/{{.Params.speaker}}">{{.LinkTitle}}</a></span>
 		  {{.Content}}
                   </div>
 

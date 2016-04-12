@@ -6,5 +6,7 @@ title = "Kelsey Hightower"
 talk = "Building Microservices with gRPC - A Practical Introduction"
 subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/kelsey-hightower.jpg"
+session = "khightower"
 +++
 
+Kelsey works at Google on the Google Cloud Platform Team.

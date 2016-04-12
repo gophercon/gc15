@@ -6,6 +6,7 @@ title = "Bill O'Farrell"
 talk = "Porting Go to the IBM z Architecture"
 subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/bill-ofarrell.jpg"
+session = "bofarrell"
 +++
 Bill O'Farrell is a member of the IBM Linux on z Systems Open Source Ecosystem, and team lead for the port of the Go compiler and tools to the z platform.
 

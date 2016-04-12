@@ -6,6 +6,7 @@ title = "Jack Lindamood"
 talk = "Practical Advice for Go Library Authors"
 subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/jack-lindamood.jpg"
+session = "jlindamood"
 +++
 
 Jack is a software engineer with over 7 years experience building and running large scale distributed services.
