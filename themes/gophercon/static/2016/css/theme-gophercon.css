@@ -469,6 +469,11 @@ nav .logo {
   top: -6px;
   opacity: 1;
 }
+
+.navbar-brand  img {
+  max-height: 30px;
+  max-width: 30px;
+}
 nav .text-right {
   position: relative;
 }
@@ -1322,6 +1327,14 @@ nav .container {
   display: inline-block;
   margin-bottom: 18px;
   font-weight: 600;
+}
+
+
+.speaker-description span a {
+  display: inline-block;
+  margin-bottom: 18px;
+  font-weight: 600;
+  color: #428bca;
 }
 .speaker-bio {
   border-top: 2px solid #eee;
