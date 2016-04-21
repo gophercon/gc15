@@ -10,4 +10,3 @@ sponsorclass = "diamond"
 logo = "/images/temp-logos/google.png"
 +++
 
-this is a thing

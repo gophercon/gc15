@@ -1,6 +1,5 @@
 {{ partial "header.html" . }}
-{{ $baseurl := .Site.BaseUrl }}
-
+{{ partial "navbar.html" . }}
 <main class="container generic">
     <section class="row"> 
     	<div class="sponsors col-md-8">
@@ -9,7 +8,7 @@
         	<!---------- Diamond Sponsors ---------->
             <div class="col-md-12 diamond">
             	<img class="icon" src="/images/diamond.png" />
-                <h3>Diamond Sponsors</h4>
+                <h3>Diamond Sponsor</h4>
 				<a href="{{.Params.site}}"><img src="{{.Params.logo}}" /></a>
 				<p>{{ .Content }}</p>
                 <div class="clearfix"></div>
@@ -19,7 +18,7 @@
 			<!---------- Platinum Sponsors  -->
             <div class="col-md-12 platinum">
             	<img class="icon" src="/images/platinum.png" />
-                <h4>Platinum Sponsors</h4>
+                <h4>Platinum Sponsor</h4>
 				<a href="{{.Params.site}}"><img src="{{.Params.logo}}"/></a>
 				<p>{{ .Content }}</p>
                 <div class="clearfix"></div>
@@ -28,7 +27,7 @@
            {{ if eq "gold"  .Params.sponsorclass}}
             <div class="col-md-12 gold">
                 <img class="icon" src="/images/gold.png" />
-                <h3>Gold Sponsors</h3>
+                <h3>Gold Sponsor</h3>
 				<a href="{{.Params.site}}"><img src="{{.Params.logo}}"/></a>
 				<p>{{ .Content }}</p>
                 <div class="clearfix"></div>
@@ -37,7 +36,7 @@
      		{{ if eq "silver"  .Params.sponsorclass}} 			
             <div class="col-md-12 silver">
                 <img class="icon" src="/images/silver.png" />
-                <h3>Silver Sponsors</h3>
+                <h3>Silver Sponsor</h3>
 				<a href="{{.Params.site}}"><img src="{{.Params.logo}}"/></a>
 				<p>{{ .Content }}</p>
                 <div class="clearfix"></div>
@@ -46,7 +45,7 @@
             {{ if eq "bronze"  .Params.sponsorclass}} 	
             <div class="col-md-12 bronze">
                 <img class="icon" src="/images/bronze.png" />
-                <h3>Bronze Sponsors</h3>
+                <h3>Bronze Sponsor</h3>
 				<a href="{{.Params.site}}"><img src="{{.Params.logo}}"/></a>
 				<p>{{ .Content }}</p>
                 <div class="clearfix"></div>
@@ -63,11 +62,8 @@
 			{{ end }}
         </div><!-- sponsors col-md-10 -->
         
-        {{ partial "sidebar.html" . }}
     </section>
 </main>
 
-<main>
-  {{ partial "sponsors.html" . }}
-</main>
+
 {{ partial "footer.html" . }}
