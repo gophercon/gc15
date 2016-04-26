@@ -106,34 +106,44 @@
           </div>
         </section>
 
-           <section class="speakers">
+        <section class="speakers">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
                 <h1>Speakers</h1>
               </div>
             </div>
-	    {{ range $k, $v := where .Data.Pages "Section" "speakers" }}
+            {{ $speakers := where .Data.Pages "Section" "speakers" }}
+            {{ $sessions := where .Data.Pages "Section" "sessions" }}
+
+            {{ range $speaker := $speakers }}
             <div class="row">
               <div class="speaker-with-bio">
                 <div class="speaker col-md-3">
                   <div class="image-holder">
-			  <img class="background-image" alt="Speaker" src="{{.Params.speakerimage}}">
+                    <img class="background-image" alt="Speaker" src="{{$speaker.Params.speakerimage}}">
                     <div class="hover-state text-center preserve3d">
                     </div>
                   </div>
                 </div>
     
                 <div class="speaker-description col-md-9">
-			<h2><a href="{{.Permalink}}">{{ .Title }}</a></h2>
-		  <span class="sub"><a href="/sessions/{{.Params.session}}">{{ .Params.talk }}</a></span>
+                  <h2><a href="{{$speaker.Permalink}}">{{ $speaker.Title }}</a></h2>
+                  <span class="sub"><a href="/sessions/{{$speaker.Params.session}}">{{ $speaker.Params.talk }}</a></span>
 
+                  {{ range $session := $sessions }}
+                    {{ if eq $session.Params.speaker $speaker.Params.session }}
+                      {{ $session.Content }}
+                    {{ end }}
+                  {{ end }}
+                  <div class="speaker-bio">
+                    {{ $speaker.Content }}
+                  </div>
                 </div>
               </div>
             </div>
-	    {{ end }}
-
-	  </div> <!-- container -->
+            {{ end }}
+          </div> <!-- container -->
         </section>
 
         
