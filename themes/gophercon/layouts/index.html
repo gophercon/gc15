@@ -128,8 +128,8 @@
                 </div>
     
                 <div class="speaker-description col-md-9">
-                  <h2><a href="{{$speaker.Permalink}}">{{ $speaker.Title }}</a></h2>
-                  <span class="sub"><a href="/sessions/{{$speaker.Params.session}}">{{ $speaker.Params.talk }}</a></span>
+                  <h2>{{ $speaker.Title }}</h2>
+                  <span class="sub">{{ $speaker.Params.talk }}</span>
 
                   {{ range $session := $sessions }}
                     {{ if eq $session.Params.speaker $speaker.Params.session }}
