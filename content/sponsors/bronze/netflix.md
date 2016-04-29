@@ -16,4 +16,4 @@ Netflix is the world’s leading Internet television network with over 81 millio
 
 Behind the magic on thousands of devices is a talented team that develops the cloud services and applications that power the user experience. With the culture of freedom and responsibility, engineers are able to choose what tools they use, how they build systems, and how they manage them after they are in production. Although currently used in only a few places, Go is increasingly becoming the right tool at Netflix to solve problems and build new systems.
 
-We are growing fast and solving big challenges. Come join us as we change the way entertainment is consumed globally.
+We are growing fast and solving big challenges. Come [join us](https://jobs.netflix.com) as we change the way entertainment is consumed globally.

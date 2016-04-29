@@ -11,3 +11,8 @@ logo = "/2016/img/sponsors/gold/datadog.png"
 site = "http://www.datadog.com"
 +++
 
+Datadog is Monitoring-as-a-Service for Dev & Ops teams who want to turn the massive amounts of data produced by their apps, tools, and services into actionable insight, with native support for Go apps.
+
+At Datadog we use Go extensively to power our backend services. We prize the language for its pragmatism, the runtime for its quality and the community for its vibrancy.
+
+Much like the previous years we are very happy to be present at GopherCon as a sponsor. See you in Denver.
