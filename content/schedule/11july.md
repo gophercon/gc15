@@ -179,3 +179,5 @@ Key:
 		<td>Panel Discussions and Lightning Talks</td>
 	</tr>
 </table>
+
+* Due to the nature of conferences, the speaker assignments and times are subject to change.
