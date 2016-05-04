@@ -1331,16 +1331,20 @@ nav .container {
 
 
 .speaker-description span a {
-  display: inline-block;
-  margin-bottom: 18px;
-  font-weight: 600;
-  color: #428bca;
+  border: none;
+  color: #777777;
+  font-weight: 100;
 }
 .speaker-bio {
   border-top: 2px solid #eee;
   font-size: 12px;
   margin-top: 20px;
   padding-top: 20px;
+}
+
+.speaker-bio a {
+  border: none;
+  font-weight: normal;
 }
 
 .speaker-bio p {
