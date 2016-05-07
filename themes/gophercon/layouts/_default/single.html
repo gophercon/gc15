@@ -1,15 +1,15 @@
 {{ partial "header.html" . }}
 {{ partial "navbar.html" . }}
 
-<main class="container generic">
-    <section class="row"> 
-        <div class="col-md-8">
-            {{ .Content }}
-        </div><!-- generic col-md-10 -->
+<section class="row"> 
+  <main class="container generic">
+    <div class="col-md-8 main">
+        {{ .Content }}
+    </div><!-- generic col-md-10 -->
 
-        {{ partial "sidebar.html" . }}
-    </section>
-</main>
+    {{ partial "sidebar.html" . }}
+  </main>
+</section>
 
 <main>
   {{ partial "sponsors.html" . }}
