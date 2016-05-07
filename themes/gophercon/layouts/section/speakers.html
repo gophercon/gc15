@@ -2,44 +2,7 @@
  <body>
       {{ partial "navbar.html" . }}
       <div class="main-container">
-        <section class="color-blocks">
-          <div class="color-block block-left col-md-6 col-sm-12"></div>
-          <div class="color-block block-right col-md-6 col-sm-12"></div>
-          
-          <div class="container">
-            <div class="row">
-              <a href="https://ti.to/gophercon/gophercon-2016" class="block-content">
-                <div class="col-md-2 col-sm-4 text-center">
-                  <i>
-                    <img class="icon" src="/2016/img/icons/Starred Ticket-70.png" width="65" style="margin-top: -12px">
-                  </i>
-                </div>
-              
-                <div class="col-md-4 col-sm-8">
-                  <h1>Need Tickets?</h1>
-                  <p>
-                    Get your tickets early and guarantee your entrance to the largest Go conference in the world.
-                  </p>
-                </div>
-              </a>
-              
-              <a href="/Gophercon2016Prospectus.pdf" class="block-content">
-                <div class="col-md-2 col-sm-4 text-center">
-                  <i>
-                    <img class="icon" src="/2016/img/icons/Handshake-70.png" width="60" style="margin-top: -12px">
-                  </i>
-                </div>
-              
-                <div class="col-md-4 col-sm-8">
-                  <h1>Interested in Sponsoring?</h1>
-                  <p>Ensure that 2016 is the best to date and become a sponsor.</p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </section>
-    	
-    	<a id="top"></a>
+        <a id="top"></a>
 				
         <section class="speakers">
           <div class="container">
@@ -48,28 +11,28 @@
                 <h1>Speakers</h1>
               </div>
             </div>
-          {{ range .Data.Pages }}
+
+            {{ $speakers := where .Data.Pages "Section" "speakers" }}
+
+            {{ range $speaker := $speakers }}
             <div class="row">
               <div class="speaker-with-bio">
                 <div class="speaker col-md-3">
                   <div class="image-holder">
-                    <img class="background-image" alt="Speaker" src="{{.Params.speakerimage}}">
+                    <img class="background-image" alt="Speaker" src="{{$speaker.Params.speakerimage}}">
                     <div class="hover-state text-center preserve3d">
                     </div>
                   </div>
                 </div>
     
                 <div class="speaker-description col-md-9">
-			<h2><a href="{{.Permalink}}">{{ .Title }}</a></h2>
-		  <span class="sub"><a href="/sessions/{{.Params.session}}">{{ .Params.talk }}</a></span>
-			{{.Content}}
-                  </div>
+                  <h2>{{ $speaker.Title }}</h2>
+                  <span class="sub">{{ $speaker.Params.talk }}</span>
+                  {{ $speaker.Content }}
                 </div>
               </div>
-
-          {{ end }}
-
             </div>
+          {{ end }}
           </div>
         </section>
  

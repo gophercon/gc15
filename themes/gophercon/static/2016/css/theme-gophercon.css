@@ -1325,6 +1325,10 @@ nav .container {
   margin-bottom: 72px;
 }
 
+.speaker-description h2 a {
+  color: #333;
+}
+
 .speaker-description span {
   display: inline-block;
   margin-bottom: 18px;
@@ -1334,8 +1338,8 @@ nav .container {
 
 .speaker-description span a {
   border: none;
-  color: #777777;
-  font-weight: 100;
+  color: #777777 !important;
+  font-weight: 600;
 }
 .speaker-bio {
   border-top: 2px solid #eee;
