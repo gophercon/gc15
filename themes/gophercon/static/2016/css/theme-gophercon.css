@@ -1263,7 +1263,7 @@ nav .container {
 }
 .speaker,
 .topic {
-  margin-bottom: 36px;
+  margin-bottom: 24px;
 }
 .speaker .background-image {
   border-radius: 100%;
@@ -1286,9 +1286,10 @@ nav .container {
   max-width: 175px;
   margin-bottom: 12px;
 }
-.speaker span {
-  display: block;
-  font-size: 16px;
+.speaker span, .speaker span a {
+  color: #777777 !important;
+  font-size: 14px;
+  font-weight: 600;
 }
 .speaker-name {
   color: #333333;

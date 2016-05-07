@@ -67,6 +67,7 @@
 
 .schedule .schedule-tab .nav-tabs>li.active, .schedule .schedule-tab .nav-tabs>li.active:hover {
   background-color: rgba(249, 181, 117, 0.21);
+  height: 95px;
 }
 
 .schedule .schedule-tab .nav-tabs {
@@ -90,7 +91,7 @@
 .schedule .schedule-tab .nav-tabs>li a, .schedule .schedule-tab .nav-tabs>li a:hover {
   padding: 25px;
   margin: 0;
-  font-size: 15px;
+  font-size: 12px;
   border: inherit;
   border-radius: inherit;
   background-color: initial;
@@ -109,9 +110,9 @@
 }
 
 .schedule .schedule-item .time {
-  color: #4cc4ec;
+  color: #333333;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .schedule .schedule-item-details {
@@ -131,18 +132,28 @@
 }
 
 .schedule .schedule-item-slot {
-  color: #4cc4ec;
-  padding: 10px;
+  padding: 0 20px 10px;
 }
 
 .schedule-tab .schedule-item {
-  margin-top: 25px;
+  border-bottom: 1px solid #f5f5f5;
+  border-left: 10px solid #fff;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
+.schedule-tab .schedule-item.advanced {
+  border-left: 10px solid red;
+}
+
+.schedule-tab .schedule-item.beginner {
+  border-left: 10px solid green;
+}
 
 .schedule .schedule-item .title, .schedule .schedule-item .title a {
+  color: #333333;
   display: block;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
 }
 
