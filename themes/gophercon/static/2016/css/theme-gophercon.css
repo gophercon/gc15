@@ -2748,3 +2748,16 @@ body .colors .col-xs-2:nth-child(6n+0) {
   margin-top: 24px;
   margin-bottom: 12px;
 }
+
+.diamond, .gold, .bronze, .platinum, .silver {
+  height: 180px;
+  width: 180px;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.diamond img, .gold img, .bronze img, .platinum img, .silver img {
+  max-height: 150px;
+  max-width: 150px;
+}
