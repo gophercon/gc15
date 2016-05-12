@@ -8,6 +8,8 @@ subtitle = "TBD"
 speakerimage = "/2016/img/speakers/adrian-cockcroft.jpg"
 twitter = "https://twitter.com/adrianco"
 speaker = "acockcroft"
+sessionscheduled = "July 11th"
+sessiontime = "01:30pm - 02:20pm"
 +++
 
 Coming soon.

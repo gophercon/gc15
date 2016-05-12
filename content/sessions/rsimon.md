@@ -9,6 +9,8 @@ speakerimage = "/2016/img/speakers/raphael-simon.jpg"
 twitter = "https://twitter.com/rgsimon"
 github = "https://github.com/raphael/"
 speaker = "rsimon"
+sessionscheduled = "July 11th"
+sessiontime = "03:30pm - 04:20pm"
 +++
 
 This tutorial introduces a novel approach to building microservices in Go that uses code to describe the design of the service API.

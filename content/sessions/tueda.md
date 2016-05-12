@@ -6,6 +6,8 @@ title = "Takuya Ueda"
 talk = "Go for Mobile Games"
 speakerimage = "/2016/img/speakers/takuya-ueda.png"
 speaker = "tueda"
+sessionscheduled = "July 11th"
+sessiontime = "03:30pm - 04:20pm"
 +++
 
 Go Mobile (golang.org/x/mobile) is a project which shows new possibilities for mobile apps development.

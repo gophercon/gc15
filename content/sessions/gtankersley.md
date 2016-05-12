@@ -6,6 +6,8 @@ title = "George Tankersley"
 talk = "Go for Crypto Developers"
 speakerimage = "/2016/img/speakers/george-tankersley.jpeg"
 speaker = "gtankersley"
+sessionscheduled = "July 11th"
+sessiontime = "01:30pm - 02:20pm"
 +++
 
 You've heard don't implement your own crypto! and taken it to heart. Great!

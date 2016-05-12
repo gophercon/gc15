@@ -7,6 +7,8 @@ talk = "Grow your users from an unlikely source: Windows Developers"
 subtitle = "TBD"
 speakerimage = "/2016/img/speakers/carolyn-van-slyck.jpg"
 speaker = "cvanslyck"
+sessionscheduled = "July 11th"
+sessiontime = "02:30pm - 03:20pm"
 +++
 
 You may not realize it but there are a lot of Windows developers moving into your neighborhood.
