@@ -1,0 +1,157 @@
+
+                {{ $sessions := where (where .Data.Pages "Section" "sessions") "Params.sessionscheduled" "July 11th" }}
+                <div id="day1-schedule" class="tab-pane schedule-tab tab-pane-subtabs">
+                  <ul class="nav nav-tabs">
+                    <li role="presentation" class="active">
+                      <a data-toggle="tab" href="#general-schedule-11july">General</a>
+                    </li>
+                    <li role="presentation" class="">
+                      <a data-toggle="tab" href="#main-theater-11july">Main Theater</a>
+                    </li>
+                    <li role="presentation" class="">
+                      <a data-toggle="tab" href="#tutorial-1-11july">Tutorial 1</a>
+                    </li>
+                    <li role="presentation" class="">
+                      <a data-toggle="tab" href="#tutorial-2-11july">Tutorial 2</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content">
+                    <div id="general-schedule-11july" class="schedule-tab schedule-item-tab active tab-pane">
+                      <div class="row schedule-item">
+                        <div class="col-md-3 schedule-item-slot">
+                          <span class="time">08:00am - 6:00pm</span>
+                          <span class="location">Grand Concourse</span>
+                        </div>
+                        <div class="col-md-9 schedule-item-details">
+                          <div class="schedule-item-summary">
+                            <span class="title">Conference Registration</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row schedule-item">
+                        <div class="col-md-3 schedule-item-slot">
+                          <span class="time">6:00pm (tentative)</span>
+                          <span class="location">To be announced</span>
+                        </div>
+                        <div class="col-md-9 schedule-item-details">
+                          <div class="schedule-item-summary">
+                            <span class="title">GopherCon 2016 Party</span>
+                          </div>
+                          <div class="abstract">
+                            <p>The Official GopherCon After-Party hosted by our Diamond Sponsors</p>
+                            <p>Details coming soon!</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="main-theater-11july" class="schedule-tab schedule-item-tab tab-pane ">
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Open" "sessiontime" "08:50am - 09:00am" )}}
+
+                      {{ range $sessions }}
+                        {{ if eq .Params.speaker "fcampoyflores" }}
+                          {{ partial "schedule/session.html" (dict "session" . ) }}
+                        {{ end }}
+                      {{ end }}
+                      {{ range $sessions }}
+                        {{ if eq .Params.speaker "adonovan" }}
+                          {{ partial "schedule/session.html" (dict "session" . ) }}
+                        {{ end }}
+                      {{ end }}
+
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "10:00am - 10:20am" )}}
+
+                      {{ range $sessions }}
+                        {{ if eq .Params.speaker "dwhitenack" }}
+                          {{ partial "schedule/session.html" (dict "session" . ) }}
+                        {{ end }}
+                      {{ end }}
+                      {{ range $sessions }}
+                        {{ if eq .Params.speaker "csridharan" }}
+                          {{ partial "schedule/session.html" (dict "session" . ) }}
+                        {{ end }}
+                      {{ end }}
+
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "11:20am - 11:40am" )}}
+
+                      {{ range $sessions }}
+                        {{ if eq .Params.speaker "jcarlosnieto" }}
+                          {{ partial "schedule/session.html" (dict "session" . ) }}
+                        {{ end }}
+                      {{ end }}
+                      {{ range $sessions }}
+                        {{ if eq .Params.speaker "idanyliuk" }}
+                          {{ partial "schedule/session.html" (dict "session" . ) }}
+                        {{ end }}
+                      {{ end }}
+
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Lunch" "sessiontime" "12:40pm - 01:30pm" )}}
+
+                      {{ range $sessions }}
+                        {{ if eq .Params.speaker "acockcroft" }}
+                          {{ partial "schedule/session.html" (dict "session" . ) }}
+                        {{ end }}
+                      {{ end }}
+
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "02:20pm - 02:30pm" )}}
+
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Panel and Questions" "sessiontime" "02:30pm - 03:20pm" )}}
+
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "03:20pm - 03:30pm" )}}
+
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Lightning Talks" "sessiontime" "03:30pm - 05:00pm" )}}
+
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Close" "sessiontime" "05:00pm" )}}
+
+                    </div>
+                    <div id="tutorial-1-11july" class="schedule-tab schedule-item-tab tab-pane">
+                      {{ range $sessions }}
+                        {{ if eq .Params.speaker "mmatloob" }}
+                          {{ partial "schedule/session.html" (dict "session" . ) }}
+                        {{ end }}
+                      {{ end }}
+
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "02:20pm - 02:30pm" )}}
+
+                      {{ range $sessions }}
+                        {{ if eq .Params.speaker "cvanslyck" }}
+                          {{ partial "schedule/session.html" (dict "session" . ) }}
+                        {{ end }}
+                      {{ end }}
+
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "03:20pm - 03:30pm" )}}
+
+                      {{ range $sessions }}
+                        {{ if eq .Params.speaker "rsimon" }}
+                          {{ partial "schedule/session.html" (dict "session" . ) }}
+                        {{ end }}
+                      {{ end }}
+
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Room Closed" "sessiontime" "04:20pm" )}}
+                    </div>
+                    <div id="tutorial-2-11july" class="schedule-tab schedule-item-tab tab-pane">
+                      {{ range $sessions }}
+                        {{ if eq .Params.speaker "gtankersley" }}
+                          {{ partial "schedule/session.html" (dict "session" . ) }}
+                        {{ end }}
+                      {{ end }}
+
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "02:20pm - 02:30pm" )}}
+
+                      {{ range $sessions }}
+                        {{ if eq .Params.speaker "mvanlohuizen" }}
+                          {{ partial "schedule/session.html" (dict "session" . ) }}
+                        {{ end }}
+                      {{ end }}
+
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "03:20pm - 03:30pm" )}}
+
+                      {{ range $sessions }}
+                        {{ if eq .Params.speaker "tueda" }}
+                          {{ partial "schedule/session.html" (dict "session" . ) }}
+                        {{ end }}
+                      {{ end }}
+
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Room Closed" "sessiontime" "04:20pm" )}}
+                    </div>
+                  </div>
+                </div>

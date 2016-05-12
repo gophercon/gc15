@@ -6,6 +6,8 @@ title = "Daniel Whitenack"
 talk = "Go for Data Science"
 speakerimage = "/2016/img/speakers/whitenack1.jpg"
 speaker = "dwhitenack"
+sessionscheduled = "July 11th"
+sessiontime = "10:20am - 10:50am"
 +++
 
 Trending languages for data science/engineering work are python and R, but can Go provide something special and relevant in this developing space?

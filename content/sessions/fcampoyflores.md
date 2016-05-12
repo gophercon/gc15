@@ -7,6 +7,8 @@ talk = "Understanding nil"
 subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/francesc-campoy-flores.jpg"
 speaker = "fcampoyflores"
+sessionscheduled = "July 11th"
+sessiontime = "09:00am - 09:30am"
 +++
 
 Is it a constant? A variable? Where is it defined? What is its type? It has no type? It has all the types? Those are usual questions that people learning Go ask and this talk answers all of them and more.

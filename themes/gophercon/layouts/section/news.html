@@ -1,8 +1,7 @@
 {{ partial "header.html" . }}
 
-
-<main class="container generic">
-    <section class="row"> 
+<section class="row"> 
+  <main class="container generic">
 		<div class="col-md-8">
 			<h2>GopherCon News</h2>
 			{{ range .Paginator.Pages }}
@@ -18,8 +17,8 @@
 			{{ template "_internal/pagination.html" . }}
 		</div>
         {{ partial "sidebar.html" . }}
-    </section>
-</main>
+  </main>
+</section>
 
 <main>
   {{ partial "sponsors.html" . }}
