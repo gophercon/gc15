@@ -6,6 +6,8 @@ title = "Keith Randall"
 talk = "Inside the Map Implementation"
 speakerimage = "/2016/img/speakers/keith-randall.jpg"
 speaker = "krandall"
+sessionscheduled = "July 12th"
+sessiontime = "09:30am - 10:00am"
 +++
 
 Ever wondered how maps work in Go? This talk will describe the current Go map implementation in detail and discuss some of the design tradeoffs.

@@ -6,6 +6,8 @@ title = "Rob Pike"
 talk = "The Design of the Go Assembler"
 speakerimage = "/2016/img/speakers/rob_pike.jpg"
 speaker = "rpike"
+sessionscheduled = "July 12th"
+sessiontime = "10:50am - 11:20am"
 +++
 
 The Go assembler was rewritten for the 1.5 release, replacing a suite of C programs, one per architecture, with a single binary, written in Go, that supports all architectures.

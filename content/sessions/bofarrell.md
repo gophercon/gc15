@@ -7,6 +7,8 @@ talk = "Porting Go to the IBM z Architecture"
 subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/bill-ofarrell.jpg"
 speaker = "bofarrell"
+sessionscheduled = "July 12th"
+sessiontime = "02:30pm - 03:20pm"
 +++
 
 At the IBM Linux on z Systems Open Source Ecosystem team, we have ported the Go language tooling (compiler, assembler, linker) to the Linux on z platform.

@@ -7,6 +7,8 @@ talk = "CONTRIBUTING: The Talk"
 subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/michael-matloob.jpg"
 speaker = "mmatloob"
+sessionscheduled = "July 11th"
+sessiontime = "01:30pm - 02:20pm"
 +++
 
 Interested in contributing to the Go Programming Language open source project, but don't know where to start? Come learn how you can get involved and find something to work on.

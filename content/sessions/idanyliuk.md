@@ -7,6 +7,8 @@ talk = "Visualizing Concurrency in Go"
 subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/ivan-danyliuk2.jpg"
 speaker = "idanyliuk"
+sessionscheduled = "July 11th"
+sessiontime = "12:10pm - 12:40pm"
 +++
 
 Concurrency in Go has been explained many times in a variety of articles, but there is time to explain it visually using the power of 3D modeling and animations.

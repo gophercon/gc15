@@ -1,5 +1,5 @@
 {{ partial "header.html" . }}
-
+TAX
 <main class="container generic">
     <section class="row"> 
     	<div class="sponsors col-md-9">
@@ -32,7 +32,7 @@
             <div class="col-md-12 gold">
                 <img class="icon" src="/images/gold.png" />
                 <h3>Gold Sponsors</h3>
-				<a href="{{.Permalink}}"><img src="{{ .Params.logo }}" /></a>
+				<a href="{{.Params.site}}"><img src="{{ .Params.logo }}" /></a>
                 <div class="clearfix"></div>
             </div><!-- Gold Sponsors End -->
             	{{end}}
@@ -43,7 +43,7 @@
             <div class="col-md-12 silver">
                 <img class="icon" src="/images/silver.png" />
                 <h3>Silver Sponsors</h3>
-				<a href="{{.Permalink}}"><img src="{{ .Params.logo }}" /></a>
+				<a href="{{.Params.site}}"><img src="{{ .Params.logo }}" /></a>
                 <div class="clearfix"></div>
             </div><!-- Silver Sponsors End -->
         	   {{end}}
@@ -54,7 +54,7 @@
             <div class="col-md-12 bronze">
                 <img class="icon" src="/images/bronze.png" />
                 <h3>Bronze Sponsors</h3>
-				<a href="{{.Permalink}}"><img src="{{ .Params.logo }}" /></a>
+				<a href="{{.Params.site}}"><img src="{{ .Params.logo }}" /></a>
                 <div class="clearfix"></div>
             </div><!-- Bronze Sponsors End -->
             {{end}}

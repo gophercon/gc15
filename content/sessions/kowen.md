@@ -6,6 +6,8 @@ title = "Katrina Owen"
 talk = "Mind the Gap"
 speakerimage = "/2016/img/speakers/katrina-owen.jpg"
 speaker = "kowen"
+sessionscheduled = "July 12th"
+sessiontime = "09:00am - 09:30am"
 +++
 
 How do you learn Go? First do the tour. Then read the language spec. Then write a lot of code.

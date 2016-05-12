@@ -7,6 +7,8 @@ talk = "Packet Capture, Analysis, and Injection with Go"
 subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/john-leon.png"
 speaker = "jleon"
+sessionscheduled = "July 12th"
+sessiontime = "03:30pm - 04:20pm"
 +++
 
 Learn about packet capturing, analysis, manipulation and injection using the gopacket package. Useful for port scanning, monitoring, routing, and ensuring your network is secure.
