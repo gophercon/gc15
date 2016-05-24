@@ -1,5 +1,4 @@
-
-                {{ $sessions := where (where .Data.Pages "Section" "sessions") "Params.sessionscheduled" "July 11th" }}
+                {{ $sessions := where (where .Site.Pages "Section" "sessions") "Params.sessionscheduled" "July 11th" }}
                 <div id="day1-schedule" class="tab-pane schedule-tab tab-pane-subtabs">
                   <ul class="nav nav-tabs">
                     <li role="presentation" class="active">
