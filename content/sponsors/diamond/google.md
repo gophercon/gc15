@@ -7,6 +7,7 @@ type = "sponsor"
 sponsors = [ "diamond" ] 
 sponsorlevel = "Diamond"
 sponsorclass = "diamond"
-logo = "/images/temp-logos/google.png"
+logo = "/2016/img/sponsors/diamond/google.png"
+site = "http://www.google.com"
 +++
 
