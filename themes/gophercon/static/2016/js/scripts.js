@@ -126,13 +126,4 @@ $(window).load(function() {
             forceHeight: false
         });
     }
-
-    setTimeout(function() {
-        $('.loader').addClass('hide-loader');
-        setTimeout(function() {
-            $('.loader').remove();
-            $('.main-container').addClass('show-content');
-            $('nav').addClass('show-content');
-        }, 500);
-    }, 10);
 }); 
