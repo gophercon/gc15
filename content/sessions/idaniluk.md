@@ -1,11 +1,11 @@
 +++
 author = ["Brian Ketelsen"]
 date = "2015-03-21T16:03:09-04:00"
-linktitle = "Ivan Danyliuk"
-title = "Ivan Danyliuk"
+linktitle = "Ivan Daniluk"
+title = "Ivan Daniluk"
 talk = "Visualizing Concurrency in Go"
 subtitle = "A Community Event Hosted By GopherAcademy"
-speakerimage = "/2016/img/speakers/ivan-danyliuk2.jpg"
+speakerimage = "/2016/img/speakers/ivan-daniluk.jpg"
 speaker = "idanyliuk"
 sessionscheduled = "July 11th"
 sessiontime = "12:10pm - 12:40pm"
