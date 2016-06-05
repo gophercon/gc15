@@ -91,16 +91,16 @@ subtitle = ""
 	<tr class="warning">
 		<td>2:00-2:50 PM</td>
 		<td>Tutorial Track 1</td>
-		<td>Speaker 19</td>
-		<td>Room 505</td>
-		<td>Speaker 19</td>
+		<td>Speaker 20</td>
+		<td>Room 501</td>
+		<td>Speaker 20</td>
 	</tr>
 	<tr class="success">
 		<td>2:00-2:50 PM</td>
 		<td>Tutorial Track 2</td>
-		<td>Speaker 20</td>
-		<td>Room 501</td>
-		<td>Speaker 20</td>
+		<td>Speaker 19</td>
+		<td>Room 505</td>
+		<td>Speaker 19</td>
 	</tr>
 	<tr class="danger">
 		<td>2:00-2:50 PM</td>
