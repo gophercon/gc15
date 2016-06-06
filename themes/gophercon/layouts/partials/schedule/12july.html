@@ -92,7 +92,7 @@
                     </div>
                     <div id="tutorial-1-12july" class="schedule-tab schedule-item-tab tab-pane">
                       {{ range $sessions }}
-                        {{ if eq .Params.speaker "fvalsorda" }}
+                        {{ if eq .Params.speaker "khightower" }}
                           {{ partial "schedule/session.html" (dict "session" . ) }}
                         {{ end }}
                       {{ end }}
@@ -117,7 +117,7 @@
                     </div>
                     <div id="tutorial-2-12july" class="schedule-tab schedule-item-tab tab-pane">
                       {{ range $sessions }}
-                        {{ if eq .Params.speaker "khightower" }}
+                        {{ if eq .Params.speaker "fvalsorda" }}
                           {{ partial "schedule/session.html" (dict "session" . ) }}
                         {{ end }}
                       {{ end }}
