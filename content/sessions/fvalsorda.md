@@ -7,7 +7,7 @@ talk = "cgo: Safely Taming the Beast"
 speakerimage = "/2016/img/speakers/filippo-valsorda.jpg"
 speaker = "fvalsorda"
 sessionscheduled = "July 12th"
-sessiontime = "01:30pm - 02:20pm"
+sessiontime = "02:00pm - 02:50pm"
 +++
 
 cgo is a powerful tool, but using it right becomes subtle when memory starts to be shared between C and Go.

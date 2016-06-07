@@ -8,7 +8,7 @@ subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/marcel-van-lohuizen.jpg"
 speaker = "mvanlohuizen"
 sessionscheduled = "July 11th"
-sessiontime = "02:30pm - 03:20pm"
+sessiontime = "03:00pm - 03:50pm"
 +++
 
 Human languages are more often than not messy, inconsistent, and full of surprises. Although this can make languages interesting, it is not something you want to deal with in your code.

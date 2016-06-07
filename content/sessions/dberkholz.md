@@ -8,7 +8,7 @@ subtitle = "TBD"
 speakerimage = "/2016/img/speakers/donnie-berkholz.jpg"
 speaker = "dberkholz"
 sessionscheduled = "July 12th"
-sessiontime = "01:30pm - 02:20pm"
+sessiontime = "02:00pm - 02:50pm"
 +++
 Now serving as Research Director for the Development, DevOps, and IT Ops team at 451 Research.
 Growing 451's footprint and recognition across the entire software lifecycle.

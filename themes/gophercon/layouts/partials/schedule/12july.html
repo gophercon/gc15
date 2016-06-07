@@ -69,7 +69,7 @@
                         {{ end }}
                       {{ end }}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Lunch" "sessiontime" "12:40pm - 01:30pm" )}}
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Lunch" "sessiontime" "12:40pm - 02:00pm" )}}
 
                       {{ range $sessions }}
                         {{ if eq .Params.speaker "dberkholz" }}
@@ -77,15 +77,14 @@
                         {{ end }}
                       {{ end }}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "02:20pm - 02:30pm" )}}
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "02:50pm - 03:00pm" )}}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Panel and Questions" "sessiontime" "02:30pm - 03:20pm" )}}
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Panel and Questions" "sessiontime" "03:00pm - 03:50pm" )}}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "03:20pm - 03:30pm" )}}
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "03:50pm - 04:00pm" )}}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Lightning Talks" "sessiontime" "03:30pm - 04:30pm" )}}
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Lightning Talks" "sessiontime" "04:00pm - 04:50pm" )}}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Conference Close" "sessiontime" "04:30pm - 05:00pm" )}}
 
                       {{ partial "schedule/intermission.html" (dict "purpose" "Close" "sessiontime" "05:00pm" )}}
 
