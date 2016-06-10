@@ -24,7 +24,7 @@ We've arranged to have three workshops available for you on the day before the c
 		<th></th>
 	</tr>
 	<tr>
-		<td><a href="/workshops/hardcore">Hardcore Go</a></td>
+		<td><a href="/workshops/ultimate">Ultimate Go</a></td>
 		<td>Ardan Labs</td>
 		<td>TBD</td>
 		<td>9:00 AM</td>
