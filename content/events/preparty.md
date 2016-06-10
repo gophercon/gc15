@@ -12,6 +12,8 @@ subtitle = "Wynkoop Brewing Company"
 
 Join us for the Pre-Party and kick off the GopherCon event in style!  
 
+This year, the GopherCon Kick-off Party is going to move to Denver’s Lower Downtown or “LoDo” as it’s called by the locals, to experience the Wynkoop Brewing Company, Colorado's oldest brew pub. Back when now-Governor John Hickenlooper was just an out-of-work geologist, Denver law prohibited the brewing and selling of beer in one establishment. Mr. Hickenlooper decided to change this, and opened Denver’s first craft brewery. The building he chose was originally Denver’s J.S. Mercantile building, built in 1899, and was most impressive at the time. With hardwood floors, thick timber pillars, and pressed tin ceilings, the building is very unique to Denver and is also one of the city’s most popular restaurant and brew pubs.  Many of you will be familiar with the location as it has hosted the last two GopherCon After Parties!
+
 Schedule 
 
 As we get closer to the date, more details will be announced.
