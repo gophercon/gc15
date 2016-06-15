@@ -6,7 +6,7 @@ title = "Wisdom Omuya"
 talk = "Go Vendoring Deconstructed"
 speakerimage = "/2016/img/speakers/wisdom-omuya.jpg"
 speaker = "womuya"
-sessionscheduled = "July 12th"
+sessionscheduled = "July 11th"
 sessiontime = "11:40am - 12:10pm"
 +++
 

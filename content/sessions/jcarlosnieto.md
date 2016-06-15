@@ -7,7 +7,7 @@ talk = "Go Mobile as the backbone of Lantern for Android"
 subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/jose-carlos-nieto.jpg"
 speaker = "jcarlosnieto"
-sessionscheduled = "July 11th"
+sessionscheduled = "July 12th"
 sessiontime = "11:40am - 12:10pm"
 +++
 
