@@ -2502,6 +2502,21 @@ body .colors .col-xs-2:nth-child(6n+0) {
   font-size: 18px;
 }
 
+.hotel-note {
+  background: rgba(255, 40, 40, 0.8); 
+  color: #fff; 
+  height; 26px; 
+  padding: 6px 12px; 
+  font-size: 14px; 
+  font-weight: bold;
+  position: relative; 
+  top: -46px; 
+  margin-bottom: -42px;
+  width: 100%;
+  float: left;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}
+
 .hotel-price {
   background: rgba(40, 40, 40, 0.6); 
   color: #fff; 
