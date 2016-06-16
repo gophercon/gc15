@@ -6,7 +6,7 @@ title = "Ivan Daniluk"
 talk = "Visualizing Concurrency in Go"
 subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/ivan-daniluk.jpg"
-speaker = "idanyliuk"
+speaker = "idaniluk"
 sessionscheduled = "July 11th"
 sessiontime = "12:10pm - 12:40pm"
 +++
