@@ -4,7 +4,7 @@ date = "2016-06-03T16:03:09-04:00"
 linktitle = "afterparty"
 title = "After Party"
 subtitle = "Punch Bowl Social"
-
+sponsor = "/2016/img/sponsors/diamond/google.png"
 +++
 
 ## GopherCon 2016 After Party 

@@ -4,6 +4,7 @@ date = "2016-06-03T16:03:09-04:00"
 linktitle = "preparty"
 title = "Kick Off Party"
 subtitle = "Wynkoop Brewing Company"
+sponsor = "/2016/img/sponsors/kaztronix.png"
 
 +++
 
