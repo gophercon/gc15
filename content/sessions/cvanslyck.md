@@ -8,7 +8,7 @@ subtitle = "TBD"
 speakerimage = "/2016/img/speakers/carolyn-van-slyck.jpg"
 speaker = "cvanslyck"
 sessionscheduled = "July 11th"
-sessiontime = "03:00pm - 03:50pm"
+sessiontime = "03:30pm - 04:20pm"
 +++
 
 You may not realize it but there are a lot of Windows developers moving into your neighborhood.

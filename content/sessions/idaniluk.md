@@ -8,7 +8,7 @@ subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/ivan-daniluk.jpg"
 speaker = "idaniluk"
 sessionscheduled = "July 11th"
-sessiontime = "12:10pm - 12:40pm"
+sessiontime = "12:30pm - 1:00pm"
 +++
 
 Concurrency in Go has been explained many times in a variety of articles, but there is time to explain it visually using the power of 3D modeling and animations.

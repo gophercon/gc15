@@ -7,7 +7,7 @@ talk = "Go Vendoring Deconstructed"
 speakerimage = "/2016/img/speakers/wisdom-omuya.jpg"
 speaker = "womuya"
 sessionscheduled = "July 11th"
-sessiontime = "11:40am - 12:10pm"
+sessiontime = "11:55am - 12:25pm"
 +++
 
 Vendoring has been a major struggle for Go developers. Many of us have had to vendor packages to build dependences into our projects - usually by performing ugly rewrites of import paths.

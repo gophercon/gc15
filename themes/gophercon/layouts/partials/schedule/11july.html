@@ -29,6 +29,17 @@
                       </div>
                       <div class="row schedule-item">
                         <div class="col-md-3 schedule-item-slot">
+                          <span class="time">05:20pm - 6:15pm</span>
+                          <span class="location">Dining Den</span>
+                        </div>
+                        <div class="col-md-9 schedule-item-details">
+                          <div class="schedule-item-summary">
+                            <span class="title">Exhibitor's Happy Hour</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row schedule-item">
+                        <div class="col-md-3 schedule-item-slot">
                           <span class="time">8:00pm - 11:00pm</span>
                           <span class="location">Punch Bowl Social</span>
                         </div>
@@ -44,7 +55,7 @@
                       </div>
                     </div>
                     <div id="main-theater-11july" class="schedule-tab schedule-item-tab tab-pane ">
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Open" "sessiontime" "08:50am - 09:00am" )}}
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Welcome Gophers!" "sessiontime" "08:50am - 09:00am" )}}
 
                       {{ range $sessions }}
                         {{ if eq .Params.speaker "fcampoyflores" }}
@@ -57,20 +68,19 @@
                         {{ end }}
                       {{ end }}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "10:00am - 10:20am" )}}
-
                       {{ range $sessions }}
                         {{ if eq .Params.speaker "dwhitenack" }}
                           {{ partial "schedule/session.html" (dict "session" . ) }}
                         {{ end }}
                       {{ end }}
+
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "10:40am - 11:20am" )}}
+
                       {{ range $sessions }}
                         {{ if eq .Params.speaker "csridharan" }}
                           {{ partial "schedule/session.html" (dict "session" . ) }}
                         {{ end }}
                       {{ end }}
-
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "11:20am - 11:40am" )}}
 
                       {{ range $sessions }}
                         {{ if eq .Params.speaker "womuya" }}
@@ -83,7 +93,7 @@
                         {{ end }}
                       {{ end }}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Lunch" "sessiontime" "12:40pm - 02:00pm" )}}
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Lunch" "sessiontime" "1:00pm - 02:30pm" )}}
 
                       {{ range $sessions }}
                         {{ if eq .Params.speaker "acockcroft" }}
@@ -91,15 +101,9 @@
                         {{ end }}
                       {{ end }}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "02:50pm - 03:00pm" )}}
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Panel and Questions" "sessiontime" "03:30pm - 04:20pm" )}}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Panel and Questions" "sessiontime" "03:00pm - 03:50pm" )}}
-
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "03:50pm - 04:00pm" )}}
-
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Lightning Talks" "sessiontime" "04:00pm - 04:50pm" )}}
-
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Close" "sessiontime" "05:00pm" )}}
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Lightning Talks" "sessiontime" "04:30pm - 06:00pm" )}}
 
                     </div>
                     <div id="tutorial-1-11july" class="schedule-tab schedule-item-tab tab-pane">
@@ -109,15 +113,11 @@
                         {{ end }}
                       {{ end }}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "02:50pm - 03:00pm" )}}
-
                       {{ range $sessions }}
                         {{ if eq .Params.speaker "cvanslyck" }}
                           {{ partial "schedule/session.html" (dict "session" . ) }}
                         {{ end }}
                       {{ end }}
-
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "03:50pm - 04:00pm" )}}
 
                       {{ range $sessions }}
                         {{ if eq .Params.speaker "rsimon" }}
@@ -125,7 +125,6 @@
                         {{ end }}
                       {{ end }}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Room Closed" "sessiontime" "04:50pm" )}}
                     </div>
                     <div id="tutorial-2-11july" class="schedule-tab schedule-item-tab tab-pane">
                       {{ range $sessions }}
@@ -134,15 +133,11 @@
                         {{ end }}
                       {{ end }}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "02:50pm - 03:00pm" )}}
-
                       {{ range $sessions }}
                         {{ if eq .Params.speaker "mvanlohuizen" }}
                           {{ partial "schedule/session.html" (dict "session" . ) }}
                         {{ end }}
                       {{ end }}
-
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "03:50pm - 04:00pm" )}}
 
                       {{ range $sessions }}
                         {{ if eq .Params.speaker "tueda" }}
@@ -150,7 +145,6 @@
                         {{ end }}
                       {{ end }}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Room Closed" "sessiontime" "04:50pm" )}}
                     </div>
                   </div>
                 </div>

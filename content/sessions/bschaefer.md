@@ -7,7 +7,7 @@ talk = "Go Without the Operating System"
 speakerimage = "/2016/img/speakers/bernerd-schaefer.jpg"
 speaker = "bschaefer"
 sessionscheduled = "July 12th"
-sessiontime = "10:20am - 10:50am"
+sessiontime = "10:10am - 10:40am"
 +++
 
 Go lets you to compile your program into stand-alone binaries which can be safely shared across systems without worrying about a missing dependency.

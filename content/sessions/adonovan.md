@@ -8,7 +8,7 @@ subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/alan-donovan.jpg"
 speaker = "adonovan"
 sessionscheduled = "July 11th"
-sessiontime = "09:30am - 10:00am"
+sessiontime = "09:35am - 10:05am"
 +++
 
 In this talk, I will present the Go [Guru](http://golang.org/x/tools/cmd/guru), an "editor-integrated tool for code comprehension and navigation".

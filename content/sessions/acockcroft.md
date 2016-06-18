@@ -9,7 +9,7 @@ speakerimage = "/2016/img/speakers/adrian-cockcroft.jpg"
 twitter = "https://twitter.com/adrianco"
 speaker = "acockcroft"
 sessionscheduled = "July 11th"
-sessiontime = "02:00pm - 02:50pm"
+sessiontime = "02:30pm - 03:20pm"
 +++
 
 Coming soon.
