@@ -170,3 +170,8 @@
   text-align: left;
   margin: 25px;
 }
+
+.schedule .workshop-warning span.title {
+  color: rgba(255, 40, 40, 1);
+  font-weight: 400;
+}
