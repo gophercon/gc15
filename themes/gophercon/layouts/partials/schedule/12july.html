@@ -30,7 +30,7 @@
                       </div>
                     </div>
                     <div id="main-theater-12july" class="schedule-tab schedule-item-tab tab-pane ">
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Welcome Back &amp; Raffle Drawing" "sessiontime" "08:50am - 09:00am" )}}
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Welcome Back & Raffle Drawing" "sessiontime" "08:50am - 09:00am" )}}
 
                       {{ range $sessions }}
                         {{ if eq .Params.speaker "kowen" }}
@@ -77,7 +77,7 @@
                         {{ end }}
                       {{ end }}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Panel and Questions" "sessiontime" "03:30pm - 04:20pm" )}}
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Speakers’ Q & A Panel" "sessiontime" "03:30pm - 04:20pm" )}}
 
                       {{ partial "schedule/intermission.html" (dict "purpose" "Lightning Talks" "sessiontime" "04:30pm - 06:00pm" )}}
 
@@ -89,23 +89,17 @@
                         {{ end }}
                       {{ end }}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "02:50pm - 03:00pm" )}}
-
                       {{ range $sessions }}
                         {{ if eq .Params.speaker "bofarrell" }}
                           {{ partial "schedule/session.html" (dict "session" . ) }}
                         {{ end }}
                       {{ end }}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "03:50pm - 04:00pm" )}}
-
                       {{ range $sessions }}
                         {{ if eq .Params.speaker "jlindamood" }}
                           {{ partial "schedule/session.html" (dict "session" . ) }}
                         {{ end }}
                       {{ end }}
-
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Room Closed" "sessiontime" "04:50pm" )}}
                     </div>
                     <div id="tutorial-2-12july" class="schedule-tab schedule-item-tab tab-pane">
                       {{ range $sessions }}
