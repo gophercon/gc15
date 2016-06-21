@@ -108,23 +108,17 @@
                         {{ end }}
                       {{ end }}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "02:50pm - 03:00pm" )}}
-
                       {{ range $sessions }}
                         {{ if eq .Params.speaker "egu" }}
                           {{ partial "schedule/session.html" (dict "session" . ) }}
                         {{ end }}
                       {{ end }}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "03:50pm - 04:00pm" )}}
-
                       {{ range $sessions }}
                         {{ if eq .Params.speaker "jleon" }}
                           {{ partial "schedule/session.html" (dict "session" . ) }}
                         {{ end }}
                       {{ end }}
-
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Room Closed" "sessiontime" "04:50pm" )}}
                     </div>
                   </div>
                 </div>
