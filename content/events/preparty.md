@@ -23,7 +23,11 @@ As we get closer to the date, more details will be announced.
 
 More Information can be found here: [Denver Gophers](http://www.meetup.com/Denver-Go-Language-User-Group/events/229341754/) 
 
-### Address
+## RSVP
+
+RSVP for the Event here: [Denver Gophers](http://www.meetup.com/Denver-Go-Language-User-Group/events/229341754/)
+
+## Address
 Wynkoop Brewing Company
 
 1634 18th St.
