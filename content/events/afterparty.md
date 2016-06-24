@@ -17,12 +17,16 @@ Outdoors, an additional space with bistro lights strung overhead, will feature a
 
 More Information can be found here: [Punch Bowl Social](http://punchbowlsocial.com/denver/) 
 
+## RSVP
+
+RSVP not required.
+
 ## Transportation
 Transportation will be provided. We will have (5) 54-passenger motorcoaches running conitunous shuttle service between Punch Bowl Social and the Convention Center where the hotels are located.
 
 Shuttle Service departs from the corner of 14th and Welton Streets downtown in front of the Colorado Convention Center (across from the Hyatt Regency) ~ Run Time is 7:45p – 11:15p.
 
-### Address
+## Address
 Punch Bowl Social
 
 65 Broadway
