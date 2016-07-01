@@ -10,7 +10,6 @@
 
 .schedule .nav-tabs.schedule-days>li a, .schedule .nav-tabs.schedule-days>li a:hover {
   padding: 10px 80px;
-  margin: 0;
   color: #FFF;
   font-size: 15px;
   border: inherit;
@@ -87,7 +86,7 @@
 }
 
 .schedule .schedule-tab .nav-tabs>li a, .schedule .schedule-tab .nav-tabs>li a:hover {
-  margin: 0;
+  padding: 10px 0px;
   font-size: 12px;
   border: inherit;
   border-radius: inherit;
@@ -135,7 +134,6 @@
 
 .schedule-tab .schedule-item {
   border-bottom: 1px solid #f5f5f5;
-  padding-top: 25px;
   padding-bottom: 25px;
 }
 
