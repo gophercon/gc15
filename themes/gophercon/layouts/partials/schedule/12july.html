@@ -2,21 +2,21 @@
                 {{ $sessions := where (where .Site.Pages "Section" "sessions") "Params.sessionscheduled" "July 12th" }}
                 <div id="day2-schedule" class="tab-pane schedule-tab tab-pane-subtabs">
                   <ul class="nav nav-tabs">
-                    <li role="presentation" class="active">
+                    <li role="presentation">
                       <a data-toggle="tab" href="#general-schedule-12july">General</a>
                     </li>
-                    <li role="presentation" class="">
+                    <li role="presentation" class="active">
                       <a data-toggle="tab" href="#main-theater-12july">Main Theater</a>
                     </li>
-                    <li role="presentation" class="">
+                    <li role="presentation">
                       <a data-toggle="tab" href="#tutorial-1-12july">Room: 501-504</a>
                     </li>
-                    <li role="presentation" class="">
+                    <li role="presentation">
                       <a data-toggle="tab" href="#tutorial-2-12july">Room: 505-507</a>
                     </li>
                   </ul>
                   <div class="tab-content">
-                    <div id="general-schedule-12july" class="schedule-tab schedule-item-tab active tab-pane">
+                    <div id="general-schedule-12july" class="schedule-tab schedule-item-tab tab-pane">
                       <div class="row schedule-item">
                         <div class="col-md-3 schedule-item-slot">
                           <span class="time">08:00am - 12:00pm</span>
@@ -29,7 +29,7 @@
                         </div>
                       </div>
                     </div>
-                    <div id="main-theater-12july" class="schedule-tab schedule-item-tab tab-pane ">
+                    <div id="main-theater-12july" class="schedule-tab schedule-item-tab active tab-pane ">
                       {{ partial "schedule/intermission.html" (dict "purpose" "Welcome Back & Raffle Drawing" "sessiontime" "08:50am - 09:00am" )}}
 
                       {{ range $sessions }}

@@ -39,13 +39,34 @@
             </div>
           </div>
         </section>
-        <section class="schedule">
-        {{ partial "schedule.html" . }} 
-
+        <section id="schedule" class="content schedule">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <h1>Schedule</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1 text-center">
+	        <h2 href="#workshop-schedule">July&nbsp;10th</h2>
+                  {{ partial "schedule/10july.html" . }}
+	      </div>
+              <div class="col-md-10 col-md-offset-1 text-center">
+		<h2 href="#day1-schedule">July&nbsp;11th</h2>
+                  {{ partial "schedule/11july.html" . }}
+	      </div>
+              <div class="col-md-10 col-md-offset-1 text-center">
+	        <h2 href="#day2-schedule">July&nbsp;12th</h2>
+                  {{ partial "schedule/12july.html" . }}
+ 	      </div>
+              <div class="col-md-10 col-md-offset-1 text-center">
+		<h2 href="#hackday-schedule">July&nbsp;13th</h2>
+                  {{ partial "schedule/13july.html" . }}
+	        </div>
+              </div>
+	    </div>
+	  </div>
         </section>
-
-
-
 
   {{ partial "sponsors.html" . }}
 {{ partial "footer.html" . }}

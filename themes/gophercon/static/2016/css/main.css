@@ -10,7 +10,6 @@
 
 .schedule .nav-tabs.schedule-days>li a, .schedule .nav-tabs.schedule-days>li a:hover {
   padding: 10px 80px;
-  margin: 0;
   color: #FFF;
   font-size: 15px;
   border: inherit;
@@ -62,12 +61,11 @@
 }
 
 .schedule .schedule-tab.tab-pane{
-  padding: 10px 20px;
+  padding: 10px 0px;
 }
 
 .schedule .schedule-tab .nav-tabs>li.active, .schedule .schedule-tab .nav-tabs>li.active:hover {
   background-color: rgba(249, 181, 117, 0.21);
-  height: 95px;
 }
 
 .schedule .schedule-tab .nav-tabs {
@@ -78,8 +76,7 @@
 
 .schedule .schedule-tab .nav-tabs>li, .schedule .schedule-tab .nav-tabs>li {
   width: 25%;
-  padding: 10px;
-  border: initial;
+  border: 1;
   margin: 0;
 }
 
@@ -89,8 +86,7 @@
 }
 
 .schedule .schedule-tab .nav-tabs>li a, .schedule .schedule-tab .nav-tabs>li a:hover {
-  padding: 25px;
-  margin: 0;
+  padding: 10px 0px;
   font-size: 12px;
   border: inherit;
   border-radius: inherit;
@@ -117,6 +113,7 @@
 
 .schedule .schedule-item-details {
   padding-left: 0;
+  padding-right: 0;
 }
 
 .schedule .schedule-item-summary {
@@ -132,13 +129,11 @@
 }
 
 .schedule .schedule-item-slot {
-  padding: 0 20px 10px;
+  padding: 10px 0px;
 }
 
 .schedule-tab .schedule-item {
   border-bottom: 1px solid #f5f5f5;
-  border-left: 10px solid #fff;
-  padding-top: 25px;
   padding-bottom: 25px;
 }
 
