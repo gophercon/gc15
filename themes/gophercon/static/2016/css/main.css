@@ -62,7 +62,7 @@
 }
 
 .schedule .schedule-tab.tab-pane{
-  padding: 10px 20px;
+  padding: 10px 0px;
 }
 
 .schedule .schedule-tab .nav-tabs>li.active, .schedule .schedule-tab .nav-tabs>li.active:hover {
@@ -114,6 +114,7 @@
 
 .schedule .schedule-item-details {
   padding-left: 0;
+  padding-right: 0;
 }
 
 .schedule .schedule-item-summary {
@@ -129,12 +130,11 @@
 }
 
 .schedule .schedule-item-slot {
-  padding: 0 20px 10px;
+  padding: 10px 0px;
 }
 
 .schedule-tab .schedule-item {
   border-bottom: 1px solid #f5f5f5;
-  border-left: 10px solid #fff;
   padding-top: 25px;
   padding-bottom: 25px;
 }
