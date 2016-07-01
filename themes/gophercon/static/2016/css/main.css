@@ -67,7 +67,6 @@
 
 .schedule .schedule-tab .nav-tabs>li.active, .schedule .schedule-tab .nav-tabs>li.active:hover {
   background-color: rgba(249, 181, 117, 0.21);
-  height: 95px;
 }
 
 .schedule .schedule-tab .nav-tabs {
@@ -78,8 +77,7 @@
 
 .schedule .schedule-tab .nav-tabs>li, .schedule .schedule-tab .nav-tabs>li {
   width: 25%;
-  padding: 10px;
-  border: initial;
+  border: 1;
   margin: 0;
 }
 
@@ -89,7 +87,6 @@
 }
 
 .schedule .schedule-tab .nav-tabs>li a, .schedule .schedule-tab .nav-tabs>li a:hover {
-  padding: 25px;
   margin: 0;
   font-size: 12px;
   border: inherit;
