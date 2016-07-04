@@ -10,7 +10,7 @@ twitter = "https://twitter.com/rgsimon"
 github = "https://github.com/raphael/"
 speaker = "rsimon"
 sessionscheduled = "July 11th"
-sessiontime = "04:30pm - 05:20pm"
+sessiontime = "4:30pm - 5:20pm"
 +++
 
 This tutorial introduces a novel approach to building microservices in Go that uses code to describe the design of the service API.

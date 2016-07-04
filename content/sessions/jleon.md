@@ -8,7 +8,7 @@ subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/john-leon.png"
 speaker = "jleon"
 sessionscheduled = "July 12th"
-sessiontime = "04:30pm - 05:20pm"
+sessiontime = "4:30pm - 5:20pm"
 +++
 
 Learn about packet capturing, analysis, manipulation and injection using the gopacket package. Useful for port scanning, monitoring, routing, and ensuring your network is secure.
