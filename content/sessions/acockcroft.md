@@ -9,7 +9,5 @@ speakerimage = "/2016/img/speakers/adrian-cockcroft.jpg"
 twitter = "https://twitter.com/adrianco"
 speaker = "acockcroft"
 sessionscheduled = "July 11th"
-sessiontime = "02:30pm - 03:20pm"
+sessiontime = "2:30pm - 3:20pm"
 +++
-
-Communicating Sequential Goroutines

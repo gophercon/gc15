@@ -6,7 +6,7 @@
                       <a data-toggle="tab" href="#general-schedule-12july">General</a>
                     </li>
                     <li role="presentation" class="active">
-                      <a data-toggle="tab" href="#main-theater-12july">Main Theater</a>
+                      <a data-toggle="tab" href="#main-theater-12july">Main Theatre</a>
                     </li>
                     <li role="presentation">
                       <a data-toggle="tab" href="#tutorial-1-12july">Room: 501-504</a>
@@ -19,7 +19,7 @@
                     <div id="general-schedule-12july" class="schedule-tab schedule-item-tab tab-pane">
                       <div class="row schedule-item">
                         <div class="col-md-3 schedule-item-slot">
-                          <span class="time">08:00am - 12:00pm</span>
+                          <span class="time">6:45am - 6:00pm</span>
                           <span class="location">Grand Concourse</span>
                         </div>
                         <div class="col-md-9 schedule-item-details">
@@ -30,7 +30,7 @@
                       </div>
                     </div>
                     <div id="main-theater-12july" class="schedule-tab schedule-item-tab active tab-pane ">
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Welcome Back & Raffle Drawing" "sessiontime" "08:50am - 09:00am" )}}
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Welcome Back & Raffle Drawing" "sessiontime" "8:50am - 09:00am" )}}
 
                       {{ range $sessions }}
                         {{ if eq .Params.speaker "kowen" }}
@@ -69,7 +69,7 @@
                         {{ end }}
                       {{ end }}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Lunch" "sessiontime" "1:00pm - 02:30pm" )}}
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Lunch" "sessiontime" "1:00pm - 2:30pm" )}}
 
                       {{ range $sessions }}
                         {{ if eq .Params.speaker "dberkholz" }}
@@ -77,9 +77,9 @@
                         {{ end }}
                       {{ end }}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Speakers’ Q & A Panel" "sessiontime" "03:30pm - 04:20pm" )}}
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Speakers’ Q & A Panel" "sessiontime" "3:30pm - 4:20pm" )}}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Lightning Talks" "sessiontime" "04:30pm - 06:00pm" )}}
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Lightning Talks" "sessiontime" "4:30pm - 6:00pm" )}}
 
                     </div>
                     <div id="tutorial-1-12july" class="schedule-tab schedule-item-tab tab-pane">
