@@ -5,7 +5,7 @@
                       <a data-toggle="tab" href="#general-schedule-11july">General</a>
                     </li>
                     <li role="presentation" class="active">
-                      <a data-toggle="tab" href="#main-theater-11july">Main Theater</a>
+                      <a data-toggle="tab" href="#main-theater-11july">Main Theatre</a>
                     </li>
                     <li role="presentation">
                       <a data-toggle="tab" href="#tutorial-1-11july">Room: 501-504</a>
@@ -18,7 +18,7 @@
                     <div id="general-schedule-11july" class="schedule-tab schedule-item-tab tab-pane">
                       <div class="row schedule-item">
                         <div class="col-md-3 schedule-item-slot">
-                          <span class="time">08:00am - 6:00pm</span>
+                          <span class="time">6:45am - 6:00pm</span>
                           <span class="location">Grand Concourse</span>
                         </div>
                         <div class="col-md-9 schedule-item-details">
@@ -29,12 +29,12 @@
                       </div>
                       <div class="row schedule-item">
                         <div class="col-md-3 schedule-item-slot">
-                          <span class="time">05:20pm - 6:15pm</span>
+                          <span class="time">5:20pm - 6:15pm</span>
                           <span class="location">Dining Den</span>
                         </div>
                         <div class="col-md-9 schedule-item-details">
                           <div class="schedule-item-summary">
-                            <span class="title">Exhibitor's Happy Hour</span>
+                            <span class="title">Exhibitors' Happy Hour</span>
                           </div>
                         </div>
                       </div>
@@ -48,14 +48,14 @@
                             <span class="title">GopherCon 2016 Party</span>
                           </div>
                           <div class="abstract">
-                            <p>The Official GopherCon After-Party hosted by our Diamond Sponsors</p>
-                            <p>Details are available here: <a href="/events/afterparty">GopherCon After-Party</a></p>
+                            <p>The Official GopherCon After Party hosted by our Diamond Sponsor</p>
+                            <p>Details are available here: <a href="/events/afterparty">GopherCon After Party</a></p>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div id="main-theater-11july" class="schedule-tab schedule-item-tab active tab-pane ">
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Welcome Gophers!" "sessiontime" "08:50am - 09:00am" )}}
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Welcome Gophers!" "sessiontime" "8:50am - 9:00am" )}}
 
                       {{ range $sessions }}
                         {{ if eq .Params.speaker "fcampoyflores" }}
@@ -93,7 +93,7 @@
                         {{ end }}
                       {{ end }}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Lunch" "sessiontime" "1:00pm - 02:30pm" )}}
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Lunch" "sessiontime" "1:00pm - 2:30pm" )}}
 
                       {{ range $sessions }}
                         {{ if eq .Params.speaker "acockcroft" }}
@@ -101,9 +101,9 @@
                         {{ end }}
                       {{ end }}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Speakers’ Q & A Panel" "sessiontime" "03:30pm - 04:20pm" )}}
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Speakers’ Q & A Panel" "sessiontime" "3:30pm - 4:20pm" )}}
 
-                      {{ partial "schedule/intermission.html" (dict "purpose" "Lightning Talks" "sessiontime" "04:30pm - 06:00pm" )}}
+                      {{ partial "schedule/intermission.html" (dict "purpose" "Lightning Talks" "sessiontime" "4:30pm - 6:00pm" )}}
 
                     </div>
                     <div id="tutorial-1-11july" class="schedule-tab schedule-item-tab tab-pane">

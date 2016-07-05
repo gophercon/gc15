@@ -3,12 +3,12 @@ author = ["Brian Ketelsen"]
 date = "2015-03-21T16:03:09-04:00"
 linktitle = "Carolyn Van Slyck"
 title = "Carolyn Van Slyck"
-talk = "Grow your users from an unlikely source: Windows Developers"
+talk = "Grow Your Users From an Unlikely Source: Windows Developers"
 subtitle = "TBD"
 speakerimage = "/2016/img/speakers/carolyn-van-slyck.jpg"
 speaker = "cvanslyck"
 sessionscheduled = "July 11th"
-sessiontime = "03:30pm - 04:20pm"
+sessiontime = "3:30pm - 4:20pm"
 +++
 
 You may not realize it but there are a lot of Windows developers moving into your neighborhood.

@@ -8,7 +8,7 @@ subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/michael-matloob.jpg"
 speaker = "mmatloob"
 sessionscheduled = "July 11th"
-sessiontime = "02:30pm - 03:20pm"
+sessiontime = "2:30pm - 3:20pm"
 +++
 
 Interested in contributing to the Go Programming Language open source project, but don't know where to start? Come learn how you can get involved and find something to work on.

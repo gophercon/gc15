@@ -8,7 +8,7 @@ subtitle = "Mining the Go Developer Community"
 speakerimage = "/2016/img/speakers/donnie-berkholz.jpg"
 speaker = "dberkholz"
 sessionscheduled = "July 12th"
-sessiontime = "02:30pm - 03:20pm"
+sessiontime = "2:30pm - 3:20pm"
 +++
 Now serving as Research Director for the Development, DevOps, and IT Ops team at 451 Research.
 Growing 451's footprint and recognition across the entire software lifecycle.

@@ -8,7 +8,7 @@ subtitle = "A Community Event Hosted By GopherAcademy"
 speakerimage = "/2016/img/speakers/kelsey-hightower.jpg"
 speaker = "khightower"
 sessionscheduled = "July 12th"
-sessiontime = "02:30pm - 03:20pm"
+sessiontime = "2:30pm - 3:20pm"
 +++
 
 gRPC is a general RPC framework focused on performance and interoperability across a wide range of programming environments.
