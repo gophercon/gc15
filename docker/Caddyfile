@@ -9,6 +9,8 @@ git {
 
 root /site-source/gophercon/public
 
+redir /questions http://dave.cheney.net/ 302
+
 gzip
 ext .html
 log stdout
