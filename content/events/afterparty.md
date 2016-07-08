@@ -21,6 +21,10 @@ More Information can be found here: [Punch Bowl Social](http://punchbowlsocial.c
 
 RSVP not required.
 
+## What to Bring
+
+Your conference badge is required for admission to this event. Furthermore, please remember to bring a photo ID. This venue is strict about checking them per Colorado law.
+
 ## Transportation
 Transportation will be provided. We will have (5) 54-passenger motorcoaches running conitunous shuttle service between Punch Bowl Social and the Convention Center where the hotels are located.
 
