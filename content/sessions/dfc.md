@@ -9,4 +9,4 @@ speaker = "dfc"
 sessionscheduled = "July 11th"
 sessiontime = "11:20am - 11:50am"
 +++
-Don’t Just Check Errors, Handle Them Gracefully
+Go deeper into error handling than you've ever been before.
