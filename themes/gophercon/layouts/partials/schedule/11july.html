@@ -77,7 +77,7 @@
                       {{ partial "schedule/intermission.html" (dict "purpose" "Break" "sessiontime" "10:40am - 11:20am" )}}
 
                       {{ range $sessions }}
-                        {{ if eq .Params.speaker "csridharan" }}
+                        {{ if eq .Params.speaker "dfc" }}
                           {{ partial "schedule/session.html" (dict "session" . ) }}
                         {{ end }}
                       {{ end }}
