@@ -10,7 +10,7 @@ session = "jlindamood"
 +++
 
 Jack is a software engineer with over 7 years experience building and running large scale distributed services.
-
-Starting at Facebook and currently at SignalFx, Jack now leads SignalFx's Go codebase and works on metrics instrumentation and ingest.
-
+ 
+Starting at Facebook and then SignalFx, Jack now works on Twitch’s Go codebase and feeds framework.
+ 
 He has presented his work on Go debugging at GoSF and other meetups in the past.
