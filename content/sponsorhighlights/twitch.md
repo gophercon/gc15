@@ -7,6 +7,8 @@ subtitle = "Sponsor Highlight: Twitch"
 
 +++
 
+![Twitch](/2016/img/sponsors/platinum/twitch.png)
+
 Hi GopherCon Attendees,
 
 Thanks for coming to GopherCon 2016! Twitch is excited to be a platinum sponsor and we are really looking forward to meeting you all.
