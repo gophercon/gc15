@@ -7,6 +7,8 @@ subtitle = "Sponsor Highlight: Ardan Labs"
 
 +++
 
+![Ardan Labs](/2016/img/sponsors/platinum/ardan.png)
+
 Hello GopherCon Attendees!
 
 Thank you for being at GopherCon 2016! We are really excited about being a Platinum sponsor this year and we thank you for your time to learn more about Ardan Labs.
